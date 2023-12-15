@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/jason/Desktop/study_cmakelists/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/hello.dir/main.cpp.o -c /home/jason/Desktop/study_cmakelists/main.cpp",
+  "file": "/home/jason/Desktop/study_cmakelists/main.cpp"
+},
+{
+  "directory": "/home/jason/Desktop/study_cmakelists/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/hello.dir/hello.cpp.o -c /home/jason/Desktop/study_cmakelists/hello.cpp",
+  "file": "/home/jason/Desktop/study_cmakelists/hello.cpp"
+}
+]

@@ -1,0 +1,22 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+
+path: armor_dataset  # dataset root dir
+train: train/images  # train images (relative to 'path') 
+val: val/images  # val images (relative to 'path') 
+test:  # test images (optional)
+
+# Classes
+nc: 12
+names:
+  0: B1
+  1: B2
+  2: B3
+  3: B4
+  4: B5
+  5: B_AI
+  6: R1
+  7: R2
+  8: R3
+  9: R4
+  10: R5
+  11: R_AI
