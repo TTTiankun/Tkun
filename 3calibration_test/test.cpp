@@ -6,13 +6,13 @@
 
 int main() {
     
-    cv::Size boardSize(11, 8);//棋盘格内角点数，自己仔细数一数！！！！！
+    cv::Size boardSize(7, 10);//棋盘格内角点数，自己仔细数一数！！！！！
     std::vector<std::vector<cv::Point3f>> objectPoints;
     std::vector<std::vector<cv::Point2f>> imagePoints;
     std::vector<cv::Point3f> obj;
     for (int i = 0; i < boardSize.height; ++i) {
         for (int j = 0; j < boardSize.width; ++j) {
-            obj.push_back(cv::Point3f(j, i, 0));
+            obj.push_back(cv::Point3f(j*2, i*2, 0));//这个地方需要乘上每一个点位之间的距离
         }
     }
     cv::VideoCapture capture(0);//调整输入设备

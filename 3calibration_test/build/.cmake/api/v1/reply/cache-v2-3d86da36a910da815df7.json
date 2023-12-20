@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/jason/Desktop/solvepnp_test/build"
+			"value" : "/home/jason/Desktop/3calibration_test/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -603,7 +603,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/jason/Desktop/solvepnp_test"
+			"value" : "/home/jason/Desktop/3calibration_test"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1130,6 +1130,18 @@
 			"value" : "FALSE"
 		},
 		{
+			"name" : "Eigen3_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Eigen3."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/share/eigen3/cmake"
+		},
+		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenCV",
 			"properties" : 
 			[
@@ -1163,7 +1175,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jason/Desktop/solvepnp_test/build"
+			"value" : "/home/jason/Desktop/3calibration_test/build"
 		},
 		{
 			"name" : "test_IS_TOP_LEVEL",
@@ -1187,7 +1199,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jason/Desktop/solvepnp_test"
+			"value" : "/home/jason/Desktop/3calibration_test"
 		}
 	],
 	"kind" : "cache",
