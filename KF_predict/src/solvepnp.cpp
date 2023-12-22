@@ -28,7 +28,7 @@ void Solvepnp::solve_init(){
 }
 
 bool Solvepnp::comparePoints(const cv::Point2f& a, const cv::Point2f& b, const cv::Point2f& center){
-    double angleA = atan2(a.y - center.y, a.x - center.x);
+    double angleA = atan2(a.y - center.y, a.x - center.x);//计算该点与中心点的角度
     double angleB = atan2(b.y - center.y, b.x - center.x);
     return angleA < angleB;
 }
@@ -37,17 +37,20 @@ void Solvepnp::get_centerPoints(std::vector<cv::Point2f>& approxCurve, cv::Point
     for (int i = 0; i < approxCurve.size(); i++){
         centerPoint += approxCurve[i];
     }
-    centerPoint *= (1. / approxCurve.size());
+    centerPoint *= (1. / approxCurve.size());//将所有点的坐标相加取平均值
 }
 
 void Solvepnp::solvepnp(std::vector<cv::Point3d> objectPoints, std::vector<cv::Point2d> imagePoints, cv::Mat CamerMatrix, cv::Mat distCoeffs, cv::Mat rvec, cv::Mat tvec){
     
+    //调试遗留物，没啥用
     // std::cout << "imagePoints: " << imagePoints.size() << std::endl;
     // std::cout << "objectPoints: " << objectPoints.size() << std::endl;
+    
     cv::solvePnP(objectPoints, imagePoints, CamerMatrix, distCoeffs, rvec, tvec, false, cv::SOLVEPNP_IPPE);
     if(1){
-        distance = norm(tvec);
+        distance = norm(tvec);//计算Z方向距离，给平移向量取模
         
+        //调试遗留物，没啥用
         //std::cout << "Distance to the object: " << distance << std::endl;
     }
     else{
@@ -57,15 +60,13 @@ void Solvepnp::solvepnp(std::vector<cv::Point3d> objectPoints, std::vector<cv::P
 
 
 void Solvepnp::reference(const int& x,const int& y,const int& z,const cv::Mat& CamerMatrix){
-    // 计算相机坐标系下的坐标
-    cv::Mat img_coords = (cv::Mat_<double>(3, 1) << x, y, 1);
+    cv::Mat img_coords = (cv::Mat_<double>(3, 1) << x, y, 1);// 计算相机坐标系下的坐标
     cv::Mat invCamerMatrix = CamerMatrix.inv();  // 计算相机内参矩阵的逆矩阵
     cv::Mat camera_r = invCamerMatrix * img_coords * z;
     
-    camera_result.resize(6,1);
-    camera_v.resize(3,1);
+    camera_result.resize(6,1);//只有resize之后才能赋值！！！（Eigen矩阵运算库的规矩！）
     
-    camera_v<<camera_r.at<double>(0, 0), camera_r.at<double>(1, 0), camera_r.at<double>(2, 0);
+    //因为求不出速度，所以这里只有位置的观测量
     camera_result << camera_r.at<double>(0, 0), camera_r.at<double>(1, 0), camera_r.at<double>(2, 0),0,0,0;
     
     //camera_r.at<double>(0, 0)是Opencv访问矩阵元素的一种方式，表示访问第一行第一列的元素，然后返回double类型
@@ -73,9 +74,12 @@ void Solvepnp::reference(const int& x,const int& y,const int& z,const cv::Mat& C
 }
 
 void Solvepnp::reference_back(const Eigen::VectorXd predict,const Eigen::VectorXd measure,const cv::Mat& img){
+    
     // 计算相机坐标系下的坐标
     cv::Mat predict_point = (cv::Mat_<double>(1,3)<<predict(0),predict(1),predict(2));
     cv::Mat measure_point = (cv::Mat_<double>(1,3)<<measure(0),measure(1),measure(2));
+    
+    //计算相机坐标系中的点在图像中的坐标，同时只取前两个值
     cv::Mat image_predict = CamerMatrix * predict_point.t();
     image_predict = image_predict / image_predict.at<double>(2, 0);
     cv::Mat image_measure = CamerMatrix * measure_point.t();
@@ -84,7 +88,11 @@ void Solvepnp::reference_back(const Eigen::VectorXd predict,const Eigen::VectorX
     std::cout << "predict_point: " << std::endl<<predict_point << std::endl;
     std::cout << "measure_point: " << std::endl<<measure_point << std::endl;
 
+    //画出预测点和测量点
+    //预测点
     cv::circle(img, cv::Point(cvRound(image_predict.at<double>(0, 0)), cvRound(image_predict.at<double>(0, 1))), 2, cv::Scalar(0, 255, 255), -1);
+    
+    //测量点
     //cv::circle(img, cv::Point(cvRound(image_measure.at<double>(0, 0)), cvRound(image_measure.at<double>(0, 1))), 2, cv::Scalar(0, 0, 0), -1);
 
 }

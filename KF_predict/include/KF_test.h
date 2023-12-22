@@ -9,18 +9,17 @@
 class KalmanFilter{
 public:
     
-    void KalmanFilter_init();
+    void KalmanFilter_init();//初始化
     
-    void predict();
+    void predict();//预测
     
-    Eigen::VectorXd getstate();
+    void update(const Eigen::VectorXd &z);//更新
 
-    void update(const Eigen::VectorXd &z);
+    void show_predict(const Eigen::VectorXd &p,const Eigen::VectorXd &m,const cv::Mat &img);//显示预测结果
 
-    void show_predict(const Eigen::VectorXd &p,const Eigen::VectorXd &m,const cv::Mat &img);
 
-    Eigen::VectorXd getState();
 
+    //卡尔曼滤波器所需要的一些变量
     Eigen::VectorXd x;//状态向量
     Eigen::MatrixXd P;//误差协方差矩阵
     
@@ -40,7 +39,4 @@ public:
     double sigma_a;//加速度噪声标准差
 
 };
-
-
-
 #endif

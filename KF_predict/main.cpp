@@ -10,6 +10,7 @@
 #include"find_rectangle.h"
 #include"KF_test.h"
 
+//创建一个捕捉视频的对象
 cv::VideoCapture capture;
 
 int main(){
@@ -28,18 +29,18 @@ int main(){
     tk_rectangle.find_init();
     while(1){
         auto start = std::chrono::system_clock::now();
-        
+        //读取图像到对象之中
         capture >> tk_rectangle.img;
         if(tk_rectangle.img.empty()){
             std::cout << "can not read img" << std::endl;
             break;
         }
-        //处理图像
         
+        //处理图像
         tk_rectangle.make_mask();
         tk_rectangle.getcontours(tk_rectangle.mask);
         
-        //计算处理帧率
+        //计算处理帧率（这个功能实现不了待解决！）通过获取时间差来计算
         auto stop = std::chrono::system_clock::now();
         auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(stop - start);
         double fps = 0;
@@ -47,11 +48,11 @@ int main(){
              double fps = 1.0 / (duration.count()/1000);
         }
          
-        //获取视频的尺寸
-        // int width=capture.get(cv::CAP_PROP_FRAME_WIDTH);
-        // int height=capture.get(cv::CAP_PROP_FRAME_HEIGHT);
+        //显示处理帧率和处理后的图像
         cv::putText(tk_rectangle.img, "FPS: " + std::to_string(fps), cv::Point(50, 50), cv::FONT_HERSHEY_SIMPLEX, 1, cv::Scalar(255, 255, 0), 5);
         cv::imshow("image", tk_rectangle.img);
+        
+        //按下ESC退出
         char c = cv::waitKey(1);
         if(c == 27)
             break;

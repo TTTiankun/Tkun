@@ -45,8 +45,8 @@ void KalmanFilter::KalmanFilter_init(){
 }
 
 void KalmanFilter::predict(){
-    x=A*x;
-    P=A*P*A.transpose()+Q;
+    x=A*x;//预测状态向量
+    P=A*P*A.transpose()+Q;//预测误差协方差矩阵
 }
 
 void KalmanFilter::update(const Eigen::VectorXd &z){
@@ -59,14 +59,12 @@ void KalmanFilter::update(const Eigen::VectorXd &z){
 }
 
 void KalmanFilter::show_predict(const Eigen::VectorXd &p,const Eigen::VectorXd &m,const cv::Mat &img){
-    p_center = p;
-    m_center = m;
+    p_center = p;//预测中心点
+    m_center = m;//测量中心点
+    
+    //没有用的调试遗留物，可以看看为什么下面两个圆画不出来！
     // std::cout << "predict_center: " << std::endl<<p_center << std::endl;
     // std::cout << "measure_center: " << std::endl<<m_center << std::endl;
     // cv::circle(img, cv::Point(p_center(0), p_center(1)), 5, cv::Scalar(0, 0, 255), -1);
     // cv::circle(img, cv::Point(cvRound(m_center.at<double>(0, 0)), cvRound(m_center.at<double>(1, 0))), 5, cv::Scalar(0, 255, 0), -1);
-}
-
-Eigen::VectorXd KalmanFilter::getState(){
-    return x;
 }

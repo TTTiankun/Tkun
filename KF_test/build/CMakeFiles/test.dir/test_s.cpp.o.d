@@ -1,5 +1,5 @@
 CMakeFiles/test.dir/test_s.cpp.o: \
- /home/jason/Desktop/Kun/KF_test/test_s.cpp /usr/include/stdc-predef.h \
+ /home/jason/Desktop/Tkun/KF_test/test_s.cpp /usr/include/stdc-predef.h \
  /usr/local/opencv4.7.0/include/opencv4/opencv2/core/types.hpp \
  /usr/include/c++/11/climits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

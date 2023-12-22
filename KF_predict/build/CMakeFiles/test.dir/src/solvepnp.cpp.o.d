@@ -1,7 +1,7 @@
 CMakeFiles/test.dir/src/solvepnp.cpp.o: \
- /home/jason/Desktop/KF_predict/src/solvepnp.cpp \
+ /home/jason/Desktop/Tkun/KF_predict/src/solvepnp.cpp \
  /usr/include/stdc-predef.h \
- /home/jason/Desktop/KF_predict/include/solvepnp.h \
+ /home/jason/Desktop/Tkun/KF_predict/include/solvepnp.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

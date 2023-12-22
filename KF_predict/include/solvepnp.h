@@ -11,18 +11,21 @@
 class Solvepnp{
 public:
 
-    void solve_init();
+    void solve_init();//初始化
     
-    void get_centerPoints(std::vector<cv::Point2f>& approxCurve, cv::Point2f& centerPoint);
+    void get_centerPoints(std::vector<cv::Point2f>& approxCurve, cv::Point2f& centerPoint);//获取平面中心点
 
+    //solvepnp解算
     void solvepnp(std::vector<cv::Point3d> objectPoints, std::vector<cv::Point2d> imagePoints, cv::Mat CamerMatrix, cv::Mat distCoeffs, cv::Mat rvec, cv::Mat tvec);
 
-    bool comparePoints(const cv::Point2f& a, const cv::Point2f& b, const cv::Point2f& center);
+    bool comparePoints(const cv::Point2f& a, const cv::Point2f& b, const cv::Point2f& center);//角点排序模板，利用的是与中心点的角度排序
 
-    void reference(const int& x,const int& y,const int& z,const cv::Mat& CamerMatrix);
+    void reference(const int& x,const int& y,const int& z,const cv::Mat& CamerMatrix);//将像素坐标转换为相机坐标系下的坐标
 
-    void reference_back(const Eigen::VectorXd predict,const Eigen::VectorXd measure,const cv::Mat& img);
+    void reference_back(const Eigen::VectorXd predict,const Eigen::VectorXd measure,const cv::Mat& img);//将相机坐标系下的坐标转换为像素坐标
 
+    
+    //一些解算和坐标转换需要的变量
     std::vector<cv::Point2d> imagePoints;//定义图像中的点
     cv::Point2f centerPoint;//定义四边形的中心点
   
@@ -40,13 +43,6 @@ public:
     
     //定义Z方向距离    
     double distance;
-private:
-    //获取速度的变量
-    bool initialized = false;//是否为第一次
-    Eigen::VectorXd camera_v;//CV测量位置
-    Eigen::VectorXd pre_center = Eigen::RowVectorXd::Zero(3);//上一次的中心点
-    Eigen::VectorXd velocity;//Eigin测量速度
-    double dtt=6;//时间间隔
 };
 
 #endif

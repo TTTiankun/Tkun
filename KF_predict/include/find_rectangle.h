@@ -10,14 +10,13 @@ class Find_rectangle
 {
 public:
     
-    void find_init();
+    void find_init();//初始化
 
-    void getcontours(cv::Mat Mask);
+    void getcontours(cv::Mat Mask);//选取轮廓，同时进行后续的操作！核心代码
 
-    void make_mask();
+    void make_mask();//设置遮罩，可滑动条调节
 
-    bool comparePoints(const cv::Point2f& a, const cv::Point2f& b, const cv::Point2f& center);
-
+    //设置一些变量
     cv::Mat img;
     cv::Mat mask, imgHSV;
     int hmin = 0, smin = 68, vmin = 171;

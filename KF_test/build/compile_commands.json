@@ -1,7 +1,7 @@
 [
 {
-  "directory": "/home/jason/Desktop/Kun/KF_test/build",
-  "command": "/usr/bin/c++  -isystem /usr/local/opencv4.7.0/include/opencv4 -g -o CMakeFiles/test.dir/test_s.cpp.o -c /home/jason/Desktop/Kun/KF_test/test_s.cpp",
-  "file": "/home/jason/Desktop/Kun/KF_test/test_s.cpp"
+  "directory": "/home/jason/Desktop/Tkun/KF_test/build",
+  "command": "/usr/bin/c++  -isystem /usr/local/opencv4.7.0/include/opencv4 -g -o CMakeFiles/test.dir/test_s.cpp.o -c /home/jason/Desktop/Tkun/KF_test/test_s.cpp",
+  "file": "/home/jason/Desktop/Tkun/KF_test/test_s.cpp"
 }
 ]

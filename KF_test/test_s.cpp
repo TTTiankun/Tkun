@@ -3,6 +3,8 @@
 #include <iostream>
 #include <eigen3/Eigen/Dense>
 
+//这个滤波器是基于图像坐标系进行观测的，效果很好，但是不适合我们的应用，同时也没有Z轴的信息
+//使用相关空间
 using namespace std;
 using namespace Eigen;
 
@@ -67,6 +69,7 @@ private:
     MatrixXd P;      // 误差协方差
 };
 
+//一些中规中矩的图像识别
 void getContours(cv::Mat imgDil, KalmanFilter& kf_ball) {
     vector<vector<cv::Point>> contours;
     vector<cv::Vec4i> hierarchy;
@@ -103,12 +106,15 @@ void getContours(cv::Mat imgDil, KalmanFilter& kf_ball) {
             cv::circle(img,measure_center,10,cv::Scalar(255,0,0),3);
             cv::circle(img, predicted_position, 10, cv::Scalar(0, 255, 0), 3);
             
+            //调试用的输出，输出测量值和预测值
             cout<<"measure Position: "<<measure_center<<endl;
             cout << "Predicted Position: " << predicted_position << endl;
         }
     }
 }
 
+
+//一些中规中矩的图像识别，制作一个遮罩，然后在遮罩上进行识别
 void findcolor(cv::Mat img, KalmanFilter& kf_ball) {
     cv::Mat imgHSV;
     cvtColor(img, imgHSV, cv::COLOR_BGR2HSV);
@@ -164,15 +170,14 @@ void test01() {
     MatrixXd A(6, 6);
     double delta_t = 1;  // 时间对速度变化的贡献 （对速度的预测是否提前）（也就是时间步长，假设在这段时间内速度没有变化）
     double location_rate = 1;  // 位置变化的速度
-    double velocity_rate = 1;  // 速度变化的速度
-    double velocity_to_position = 0.005;  // 速度对位置变化的贡献 （对位置的预测是否提前）
+    double velocity_rate = 1;  // 速度变化的速度、
     
     A << location_rate, 0, 0, delta_t , 0, 0,
      0, location_rate, 0, 0, delta_t , 0,
      0, 0, location_rate, 0, 0, delta_t ,
-     velocity_to_position, 0, 0, velocity_rate, 0, 0,
+     0, 0, 0, velocity_rate, 0, 0,
      0, 0, 0, 0, velocity_rate, 0,
-     0, 0, velocity_to_position, 0, 0, velocity_rate;;
+     0, 0, 0, 0, 0, velocity_rate;;
    
     /*
     其中：
@@ -189,15 +194,14 @@ void test01() {
     // 过程噪声协方差 这个矩阵描述了系统模型中的过程噪声
     //即在状态转移过程中的不确定性
     //也是一个常量不会改变
-    MatrixXd Q(6, 6);
+    
+    MatrixXd Q(6, 3);
     double sigma_a = 0.1;  // 加速度的标准差 （准确度加强）
     Q << sigma_a * sigma_a * delta_t * delta_t, 0, 0, 0, 0, 0,
         0, sigma_a * sigma_a * delta_t * delta_t, 0, 0, 0, 0,
-        0, 0, sigma_a * sigma_a * delta_t * delta_t, 0, 0, 0,
-        0, 0, 0, sigma_a * sigma_a, 0, 0,
-        0, 0, 0, 0, sigma_a * sigma_a, 0,
-        0, 0, 0, 0, 0, sigma_a * sigma_a;
+        0, 0, sigma_a * sigma_a * delta_t * delta_t, 0, 0, 0;
 
+    
     // 测量噪声协方差（灵敏性加强）   
     MatrixXd R(3, 3);
     double sigma_m = 0.01;  // 测量噪声的标准差
@@ -221,7 +225,7 @@ void test01() {
 
     while (1) {
         capture.read(img);
-        findcolor(img, kf_ball);
+        findcolor(img, kf_ball);//核心封装函数怪，先识别颜色，然后再进行卡尔曼滤波
         cv::imshow("image", img);
         cv::waitKey(1);
     }

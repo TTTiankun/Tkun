@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/jason/Desktop/KF_predict/include -isystem /usr/local/opencv4.7.0/include/opencv4
+CXX_INCLUDES = -I/home/jason/Desktop/Tkun/KF_predict/include -isystem /usr/local/opencv4.7.0/include/opencv4
 
 CXX_FLAGS = -g -std=gnu++17
 

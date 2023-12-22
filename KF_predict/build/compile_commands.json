@@ -1,22 +1,22 @@
 [
 {
-  "directory": "/home/jason/Desktop/KF_predict/build",
-  "command": "/usr/bin/c++  -I/home/jason/Desktop/KF_predict/include -isystem /usr/local/opencv4.7.0/include/opencv4 -g -std=gnu++17 -o CMakeFiles/test.dir/main.cpp.o -c /home/jason/Desktop/KF_predict/main.cpp",
-  "file": "/home/jason/Desktop/KF_predict/main.cpp"
+  "directory": "/home/jason/Desktop/Tkun/KF_predict/build",
+  "command": "/usr/bin/c++  -I/home/jason/Desktop/Tkun/KF_predict/include -isystem /usr/local/opencv4.7.0/include/opencv4 -g -std=gnu++17 -o CMakeFiles/test.dir/main.cpp.o -c /home/jason/Desktop/Tkun/KF_predict/main.cpp",
+  "file": "/home/jason/Desktop/Tkun/KF_predict/main.cpp"
 },
 {
-  "directory": "/home/jason/Desktop/KF_predict/build",
-  "command": "/usr/bin/c++  -I/home/jason/Desktop/KF_predict/include -isystem /usr/local/opencv4.7.0/include/opencv4 -g -std=gnu++17 -o CMakeFiles/test.dir/src/KF_test.cpp.o -c /home/jason/Desktop/KF_predict/src/KF_test.cpp",
-  "file": "/home/jason/Desktop/KF_predict/src/KF_test.cpp"
+  "directory": "/home/jason/Desktop/Tkun/KF_predict/build",
+  "command": "/usr/bin/c++  -I/home/jason/Desktop/Tkun/KF_predict/include -isystem /usr/local/opencv4.7.0/include/opencv4 -g -std=gnu++17 -o CMakeFiles/test.dir/src/KF_test.cpp.o -c /home/jason/Desktop/Tkun/KF_predict/src/KF_test.cpp",
+  "file": "/home/jason/Desktop/Tkun/KF_predict/src/KF_test.cpp"
 },
 {
-  "directory": "/home/jason/Desktop/KF_predict/build",
-  "command": "/usr/bin/c++  -I/home/jason/Desktop/KF_predict/include -isystem /usr/local/opencv4.7.0/include/opencv4 -g -std=gnu++17 -o CMakeFiles/test.dir/src/find_rectangle.cpp.o -c /home/jason/Desktop/KF_predict/src/find_rectangle.cpp",
-  "file": "/home/jason/Desktop/KF_predict/src/find_rectangle.cpp"
+  "directory": "/home/jason/Desktop/Tkun/KF_predict/build",
+  "command": "/usr/bin/c++  -I/home/jason/Desktop/Tkun/KF_predict/include -isystem /usr/local/opencv4.7.0/include/opencv4 -g -std=gnu++17 -o CMakeFiles/test.dir/src/find_rectangle.cpp.o -c /home/jason/Desktop/Tkun/KF_predict/src/find_rectangle.cpp",
+  "file": "/home/jason/Desktop/Tkun/KF_predict/src/find_rectangle.cpp"
 },
 {
-  "directory": "/home/jason/Desktop/KF_predict/build",
-  "command": "/usr/bin/c++  -I/home/jason/Desktop/KF_predict/include -isystem /usr/local/opencv4.7.0/include/opencv4 -g -std=gnu++17 -o CMakeFiles/test.dir/src/solvepnp.cpp.o -c /home/jason/Desktop/KF_predict/src/solvepnp.cpp",
-  "file": "/home/jason/Desktop/KF_predict/src/solvepnp.cpp"
+  "directory": "/home/jason/Desktop/Tkun/KF_predict/build",
+  "command": "/usr/bin/c++  -I/home/jason/Desktop/Tkun/KF_predict/include -isystem /usr/local/opencv4.7.0/include/opencv4 -g -std=gnu++17 -o CMakeFiles/test.dir/src/solvepnp.cpp.o -c /home/jason/Desktop/Tkun/KF_predict/src/solvepnp.cpp",
+  "file": "/home/jason/Desktop/Tkun/KF_predict/src/solvepnp.cpp"
 }
 ]
