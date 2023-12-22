@@ -1,0 +1,60 @@
+#include <opencv2/opencv.hpp>
+#include <iostream>
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/calib3d/calib3d.hpp>
+#include <chrono>
+#include <opencv2/videoio.hpp>
+#include<eigen3/Eigen/Dense>
+
+#include"solvepnp.h"
+#include"find_rectangle.h"
+#include"KF_test.h"
+
+cv::VideoCapture capture;
+
+int main(){
+    //创建对象
+    Find_rectangle tk_rectangle;
+    Solvepnp pnp;
+    KalmanFilter kf;
+
+    
+    //打开摄像机
+    capture.open(0);
+    if(!capture.isOpened()){
+        std::cout << "can not open camera" << std::endl;
+        return -1;
+    }
+    tk_rectangle.find_init();
+    while(1){
+        auto start = std::chrono::system_clock::now();
+        
+        capture >> tk_rectangle.img;
+        if(tk_rectangle.img.empty()){
+            std::cout << "can not read img" << std::endl;
+            break;
+        }
+        //处理图像
+        
+        tk_rectangle.make_mask();
+        tk_rectangle.getcontours(tk_rectangle.mask);
+        
+        //计算处理帧率
+        auto stop = std::chrono::system_clock::now();
+        auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(stop - start);
+        double fps = 0;
+        if(duration.count()>0){
+             double fps = 1.0 / (duration.count()/1000);
+        }
+         
+        //获取视频的尺寸
+        // int width=capture.get(cv::CAP_PROP_FRAME_WIDTH);
+        // int height=capture.get(cv::CAP_PROP_FRAME_HEIGHT);
+        cv::putText(tk_rectangle.img, "FPS: " + std::to_string(fps), cv::Point(50, 50), cv::FONT_HERSHEY_SIMPLEX, 1, cv::Scalar(255, 255, 0), 5);
+        cv::imshow("image", tk_rectangle.img);
+        char c = cv::waitKey(1);
+        if(c == 27)
+            break;
+    }
+
+}

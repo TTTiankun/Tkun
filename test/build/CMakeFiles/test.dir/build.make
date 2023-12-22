@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jason/Desktop/test
+CMAKE_SOURCE_DIR = /home/jason/Desktop/ubuntu_package/test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jason/Desktop/test/build
+CMAKE_BINARY_DIR = /home/jason/Desktop/ubuntu_package/test/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/test.dir/depend.make
@@ -69,86 +69,47 @@ include CMakeFiles/test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/test.dir/flags.make
 
-CMakeFiles/test.dir/test02.cpp.o: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/test02.cpp.o: ../test02.cpp
-CMakeFiles/test.dir/test02.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jason/Desktop/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/test02.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/test02.cpp.o -MF CMakeFiles/test.dir/test02.cpp.o.d -o CMakeFiles/test.dir/test02.cpp.o -c /home/jason/Desktop/test/test02.cpp
+CMakeFiles/test.dir/Matrix.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/Matrix.cpp.o: ../Matrix.cpp
+CMakeFiles/test.dir/Matrix.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jason/Desktop/ubuntu_package/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/Matrix.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/Matrix.cpp.o -MF CMakeFiles/test.dir/Matrix.cpp.o.d -o CMakeFiles/test.dir/Matrix.cpp.o -c /home/jason/Desktop/ubuntu_package/test/Matrix.cpp
 
-CMakeFiles/test.dir/test02.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/test02.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jason/Desktop/test/test02.cpp > CMakeFiles/test.dir/test02.cpp.i
+CMakeFiles/test.dir/Matrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/Matrix.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jason/Desktop/ubuntu_package/test/Matrix.cpp > CMakeFiles/test.dir/Matrix.cpp.i
 
-CMakeFiles/test.dir/test02.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/test02.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jason/Desktop/test/test02.cpp -o CMakeFiles/test.dir/test02.cpp.s
+CMakeFiles/test.dir/Matrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/Matrix.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jason/Desktop/ubuntu_package/test/Matrix.cpp -o CMakeFiles/test.dir/Matrix.cpp.s
 
 # Object files for target test
 test_OBJECTS = \
-"CMakeFiles/test.dir/test02.cpp.o"
+"CMakeFiles/test.dir/Matrix.cpp.o"
 
 # External object files for target test
 test_EXTERNAL_OBJECTS =
 
-test: CMakeFiles/test.dir/test02.cpp.o
+test: CMakeFiles/test.dir/Matrix.cpp.o
 test: CMakeFiles/test.dir/build.make
-test: /opt/intel/openvino_2023.1.0/runtime/lib/intel64/libopenvino.so.2023.1.0
-test: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_alphamat.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_barcode.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_dnn_objdetect.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_dnn_superres.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_face.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_hfs.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_img_hash.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_intensity_transform.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_mcc.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_quality.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_rapid.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_tracking.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_wechat_qrcode.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_text.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_video.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.5.4d
-test: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d
+test: /opt/tdt/openvino/runtime/lib/intel64/libopenvino.so.2022.3.0
+test: /usr/local/opencv4.7.0/lib/libopencv_gapi.so.4.7.0
+test: /usr/local/opencv4.7.0/lib/libopencv_highgui.so.4.7.0
+test: /usr/local/opencv4.7.0/lib/libopencv_ml.so.4.7.0
+test: /usr/local/opencv4.7.0/lib/libopencv_objdetect.so.4.7.0
+test: /usr/local/opencv4.7.0/lib/libopencv_photo.so.4.7.0
+test: /usr/local/opencv4.7.0/lib/libopencv_stitching.so.4.7.0
+test: /usr/local/opencv4.7.0/lib/libopencv_video.so.4.7.0
+test: /usr/local/opencv4.7.0/lib/libopencv_videoio.so.4.7.0
+test: /usr/local/opencv4.7.0/lib/libopencv_imgcodecs.so.4.7.0
+test: /usr/local/opencv4.7.0/lib/libopencv_dnn.so.4.7.0
+test: /usr/local/opencv4.7.0/lib/libopencv_calib3d.so.4.7.0
+test: /usr/local/opencv4.7.0/lib/libopencv_features2d.so.4.7.0
+test: /usr/local/opencv4.7.0/lib/libopencv_flann.so.4.7.0
+test: /usr/local/opencv4.7.0/lib/libopencv_imgproc.so.4.7.0
+test: /usr/local/opencv4.7.0/lib/libopencv_core.so.4.7.0
 test: CMakeFiles/test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jason/Desktop/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jason/Desktop/ubuntu_package/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -160,6 +121,6 @@ CMakeFiles/test.dir/clean:
 .PHONY : CMakeFiles/test.dir/clean
 
 CMakeFiles/test.dir/depend:
-	cd /home/jason/Desktop/test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jason/Desktop/test /home/jason/Desktop/test /home/jason/Desktop/test/build /home/jason/Desktop/test/build /home/jason/Desktop/test/build/CMakeFiles/test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jason/Desktop/ubuntu_package/test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jason/Desktop/ubuntu_package/test /home/jason/Desktop/ubuntu_package/test /home/jason/Desktop/ubuntu_package/test/build /home/jason/Desktop/ubuntu_package/test/build /home/jason/Desktop/ubuntu_package/test/build/CMakeFiles/test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/test.dir/depend
 

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jason/Desktop/test
+CMAKE_SOURCE_DIR = /home/jason/Desktop/ubuntu_package/test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jason/Desktop/test/build
+CMAKE_BINARY_DIR = /home/jason/Desktop/ubuntu_package/test/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jason/Desktop/test/build/CMakeFiles /home/jason/Desktop/test/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jason/Desktop/ubuntu_package/test/build/CMakeFiles /home/jason/Desktop/ubuntu_package/test/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jason/Desktop/test/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jason/Desktop/ubuntu_package/test/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,29 +129,29 @@ test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
 
-test02.o: test02.cpp.o
-.PHONY : test02.o
+Matrix.o: Matrix.cpp.o
+.PHONY : Matrix.o
 
 # target to build an object file
-test02.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test02.cpp.o
-.PHONY : test02.cpp.o
+Matrix.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/Matrix.cpp.o
+.PHONY : Matrix.cpp.o
 
-test02.i: test02.cpp.i
-.PHONY : test02.i
+Matrix.i: Matrix.cpp.i
+.PHONY : Matrix.i
 
 # target to preprocess a source file
-test02.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test02.cpp.i
-.PHONY : test02.cpp.i
+Matrix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/Matrix.cpp.i
+.PHONY : Matrix.cpp.i
 
-test02.s: test02.cpp.s
-.PHONY : test02.s
+Matrix.s: Matrix.cpp.s
+.PHONY : Matrix.s
 
 # target to generate assembly for a file
-test02.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test02.cpp.s
-.PHONY : test02.cpp.s
+Matrix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/Matrix.cpp.s
+.PHONY : Matrix.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... test02.o"
-	@echo "... test02.i"
-	@echo "... test02.s"
+	@echo "... Matrix.o"
+	@echo "... Matrix.i"
+	@echo "... Matrix.s"
 .PHONY : help
 
 
