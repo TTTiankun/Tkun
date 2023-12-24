@@ -10,6 +10,8 @@
 #include"find_rectangle.h"
 #include"KF_test.h"
 
+//这个滤波器是基于相机坐标系进行观测的，真实准确，但是测试起来效果不是很好
+//因为涉及到相机坐标系和图像坐标系的转换
 //创建一个捕捉视频的对象
 cv::VideoCapture capture;
 
