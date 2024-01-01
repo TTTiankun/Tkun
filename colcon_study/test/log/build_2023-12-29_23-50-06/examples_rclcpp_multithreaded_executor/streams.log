@@ -1,0 +1,71 @@
+[0.765s] Invoking command in '/home/jason/Desktop/colcon_study/test/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_subscriber:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_service:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/colcon_study/test/src/examples/rclcpp/executors/multithreaded_executor -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/colcon_study/test/install/examples_rclcpp_multithreaded_executor
+[3.589s] -- The C compiler identification is GNU 11.4.0
+[3.590s] -- The CXX compiler identification is GNU 11.4.0
+[3.590s] -- Detecting C compiler ABI info
+[3.590s] -- Detecting C compiler ABI info - done
+[3.590s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.590s] -- Detecting C compile features
+[3.590s] -- Detecting C compile features - done
+[3.591s] -- Detecting CXX compiler ABI info
+[3.591s] -- Detecting CXX compiler ABI info - done
+[3.591s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.591s] -- Detecting CXX compile features
+[3.591s] -- Detecting CXX compile features - done
+[3.591s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.591s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.591s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[3.591s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.591s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.591s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.591s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.592s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.592s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.592s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.592s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.592s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.592s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.592s] -- Looking for pthread.h
+[3.592s] -- Looking for pthread.h - found
+[3.592s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.592s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.592s] -- Found Threads: TRUE  
+[3.592s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.593s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.593s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.593s] -- Configured cppcheck include dirs: 
+[3.593s] -- Configured cppcheck exclude dirs and/or files: 
+[3.593s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.593s] -- Configured cpplint exclude dirs and/or files: 
+[3.593s] -- Added test 'lint_cmake' to check CMake code style
+[3.593s] -- Added test 'uncrustify' to check C / C++ code style
+[3.593s] -- Configured uncrustify additional arguments: 
+[3.593s] -- Added test 'xmllint' to check XML markup files
+[3.593s] -- Configuring done
+[3.593s] -- Generating done
+[3.594s] -- Build files have been written to: /home/jason/Desktop/colcon_study/test/build/examples_rclcpp_multithreaded_executor
+[3.603s] Invoked command in '/home/jason/Desktop/colcon_study/test/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_subscriber:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_service:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/colcon_study/test/src/examples/rclcpp/executors/multithreaded_executor -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/colcon_study/test/install/examples_rclcpp_multithreaded_executor
+[3.605s] Invoking command in '/home/jason/Desktop/colcon_study/test/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_subscriber:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_service:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/colcon_study/test/build/examples_rclcpp_multithreaded_executor -- -j32 -l32
+[3.617s] [ 50%] [32mBuilding CXX object CMakeFiles/multithreaded_executor.dir/multithreaded_executor.cpp.o[0m
+[38.223s] [100%] [32m[1mLinking CXX executable multithreaded_executor[0m
+[38.681s] [100%] Built target multithreaded_executor
+[38.722s] Invoked command in '/home/jason/Desktop/colcon_study/test/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_subscriber:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_service:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/colcon_study/test/build/examples_rclcpp_multithreaded_executor -- -j32 -l32
+[38.768s] Invoking command in '/home/jason/Desktop/colcon_study/test/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_subscriber:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_service:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/colcon_study/test/build/examples_rclcpp_multithreaded_executor
+[38.775s] -- Install configuration: ""
+[38.775s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_multithreaded_executor/lib/examples_rclcpp_multithreaded_executor/multithreaded_executor
+[38.780s] -- Set runtime path of "/home/jason/Desktop/colcon_study/test/install/examples_rclcpp_multithreaded_executor/lib/examples_rclcpp_multithreaded_executor/multithreaded_executor" to ""
+[38.780s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_multithreaded_executor
+[38.780s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_multithreaded_executor
+[38.781s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/ament_prefix_path.sh
+[38.781s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/ament_prefix_path.dsv
+[38.782s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/path.sh
+[38.783s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/path.dsv
+[38.784s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.bash
+[38.785s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.sh
+[38.785s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.zsh
+[38.786s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.dsv
+[38.788s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.dsv
+[38.788s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/packages/examples_rclcpp_multithreaded_executor
+[38.789s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig.cmake
+[38.789s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig-version.cmake
+[38.790s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.xml
+[38.979s] Invoked command in '/home/jason/Desktop/colcon_study/test/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_subscriber:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_service:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/colcon_study/test/build/examples_rclcpp_multithreaded_executor

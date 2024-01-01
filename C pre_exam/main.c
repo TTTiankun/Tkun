@@ -376,13 +376,15 @@ void string_array(){
 //初始化字符串数组
     char s4[]={'h','e','l','l','o','\0'};
     printf("%s\n",s4);
-
 //字符串数组的复制
     char s5[10];
     for(int i=0;i!='\0';i++){
         s5[i]=s1[i];
     }
     printf("%s\n",s5);
+//获取字符串数组的长度
+    int len = strlen(s1);
+    printf("%d\n",len);
      
 }
 
@@ -416,6 +418,7 @@ void pointer_array(){
     int b = 20;
     int c = 30;
     int *p[3] = {&a,&b,&c};//指针数组
+    char str1[5]="hello";
     
     
     //一个数组的地址就是第一个元素的地址
@@ -438,6 +441,15 @@ void pointer_array(){
     for(int i=0;i<3;i++){
         printf("%d\n",*p[i]);
     }
+    //！！！
+    //数组传参 传入的是数组的地址 只有字符串数组可以这样用
+    void test(char *str1){
+        for(int i=0;i<strlen(str1);i++){
+            printf("%c\n",str1[i]);
+        }
+    }
+
+    test(str1);
 }
 
 

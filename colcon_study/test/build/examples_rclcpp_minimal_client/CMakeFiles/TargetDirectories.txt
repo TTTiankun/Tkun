@@ -1,0 +1,10 @@
+/home/jason/Desktop/colcon_study/test/build/examples_rclcpp_minimal_client/CMakeFiles/uninstall.dir
+/home/jason/Desktop/colcon_study/test/build/examples_rclcpp_minimal_client/CMakeFiles/examples_rclcpp_minimal_client_uninstall.dir
+/home/jason/Desktop/colcon_study/test/build/examples_rclcpp_minimal_client/CMakeFiles/client_main.dir
+/home/jason/Desktop/colcon_study/test/build/examples_rclcpp_minimal_client/CMakeFiles/test.dir
+/home/jason/Desktop/colcon_study/test/build/examples_rclcpp_minimal_client/CMakeFiles/edit_cache.dir
+/home/jason/Desktop/colcon_study/test/build/examples_rclcpp_minimal_client/CMakeFiles/rebuild_cache.dir
+/home/jason/Desktop/colcon_study/test/build/examples_rclcpp_minimal_client/CMakeFiles/list_install_components.dir
+/home/jason/Desktop/colcon_study/test/build/examples_rclcpp_minimal_client/CMakeFiles/install.dir
+/home/jason/Desktop/colcon_study/test/build/examples_rclcpp_minimal_client/CMakeFiles/install/local.dir
+/home/jason/Desktop/colcon_study/test/build/examples_rclcpp_minimal_client/CMakeFiles/install/strip.dir

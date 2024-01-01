@@ -1,0 +1,55 @@
+[4.841s] Invoking command in '/home/jason/Desktop/colcon_study/test/src/examples/rclpy/actions/minimal_action_server': PYTHONPATH=/home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_action_server/prefix_override:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_action_server/build install --record /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed
+[6.893s] running egg_info
+[6.895s] creating ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info
+[6.895s] writing ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/PKG-INFO
+[6.912s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/dependency_links.txt
+[6.913s] writing entry points to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/entry_points.txt
+[6.914s] writing requirements to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/requires.txt
+[6.914s] writing top-level names to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/top_level.txt
+[6.918s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[6.935s] reading manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[6.936s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[6.937s] running build
+[6.937s] running build_py
+[6.947s] creating /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_action_server/build
+[6.948s] creating /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_action_server/build/lib
+[6.948s] creating /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[6.948s] copying examples_rclpy_minimal_action_server/__init__.py -> /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[6.949s] copying examples_rclpy_minimal_action_server/server_single_goal.py -> /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[6.949s] copying examples_rclpy_minimal_action_server/server.py -> /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[6.949s] copying examples_rclpy_minimal_action_server/server_not_composable.py -> /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[6.950s] copying examples_rclpy_minimal_action_server/server_defer.py -> /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[6.950s] copying examples_rclpy_minimal_action_server/server_queue_goals.py -> /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[6.950s] running install
+[6.950s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.951s]   warnings.warn(
+[6.951s] running install_lib
+[6.951s] creating /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[6.952s] copying /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/__init__.py -> /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[6.952s] copying /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_single_goal.py -> /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[6.952s] copying /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server.py -> /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[6.956s] copying /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_not_composable.py -> /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[6.956s] copying /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_defer.py -> /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[6.967s] copying /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_queue_goals.py -> /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[6.968s] byte-compiling /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/__init__.py to __init__.cpython-310.pyc
+[6.969s] byte-compiling /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/server_single_goal.py to server_single_goal.cpython-310.pyc
+[6.969s] byte-compiling /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/server.py to server.cpython-310.pyc
+[6.969s] byte-compiling /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/server_not_composable.py to server_not_composable.cpython-310.pyc
+[6.969s] byte-compiling /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/server_defer.py to server_defer.cpython-310.pyc
+[6.970s] byte-compiling /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/server_queue_goals.py to server_queue_goals.cpython-310.pyc
+[6.970s] running install_data
+[6.979s] creating /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server/share/ament_index
+[6.980s] creating /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server/share/ament_index/resource_index
+[6.980s] creating /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server/share/ament_index/resource_index/packages
+[6.980s] copying resource/examples_rclpy_minimal_action_server -> /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server/share/ament_index/resource_index/packages
+[6.981s] copying package.xml -> /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server/share/examples_rclpy_minimal_action_server
+[6.981s] running install_egg_info
+[6.981s] Copying ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info to /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server-0.15.1-py3.10.egg-info
+[6.982s] running install_scripts
+[7.105s] Installing server script to /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[7.106s] Installing server_defer script to /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[7.107s] Installing server_not_composable script to /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[7.108s] Installing server_queue_goals script to /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[7.109s] Installing server_single_goal script to /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[7.110s] writing list of installed files to '/home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_action_server/install.log'
+[7.188s] Invoked command in '/home/jason/Desktop/colcon_study/test/src/examples/rclpy/actions/minimal_action_server' returned '0': PYTHONPATH=/home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_action_server/prefix_override:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_action_server/build install --record /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed

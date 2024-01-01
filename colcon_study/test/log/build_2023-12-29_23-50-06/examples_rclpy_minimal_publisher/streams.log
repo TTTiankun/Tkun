@@ -1,0 +1,47 @@
+[4.119s] Invoking command in '/home/jason/Desktop/colcon_study/test/src/examples/rclpy/topics/minimal_publisher': PYTHONPATH=/home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_publisher/prefix_override:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_publisher/build install --record /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed
+[4.652s] running egg_info
+[4.653s] creating ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info
+[4.654s] writing ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[4.656s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[4.656s] writing entry points to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[4.657s] writing requirements to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/requires.txt
+[4.658s] writing top-level names to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[4.661s] writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[4.664s] reading manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[4.666s] writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[4.667s] running build
+[4.667s] running build_py
+[4.667s] creating /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_publisher/build
+[4.667s] creating /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_publisher/build/lib
+[4.667s] creating /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[4.668s] copying examples_rclpy_minimal_publisher/__init__.py -> /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[4.668s] copying examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[4.669s] copying examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[4.670s] copying examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[4.671s] running install
+[4.672s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.672s]   warnings.warn(
+[4.672s] running install_lib
+[4.674s] creating /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[4.674s] copying /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/__init__.py -> /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[4.674s] copying /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[4.674s] copying /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[4.674s] copying /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[4.675s] byte-compiling /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/__init__.py to __init__.cpython-310.pyc
+[4.675s] byte-compiling /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[4.676s] byte-compiling /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_old_school.py to publisher_old_school.cpython-310.pyc
+[4.677s] byte-compiling /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_local_function.py to publisher_local_function.cpython-310.pyc
+[4.678s] running install_data
+[4.679s] creating /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher/share/ament_index
+[4.679s] creating /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index
+[4.679s] creating /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[4.679s] copying resource/examples_rclpy_minimal_publisher -> /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[4.679s] copying package.xml -> /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher/share/examples_rclpy_minimal_publisher
+[4.679s] running install_egg_info
+[4.682s] Copying ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info to /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher-0.15.1-py3.10.egg-info
+[4.683s] running install_scripts
+[4.723s] Installing publisher_local_function script to /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[4.724s] Installing publisher_member_function script to /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[4.725s] Installing publisher_old_school script to /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[4.726s] writing list of installed files to '/home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_publisher/install.log'
+[4.770s] Invoked command in '/home/jason/Desktop/colcon_study/test/src/examples/rclpy/topics/minimal_publisher' returned '0': PYTHONPATH=/home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_publisher/prefix_override:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_publisher/build install --record /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed

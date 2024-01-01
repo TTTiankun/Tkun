@@ -1,0 +1,125 @@
+[0.833s] Invoking command in '/home/jason/Desktop/colcon_study/test/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_subscriber:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_service:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/colcon_study/test/src/examples/rclcpp/topics/minimal_subscriber -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber
+[3.643s] -- The C compiler identification is GNU 11.4.0
+[3.643s] -- The CXX compiler identification is GNU 11.4.0
+[3.643s] -- Detecting C compiler ABI info
+[3.643s] -- Detecting C compiler ABI info - done
+[3.643s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.643s] -- Detecting C compile features
+[3.643s] -- Detecting C compile features - done
+[3.643s] -- Detecting CXX compiler ABI info
+[3.643s] -- Detecting CXX compiler ABI info - done
+[3.644s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.644s] -- Detecting CXX compile features
+[3.644s] -- Detecting CXX compile features - done
+[3.644s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.644s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.644s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[3.644s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.644s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.644s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.644s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.644s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.644s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.644s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.645s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.645s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.645s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.645s] -- Looking for pthread.h
+[3.645s] -- Looking for pthread.h - found
+[3.645s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.645s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.645s] -- Found Threads: TRUE  
+[3.645s] -- Found rclcpp_components: 16.0.7 (/opt/ros/humble/share/rclcpp_components/cmake)
+[3.645s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.645s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.645s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.646s] -- Configured cppcheck include dirs: 
+[3.646s] -- Configured cppcheck exclude dirs and/or files: 
+[3.646s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.646s] -- Configured cpplint exclude dirs and/or files: 
+[3.646s] -- Added test 'lint_cmake' to check CMake code style
+[3.646s] -- Added test 'uncrustify' to check C / C++ code style
+[3.646s] -- Configured uncrustify additional arguments: 
+[3.646s] -- Added test 'xmllint' to check XML markup files
+[3.646s] -- Configuring done
+[3.646s] -- Generating done
+[3.646s] -- Build files have been written to: /home/jason/Desktop/colcon_study/test/build/examples_rclcpp_minimal_subscriber
+[3.675s] Invoked command in '/home/jason/Desktop/colcon_study/test/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_subscriber:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_service:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/colcon_study/test/src/examples/rclcpp/topics/minimal_subscriber -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber
+[3.676s] Invoking command in '/home/jason/Desktop/colcon_study/test/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_subscriber:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_service:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/colcon_study/test/build/examples_rclcpp_minimal_subscriber -- -j32 -l32
+[3.711s] [  4%] [32mBuilding CXX object CMakeFiles/subscriber_lambda.dir/lambda.cpp.o[0m
+[3.712s] [  8%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[3.712s] [ 12%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[3.712s] [ 16%] [32mBuilding CXX object CMakeFiles/subscriber_not_composable.dir/not_composable.cpp.o[0m
+[3.712s] [ 20%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber.dir/rclcpp_components/node_main_wait_set_subscriber.cpp.o[0m
+[3.712s] [ 25%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/wait_set_subscriber.cpp.o[0m
+[3.712s] [ 29%] [32mBuilding CXX object CMakeFiles/time_triggered_wait_set_subscriber.dir/rclcpp_components/node_main_time_triggered_wait_set_subscriber.cpp.o[0m
+[3.713s] [ 33%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/static_wait_set_subscriber.cpp.o[0m
+[3.714s] [ 41%] [32mBuilding CXX object CMakeFiles/subscriber_content_filtering.dir/content_filtering.cpp.o[0m
+[3.714s] [ 41%] [32mBuilding CXX object CMakeFiles/static_wait_set_subscriber.dir/rclcpp_components/node_main_static_wait_set_subscriber.cpp.o[0m
+[3.714s] [ 45%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/time_triggered_wait_set_subscriber.cpp.o[0m
+[3.714s] [ 50%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_topic_statistics.dir/member_function_with_topic_statistics.cpp.o[0m
+[3.718s] [ 54%] [32mBuilding CXX object CMakeFiles/subscriber_member_function.dir/member_function.cpp.o[0m
+[14.669s] [ 58%] [32m[1mLinking CXX executable time_triggered_wait_set_subscriber[0m
+[15.386s] [ 58%] Built target time_triggered_wait_set_subscriber
+[24.574s] [ 62%] [32m[1mLinking CXX executable wait_set_subscriber[0m
+[24.982s] [ 62%] Built target wait_set_subscriber
+[27.918s] [ 66%] [32m[1mLinking CXX executable static_wait_set_subscriber[0m
+[28.348s] [ 66%] Built target static_wait_set_subscriber
+[34.199s] [ 70%] [32m[1mLinking CXX executable subscriber_lambda[0m
+[35.000s] [ 70%] Built target subscriber_lambda
+[36.878s] [ 75%] [32m[1mLinking CXX executable subscriber_content_filtering[0m
+[37.079s] [ 79%] [32m[1mLinking CXX executable subscriber_member_function_with_type_adapter[0m
+[37.236s] [ 83%] [32m[1mLinking CXX executable subscriber_not_composable[0m
+[37.322s] [ 87%] [32m[1mLinking CXX executable subscriber_member_function[0m
+[37.427s] [ 87%] Built target subscriber_content_filtering
+[37.634s] [ 91%] [32m[1mLinking CXX executable subscriber_member_function_with_topic_statistics[0m
+[37.726s] [ 91%] Built target subscriber_not_composable
+[37.776s] [ 91%] Built target subscriber_member_function
+[38.103s] [ 91%] Built target subscriber_member_function_with_topic_statistics
+[38.460s] [ 95%] [32m[1mLinking CXX executable subscriber_member_function_with_unique_network_flow_endpoints[0m
+[38.708s] [ 95%] Built target subscriber_member_function_with_type_adapter
+[38.916s] [ 95%] Built target subscriber_member_function_with_unique_network_flow_endpoints
+[42.010s] [100%] [32m[1mLinking CXX shared library libwait_set_subscriber_library.so[0m
+[42.957s] [100%] Built target wait_set_subscriber_library
+[42.992s] Invoked command in '/home/jason/Desktop/colcon_study/test/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_subscriber:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_service:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/colcon_study/test/build/examples_rclcpp_minimal_subscriber -- -j32 -l32
+[43.064s] Invoking command in '/home/jason/Desktop/colcon_study/test/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_subscriber:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_service:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/colcon_study/test/build/examples_rclcpp_minimal_subscriber
+[43.073s] -- Install configuration: ""
+[43.073s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/wait_set_subscriber
+[43.074s] -- Set runtime path of "/home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/wait_set_subscriber" to ""
+[43.074s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/static_wait_set_subscriber
+[43.075s] -- Set runtime path of "/home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/static_wait_set_subscriber" to ""
+[43.075s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/time_triggered_wait_set_subscriber
+[43.075s] -- Set runtime path of "/home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/time_triggered_wait_set_subscriber" to ""
+[43.075s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/lib/libwait_set_subscriber_library.so
+[43.082s] -- Set runtime path of "/home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/lib/libwait_set_subscriber_library.so" to ""
+[43.082s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+[43.085s] -- Set runtime path of "/home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda" to ""
+[43.085s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+[43.089s] -- Set runtime path of "/home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function" to ""
+[43.089s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_topic_statistics
+[43.092s] -- Set runtime path of "/home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_topic_statistics" to ""
+[43.092s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_type_adapter
+[43.095s] -- Set runtime path of "/home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_type_adapter" to ""
+[43.095s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_unique_network_flow_endpoints
+[43.099s] -- Set runtime path of "/home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_unique_network_flow_endpoints" to ""
+[43.099s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+[43.102s] -- Set runtime path of "/home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable" to ""
+[43.102s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_content_filtering
+[43.105s] -- Set runtime path of "/home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_content_filtering" to ""
+[43.105s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+[43.106s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+[43.106s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+[43.106s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.dsv
+[43.106s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+[43.106s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.dsv
+[43.106s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+[43.107s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+[43.107s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+[43.107s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.dsv
+[43.108s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.dsv
+[43.109s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+[43.110s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_minimal_subscriber
+[43.111s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+[43.111s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+[43.111s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml
+[43.117s] Invoked command in '/home/jason/Desktop/colcon_study/test/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_subscriber:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_service:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/colcon_study/test/build/examples_rclcpp_minimal_subscriber

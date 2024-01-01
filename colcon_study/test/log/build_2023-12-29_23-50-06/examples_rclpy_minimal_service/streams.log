@@ -1,0 +1,43 @@
+[6.294s] Invoking command in '/home/jason/Desktop/colcon_study/test/src/examples/rclpy/services/minimal_service': PYTHONPATH=/home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_service/prefix_override:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_service build --build-base /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_service/build install --record /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed
+[8.756s] running egg_info
+[8.778s] creating ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info
+[8.779s] writing ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/PKG-INFO
+[8.779s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/dependency_links.txt
+[8.779s] writing entry points to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/entry_points.txt
+[8.780s] writing requirements to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/requires.txt
+[8.780s] writing top-level names to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/top_level.txt
+[8.809s] writing manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[8.828s] reading manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[8.828s] writing manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[8.828s] running build
+[8.828s] running build_py
+[8.829s] creating /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_service/build
+[8.834s] creating /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_service/build/lib
+[8.835s] creating /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[8.835s] copying examples_rclpy_minimal_service/__init__.py -> /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[8.838s] copying examples_rclpy_minimal_service/service.py -> /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[8.848s] copying examples_rclpy_minimal_service/service_member_function.py -> /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[8.875s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.875s]   warnings.warn(
+[8.875s] running install
+[8.883s] running install_lib
+[8.910s] creating /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[8.910s] copying /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/__init__.py -> /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[8.915s] copying /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/service.py -> /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[8.915s] copying /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/service_member_function.py -> /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[8.918s] byte-compiling /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/__init__.py to __init__.cpython-310.pyc
+[8.919s] byte-compiling /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/service.py to service.cpython-310.pyc
+[8.950s] byte-compiling /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/service_member_function.py to service_member_function.cpython-310.pyc
+[8.950s] running install_data
+[8.985s] creating /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_service/share/ament_index
+[8.985s] creating /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_service/share/ament_index/resource_index
+[8.985s] creating /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[8.985s] copying resource/examples_rclpy_minimal_service -> /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[8.985s] copying package.xml -> /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_service/share/examples_rclpy_minimal_service
+[8.985s] running install_egg_info
+[8.993s] Copying ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info to /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service-0.15.1-py3.10.egg-info
+[9.020s] running install_scripts
+[9.352s] Installing service script to /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[9.353s] Installing service_member_function script to /home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[9.354s] writing list of installed files to '/home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_service/install.log'
+[10.611s] Invoked command in '/home/jason/Desktop/colcon_study/test/src/examples/rclpy/services/minimal_service' returned '0': PYTHONPATH=/home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_service/prefix_override:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_service build --build-base /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_service/build install --record /home/jason/Desktop/colcon_study/test/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed

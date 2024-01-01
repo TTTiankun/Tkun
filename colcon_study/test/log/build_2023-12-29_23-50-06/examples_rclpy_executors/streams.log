@@ -1,0 +1,59 @@
+[5.379s] Invoking command in '/home/jason/Desktop/colcon_study/test/src/examples/rclpy/executors': PYTHONPATH=/home/jason/Desktop/colcon_study/test/build/examples_rclpy_executors/prefix_override:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/jason/Desktop/colcon_study/test/build/examples_rclpy_executors/build install --record /home/jason/Desktop/colcon_study/test/build/examples_rclpy_executors/install.log --single-version-externally-managed
+[7.822s] running egg_info
+[7.830s] creating ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info
+[7.832s] writing ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/PKG-INFO
+[7.839s] writing dependency_links to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/dependency_links.txt
+[7.842s] writing entry points to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/entry_points.txt
+[7.843s] writing requirements to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/requires.txt
+[7.844s] writing top-level names to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/top_level.txt
+[7.864s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[7.876s] reading manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[7.885s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[7.886s] running build
+[7.886s] running build_py
+[7.887s] creating /home/jason/Desktop/colcon_study/test/build/examples_rclpy_executors/build
+[7.887s] creating /home/jason/Desktop/colcon_study/test/build/examples_rclpy_executors/build/lib
+[7.888s] creating /home/jason/Desktop/colcon_study/test/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[7.888s] copying examples_rclpy_executors/__init__.py -> /home/jason/Desktop/colcon_study/test/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[7.890s] copying examples_rclpy_executors/callback_group.py -> /home/jason/Desktop/colcon_study/test/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[7.895s] copying examples_rclpy_executors/talker.py -> /home/jason/Desktop/colcon_study/test/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[7.901s] copying examples_rclpy_executors/composed.py -> /home/jason/Desktop/colcon_study/test/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[7.902s] copying examples_rclpy_executors/custom_executor.py -> /home/jason/Desktop/colcon_study/test/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[7.904s] copying examples_rclpy_executors/custom_callback_group.py -> /home/jason/Desktop/colcon_study/test/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[7.911s] copying examples_rclpy_executors/listener.py -> /home/jason/Desktop/colcon_study/test/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[7.913s] running install
+[7.914s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.914s]   warnings.warn(
+[7.915s] running install_lib
+[7.919s] creating /home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[7.919s] copying /home/jason/Desktop/colcon_study/test/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/__init__.py -> /home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[7.922s] copying /home/jason/Desktop/colcon_study/test/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/callback_group.py -> /home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[7.924s] copying /home/jason/Desktop/colcon_study/test/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/talker.py -> /home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[7.927s] copying /home/jason/Desktop/colcon_study/test/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/composed.py -> /home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[7.931s] copying /home/jason/Desktop/colcon_study/test/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_executor.py -> /home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[7.934s] copying /home/jason/Desktop/colcon_study/test/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_callback_group.py -> /home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[7.945s] copying /home/jason/Desktop/colcon_study/test/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/listener.py -> /home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[7.950s] byte-compiling /home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/__init__.py to __init__.cpython-310.pyc
+[7.953s] byte-compiling /home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/callback_group.py to callback_group.cpython-310.pyc
+[7.960s] byte-compiling /home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/talker.py to talker.cpython-310.pyc
+[7.965s] byte-compiling /home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/composed.py to composed.cpython-310.pyc
+[7.968s] byte-compiling /home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/custom_executor.py to custom_executor.cpython-310.pyc
+[7.986s] byte-compiling /home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/custom_callback_group.py to custom_callback_group.cpython-310.pyc
+[7.994s] byte-compiling /home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/listener.py to listener.cpython-310.pyc
+[7.998s] running install_data
+[8.015s] creating /home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors/share/ament_index
+[8.016s] creating /home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors/share/ament_index/resource_index
+[8.017s] creating /home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[8.018s] copying resource/examples_rclpy_executors -> /home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[8.020s] copying package.xml -> /home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors/share/examples_rclpy_executors
+[8.026s] running install_egg_info
+[8.047s] Copying ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info to /home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors-0.15.1-py3.10.egg-info
+[8.057s] running install_scripts
+[8.314s] Installing callback_group script to /home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[8.315s] Installing composed script to /home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[8.315s] Installing custom_callback_group script to /home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[8.316s] Installing custom_executor script to /home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[8.316s] Installing listener script to /home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[8.316s] Installing talker script to /home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[8.316s] writing list of installed files to '/home/jason/Desktop/colcon_study/test/build/examples_rclpy_executors/install.log'
+[9.428s] Invoked command in '/home/jason/Desktop/colcon_study/test/src/examples/rclpy/executors' returned '0': PYTHONPATH=/home/jason/Desktop/colcon_study/test/build/examples_rclpy_executors/prefix_override:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/jason/Desktop/colcon_study/test/build/examples_rclpy_executors/build install --record /home/jason/Desktop/colcon_study/test/build/examples_rclpy_executors/install.log --single-version-externally-managed

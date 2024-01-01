@@ -1,0 +1,90 @@
+[0.930s] Invoking command in '/home/jason/Desktop/colcon_study/test/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_subscriber:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_service:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/colcon_study/test/src/examples/rclcpp/composition/minimal_composition -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_composition
+[3.719s] -- The C compiler identification is GNU 11.4.0
+[3.719s] -- The CXX compiler identification is GNU 11.4.0
+[3.719s] -- Detecting C compiler ABI info
+[3.719s] -- Detecting C compiler ABI info - done
+[3.719s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.719s] -- Detecting C compile features
+[3.719s] -- Detecting C compile features - done
+[3.719s] -- Detecting CXX compiler ABI info
+[3.719s] -- Detecting CXX compiler ABI info - done
+[3.719s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.719s] -- Detecting CXX compile features
+[3.720s] -- Detecting CXX compile features - done
+[3.721s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.721s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.721s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[3.721s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.722s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.722s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.722s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.722s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.722s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.723s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.723s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.724s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.724s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.724s] -- Looking for pthread.h
+[3.726s] -- Looking for pthread.h - found
+[3.726s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.726s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.726s] -- Found Threads: TRUE  
+[3.726s] -- Found rclcpp_components: 16.0.7 (/opt/ros/humble/share/rclcpp_components/cmake)
+[3.726s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.727s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.727s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.728s] -- Configured cppcheck include dirs: /home/jason/Desktop/colcon_study/test/src/examples/rclcpp/composition/minimal_composition/include
+[3.728s] -- Configured cppcheck exclude dirs and/or files: 
+[3.728s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.728s] -- Configured cpplint exclude dirs and/or files: 
+[3.728s] -- Added test 'lint_cmake' to check CMake code style
+[3.728s] -- Added test 'uncrustify' to check C / C++ code style
+[3.728s] -- Configured uncrustify additional arguments: 
+[3.729s] -- Added test 'xmllint' to check XML markup files
+[3.729s] -- Configuring done
+[3.729s] -- Generating done
+[3.730s] -- Build files have been written to: /home/jason/Desktop/colcon_study/test/build/examples_rclcpp_minimal_composition
+[3.786s] Invoked command in '/home/jason/Desktop/colcon_study/test/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_subscriber:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_service:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/colcon_study/test/src/examples/rclcpp/composition/minimal_composition -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_composition
+[3.787s] Invoking command in '/home/jason/Desktop/colcon_study/test/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_subscriber:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_service:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/colcon_study/test/build/examples_rclcpp_minimal_composition -- -j32 -l32
+[3.817s] [ 11%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/publisher_node.cpp.o[0m
+[3.829s] [ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o[0m
+[38.543s] [ 33%] [32m[1mLinking CXX shared library libcomposition_nodes.so[0m
+[39.061s] [ 33%] Built target composition_nodes
+[39.095s] [ 44%] [32mBuilding CXX object CMakeFiles/composition_composed.dir/src/composed.cpp.o[0m
+[39.103s] [ 55%] [32mBuilding CXX object CMakeFiles/composition_publisher.dir/src/standalone_publisher.cpp.o[0m
+[39.108s] [ 66%] [32mBuilding CXX object CMakeFiles/composition_subscriber.dir/src/standalone_subscriber.cpp.o[0m
+[42.464s] [ 77%] [32m[1mLinking CXX executable composition_composed[0m
+[42.670s] [ 77%] Built target composition_composed
+[43.060s] [ 88%] [32m[1mLinking CXX executable composition_subscriber[0m
+[43.203s] [100%] [32m[1mLinking CXX executable composition_publisher[0m
+[43.262s] [100%] Built target composition_subscriber
+[43.407s] [100%] Built target composition_publisher
+[43.437s] Invoked command in '/home/jason/Desktop/colcon_study/test/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_subscriber:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_service:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/colcon_study/test/build/examples_rclcpp_minimal_composition -- -j32 -l32
+[43.493s] Invoking command in '/home/jason/Desktop/colcon_study/test/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_subscriber:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_service:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/colcon_study/test/build/examples_rclcpp_minimal_composition
+[43.501s] -- Install configuration: ""
+[43.502s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+[43.502s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.dsv
+[43.502s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+[43.509s] -- Set runtime path of "/home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so" to ""
+[43.509s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+[43.509s] -- Set runtime path of "/home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher" to ""
+[43.509s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+[43.510s] -- Set runtime path of "/home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber" to ""
+[43.510s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+[43.511s] -- Set runtime path of "/home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed" to ""
+[43.511s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+[43.512s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+[43.512s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.sh
+[43.512s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.dsv
+[43.512s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.sh
+[43.513s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.dsv
+[43.513s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+[43.513s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+[43.513s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+[43.513s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.dsv
+[43.513s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv
+[43.514s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+[43.514s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+[43.514s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+[43.515s] -- Installing: /home/jason/Desktop/colcon_study/test/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml
+[43.516s] Invoked command in '/home/jason/Desktop/colcon_study/test/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_subscriber:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_service:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_publisher:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_server:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_minimal_action_client:/home/jason/Desktop/colcon_study/test/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/colcon_study/test/build/examples_rclcpp_minimal_composition

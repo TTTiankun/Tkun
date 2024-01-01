@@ -1,7 +1,7 @@
 [
 {
-  "directory": "/home/jason/Desktop/test/build",
-  "command": "/usr/bin/cc  -I/home/jason/Desktop/test/include -isystem /usr/local/opencv4.7.0/include/opencv4 -g -o CMakeFiles/test.dir/main.c.o -c /home/jason/Desktop/test/main.c",
-  "file": "/home/jason/Desktop/test/main.c"
+  "directory": "/home/jason/Desktop/Tkun/C pre_exam/build",
+  "command": "/usr/bin/cc  -I\"/home/jason/Desktop/Tkun/C pre_exam/include\" -isystem /usr/local/opencv4.7.0/include/opencv4 -g -o CMakeFiles/test.dir/main.c.o -c \"/home/jason/Desktop/Tkun/C pre_exam/main.c\"",
+  "file": "/home/jason/Desktop/Tkun/C pre_exam/main.c"
 }
 ]

@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/jason/Desktop/test/include -isystem /usr/local/opencv4.7.0/include/opencv4
+C_INCLUDES = -I"/home/jason/Desktop/Tkun/C pre_exam/include" -isystem /usr/local/opencv4.7.0/include/opencv4
 
 C_FLAGS = -g
 

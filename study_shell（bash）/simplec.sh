@@ -107,6 +107,7 @@
 #grep命令
 #grep 查找文件内容
 #用法：grep [选项] [表达式] [文件]
+#示例：grep "hello world" test.txt 查找test.txt文件中包含hello world的行
 #grep -c 查找文件内容，显示匹配的行数
 #grep -n 查找文件内容，显示匹配的行数和行号
 #grep -v 查找文件内容，显示不匹配的行
@@ -199,6 +200,238 @@
 #history 查看历史命令
 #用法：history [选项]
 #history -c 清空历史命令
+
+#系统环境配置程序
+
+#apt命令
+#apt 安装软件
+#用法：apt [选项] [软件]
+#apt install 安装软件
+#apt remove 卸载软件
+#apt update 更新软件源
+#apt upgrade 更新软件
+#apt search 搜索软件
+#apt show 查看软件信息
+#apt list 查看软件列表
+#apt autoremove 自动删除不需要的软件包
+#apt clean 清理软件缓存
+#apt autoclean 自动清理软件缓存
+
+#dpkg命令
+#dpkg 安装软件
+#用法：dpkg [选项] [软件]
+#dpkg -i 安装软件
+#dpkg -r 卸载软件
+#dpkg -l 查看软件列表
+#dpkg -L 查看软件安装的位置
+#dpkg -S 查看软件的安装位置
+#dpkg -s 查看软件的详细信息
+
+#pip命令
+#pip 安装Python包
+#用法：pip [选项] [包]
+#pip install 安装Python包
+#pip uninstall 卸载Python包
+#pip search 搜索Python包
+#pip show 查看Python包信息
+#pip list 查看Python包列表
+#pip freeze 查看Python包列表，包含版本号
+#pip install -r 安装Python包，从文件中读取包名
+
+#date命令
+#date 显示当前时间
+#用法：date [选项]
+#date -s 设置当前时间
+#date -d 显示指定时间
+#date -r 显示指定文件的时间
+#格式化输出
+#date +%Y 显示当前年份
+#date +%y 显示当前年份的后两位
+#date +%m 显示当前月份
+#date +%d 显示当前日期
+#date +%H 显示当前小时
+#date +%M 显示当前分钟
+#date +%S 显示当前秒数
+#date +%s 显示当前时间戳
+#date +%A 显示当前星期
+#date +%a 显示当前星期的缩写
+#date +%B 显示当前月份
+#date +%b 显示当前月份的缩写
+#date +%j 显示当前年份的第几天
+#date +%U 显示当前年份的第几周
+#date +%W 显示当前年份的第几周
+#date +%w 显示当前星期几
+#date +%Z 显示当前时区
+#date +%z 显示当前时区的偏移量
+#date +%c 显示当前日期和时间
+#date +%x 显示当前日期
+#示例：date "+%Y-%m-%d %H:%M:%S" 输出结果：2020-01-01 00:00:00
+#示例：date "+%Y-%m-%d %H:%M:%S" -d "1 days ago" 输出结果：2019-12-31 00:00:00
+
+#ifconfig命令
+#ifconfig 查看网络信息
+#用法：ifconfig [选项] [网络设备]
+#ifconfig -a 查看所有网络设备的信息
+#ifconfig -s 查看所有网络设备的信息，简洁显示
+#ifconfig 网络设备 up 启动网络设备
+#ifconfig 网络设备 down 关闭网络设备
+#ifconfig 网络设备 ip地址 修改网络设备的ip地址
+#ifconfig 网络设备 netmask 子网掩码 修改网络设备的子网掩码
+#ifconfig 网络设备 broadcast 广播地址 修改网络设备的广播地址
+#ifconfig 网络设备 mtu 最大传输单元 修改网络设备的最大传输单元
+#ifconfig 网络设备 hw ether mac地址 修改网络设备的mac地址
+#ifconfig 网络设备 multicast 开启组播
+#ifconfig 网络设备 -multicast 关闭组播
+
+#ping命令
+#ping 测试网络连通性
+#用法：ping [选项] [主机名或ip地址]
+#ping -c 次数 指定ping的次数
+#ping -i 秒数 指定ping的间隔时间
+#ping -w 秒数 指定ping的超时时间
+#ping -s 字节数 指定ping的数据包大小
+
+#wget命令
+#wget 下载文件
+#用法：wget [选项] [文件]
+#示例：wget https://www.baidu.com
+#wget -c 断点续传
+#wget -b 后台下载
+#wget -t 次数 指定下载次数
+#wget -i 文件 指定下载地址文件
+
+#netstat命令
+#netstat 查看网络状态
+#用法：netstat [选项]
+#netstat -a 查看所有网络状态
+#netstat -t 查看tcp网络状态
+#netstat -u 查看udp网络状态
+#netstat -l 查看监听状态
+#netstat -anp 查看所有网络状态，显示进程信息
+
+#curl命令
+#curl 发送网络请求
+#用法：curl [选项] [url]
+#curl -I 发送HEAD请求
+#curl -X 发送指定请求
+#curl -d 发送POST请求
+#curl -F 发送POST请求，上传文件
+#curl -H 发送请求头
+#curl -A 发送User-Agent
+#curl -e 发送Referer
+#curl -b 发送Cookie
+#curl -c 发送Cookie
+#curl -u 发送Basic认证
+#curl -x 发送代理请求
+#curl -s 发送静默请求
+#curl -o 发送请求，保存到文件
+
+#ps命令
+#ps 查看进程信息
+#用法：ps [选项]
+#ps -a 查看所有进程信息
+#ps -u 查看指定用户的进程信息
+#ps -x 查看后台进程信息
+#ps -e 查看所有进程信息
+#ps -f 查看全格式进程信息
+#ps -l 查看长格式进程信息
+#ps -aux 查看所有进程信息，显示详细信息
+#ps -aux | grep 进程名 查看所有进程信息，显示详细信息，过滤进程名
+
+#kill命令
+#kill 终止进程
+#用法：kill [选项] [进程号]
+#kill -l 查看所有信号
+#kill -9 终止进程，强制终止
+#kill -15 终止进程，优雅终止
+
+#top命令
+#top 查看系统资源
+#用法：top [选项]
+#top -d 秒数 指定刷新时间
+#top -n 次数 指定刷新次数
+#top -p 进程号 指定进程号
+#top -u 用户名 指定用户名
+#top -i 指定忽略的进程号
+#top -c 显示完整的命令
+#top -b 以批处理模式运行
+#top -H 显示线程信息
+#top -M 显示内存信息
+
+#iostat命令
+#iostat 查看磁盘IO信息
+#用法：iostat [选项] [秒数] [次数]
+#iostat -a 查看所有信息
+#iostat -x 查看扩展信息
+#iostat -c 查看CPU信息
+#iostat -d 查看磁盘信息
+#iostat -m 查看内存信息
+#iostat -n 查看网络信息
+#iostat -p 查看进程信息
+#iostat -t 查看时间信息
+
+#sar命令
+#sar 查看系统资源
+#用法：sar [选项] [秒数] [次数]
+#sar -u 查看CPU信息
+#sar -d 查看磁盘信息
+#sar -m 查看内存信息
+#sar -n 查看网络信息
+#sar -p 查看进程信息
+#sar -t 查看时间信息
+
+#zip命令
+#zip 压缩文件
+#用法：zip [选项] [压缩文件] [文件]
+#示例：zip test.zip test.txt 将test.txt文件压缩为test.zip文件
+#zip -r 压缩目录
+#zip -m 压缩文件，压缩后删除源文件
+#zip -d 压缩文件，删除压缩文件中的文件
+#zip -u 压缩文件，更新压缩文件中的文件
+#zip -c 压缩文件，显示压缩进度
+#zip -q 压缩文件，静默压缩
+#zip -l 压缩文件，显示压缩文件中的文件
+#zip -v 压缩文件，显示压缩文件的详细信息
+#zip -T 压缩文件，测试压缩文件的完整性
+#zip -F 压缩文件，修复压缩文件
+#zip -s 压缩文件，分割压缩文件
+#zip -O 压缩文件，设置压缩文件的密码
+
+#unzip命令
+#unzip 解压文件
+#用法：unzip [选项] [压缩文件]
+#unzip -l 查看压缩文件中的文件
+#unzip -v 查看压缩文件的详细信息
+#unzip -t 测试压缩文件的完整性
+#unzip -c 解压文件，显示解压进度
+#unzip -q 解压文件，静默解压
+#unzip -n 解压文件，不覆盖已存在的文件
+#unzip -o 解压文件，覆盖已存在的文件
+#unzip -d 解压文件，指定解压目录
+#unzip -P 解压文件，解压加密的文件
+
+#tar命令
+#tar 归档文件
+#用法：tar [选项] [归档文件] [文件]
+#示例：tar -cvf test.tar test.txt 将test.txt文件归档为test.tar文件
+#常见组合命令
+#tar -zcvf test.tar.gz test.txt 将test.txt文件归档为test.tar.gz文件
+#tar -cvf test.tar.bz2 test.txt 将test.txt文件归档为test.tar文件
+
+#tar -c 归档文件，创建归档文件
+#tar -x 归档文件，解压归档文件
+#tar -t 归档文件，查看归档文件
+#tar -r 归档文件，追加文件到归档文件
+#tar -u 归档文件，更新归档文件
+#tar -d 归档文件，删除归档文件中的文件
+#tar -f 归档文件，指定归档文件
+#tar -z 归档文件，使用gzip压缩
+#tar -j 归档文件，使用bzip2压缩
+#tar -v 归档文件，显示详细信息
+#tar -l 归档文件，显示详细信息
+#tar -k 归档文件，不覆盖已存在的文件
+#tar -m 归档文件，保留文件的修改时间
+
 
 
 

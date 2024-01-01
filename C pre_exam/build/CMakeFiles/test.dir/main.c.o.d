@@ -1,4 +1,4 @@
-CMakeFiles/test.dir/main.c.o: /home/jason/Desktop/test/main.c \
+CMakeFiles/test.dir/main.c.o: /home/jason/Desktop/Tkun/C\ pre_exam/main.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
