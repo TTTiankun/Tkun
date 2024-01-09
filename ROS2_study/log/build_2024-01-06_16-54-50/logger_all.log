@@ -1,0 +1,443 @@
+[0.439s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.439s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fd6c68fd840>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fd6c68ff7f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fd6c68ff7f0>>)[0m
+[0.458s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.459s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.459s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.459s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.459s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.459s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.459s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/jason/Desktop/ROS2_study'
+[0.459s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.459s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.459s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.459s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.459s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.459s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.459s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.459s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.459s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.466s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.466s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.466s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.466s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.466s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.466s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.466s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.466s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.466s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.466s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.466s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.466s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.466s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.466s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.466s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.466s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.466s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.466s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.466s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.466s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.466s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.467s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.467s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.467s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.467s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.467s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.467s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.467s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.467s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_client) by extensions ['ignore', 'ignore_ament_install']
+[0.467s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_client) by extension 'ignore'
+[0.467s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_client) by extension 'ignore_ament_install'
+[0.467s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_client) by extensions ['colcon_pkg']
+[0.467s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_client) by extension 'colcon_pkg'
+[0.467s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_client) by extensions ['colcon_meta']
+[0.467s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_client) by extension 'colcon_meta'
+[0.467s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_client) by extensions ['ros']
+[0.467s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_client) by extension 'ros'
+[0.468s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/ros2_test_client' with type 'ros.ament_cmake' and name 'ros2_test_client'[0m
+[0.468s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.468s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_interfaces) by extension 'ignore'
+[0.468s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_interfaces) by extension 'ignore_ament_install'
+[0.468s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_interfaces) by extensions ['colcon_pkg']
+[0.468s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_interfaces) by extension 'colcon_pkg'
+[0.468s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_interfaces) by extensions ['colcon_meta']
+[0.468s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_interfaces) by extension 'colcon_meta'
+[0.468s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_interfaces) by extensions ['ros']
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_interfaces) by extension 'ros'
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/ros2_test_interfaces' with type 'ros.ament_cmake' and name 'ros2_test_interfaces'[0m
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_node) by extensions ['ignore', 'ignore_ament_install']
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_node) by extension 'ignore'
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_node) by extension 'ignore_ament_install'
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_node) by extensions ['colcon_pkg']
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_node) by extension 'colcon_pkg'
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_node) by extensions ['colcon_meta']
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_node) by extension 'colcon_meta'
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_node) by extensions ['ros']
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_node) by extension 'ros'
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/ros2_test_node' with type 'ros.ament_cmake' and name 'ros2_test_node'[0m
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_publisher) by extension 'ignore'
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_publisher) by extension 'ignore_ament_install'
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_publisher) by extensions ['colcon_pkg']
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_publisher) by extension 'colcon_pkg'
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_publisher) by extensions ['colcon_meta']
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_publisher) by extension 'colcon_meta'
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_publisher) by extensions ['ros']
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_publisher) by extension 'ros'
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/ros2_test_publisher' with type 'ros.ament_cmake' and name 'ros2_test_publisher'[0m
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_service) by extensions ['ignore', 'ignore_ament_install']
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_service) by extension 'ignore'
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_service) by extension 'ignore_ament_install'
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_service) by extensions ['colcon_pkg']
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_service) by extension 'colcon_pkg'
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_service) by extensions ['colcon_meta']
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_service) by extension 'colcon_meta'
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_service) by extensions ['ros']
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_service) by extension 'ros'
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/ros2_test_service' with type 'ros.ament_cmake' and name 'ros2_test_service'[0m
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_subscriber) by extensions ['ignore', 'ignore_ament_install']
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_subscriber) by extension 'ignore'
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_subscriber) by extension 'ignore_ament_install'
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_subscriber) by extensions ['colcon_pkg']
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_subscriber) by extension 'colcon_pkg'
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_subscriber) by extensions ['colcon_meta']
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_subscriber) by extension 'colcon_meta'
+[0.471s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_subscriber) by extensions ['ros']
+[0.471s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_test_subscriber) by extension 'ros'
+[0.471s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/ros2_test_subscriber' with type 'ros.ament_cmake' and name 'ros2_test_subscriber'[0m
+[0.471s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.471s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.471s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.471s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.471s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.507s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.507s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.519s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 270 installed packages in /opt/ros/humble[0m
+[0.520s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.560s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_client' build argument 'cmake_args' from command line to 'None'
+[0.560s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_client' build argument 'cmake_target' from command line to 'None'
+[0.560s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.560s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_client' build argument 'cmake_clean_cache' from command line to 'False'
+[0.560s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_client' build argument 'cmake_clean_first' from command line to 'False'
+[0.560s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_client' build argument 'cmake_force_configure' from command line to 'False'
+[0.560s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_client' build argument 'ament_cmake_args' from command line to 'None'
+[0.560s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_client' build argument 'catkin_cmake_args' from command line to 'None'
+[0.560s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.561s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ros2_test_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jason/Desktop/ROS2_study/build/ros2_test_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jason/Desktop/ROS2_study/install/ros2_test_client', 'merge_install': False, 'path': '/home/jason/Desktop/ROS2_study/src/ros2_test_client', 'symlink_install': False, 'test_result_base': None}[0m
+[0.566s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.566s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.566s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.566s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.566s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.566s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.566s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.566s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.566s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.566s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ros2_test_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jason/Desktop/ROS2_study/build/ros2_test_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces', 'merge_install': False, 'path': '/home/jason/Desktop/ROS2_study/src/ros2_test_interfaces', 'symlink_install': False, 'test_result_base': None}[0m
+[0.571s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_node' build argument 'cmake_args' from command line to 'None'
+[0.571s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_node' build argument 'cmake_target' from command line to 'None'
+[0.571s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.571s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.571s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.572s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.572s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.572s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.572s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.572s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ros2_test_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jason/Desktop/ROS2_study/build/ros2_test_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jason/Desktop/ROS2_study/install/ros2_test_node', 'merge_install': False, 'path': '/home/jason/Desktop/ROS2_study/src/ros2_test_node', 'symlink_install': False, 'test_result_base': None}[0m
+[0.577s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_service' build argument 'cmake_args' from command line to 'None'
+[0.577s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_service' build argument 'cmake_target' from command line to 'None'
+[0.577s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.577s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_service' build argument 'cmake_clean_cache' from command line to 'False'
+[0.577s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_service' build argument 'cmake_clean_first' from command line to 'False'
+[0.577s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_service' build argument 'cmake_force_configure' from command line to 'False'
+[0.577s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_service' build argument 'ament_cmake_args' from command line to 'None'
+[0.577s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_service' build argument 'catkin_cmake_args' from command line to 'None'
+[0.577s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.577s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ros2_test_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jason/Desktop/ROS2_study/build/ros2_test_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jason/Desktop/ROS2_study/install/ros2_test_service', 'merge_install': False, 'path': '/home/jason/Desktop/ROS2_study/src/ros2_test_service', 'symlink_install': False, 'test_result_base': None}[0m
+[0.582s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_subscriber' build argument 'cmake_args' from command line to 'None'
+[0.582s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_subscriber' build argument 'cmake_target' from command line to 'None'
+[0.582s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_subscriber' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.582s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_subscriber' build argument 'cmake_clean_cache' from command line to 'False'
+[0.582s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_subscriber' build argument 'cmake_clean_first' from command line to 'False'
+[0.582s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_subscriber' build argument 'cmake_force_configure' from command line to 'False'
+[0.582s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_subscriber' build argument 'ament_cmake_args' from command line to 'None'
+[0.582s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_subscriber' build argument 'catkin_cmake_args' from command line to 'None'
+[0.582s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_subscriber' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.582s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ros2_test_subscriber' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jason/Desktop/ROS2_study/build/ros2_test_subscriber', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jason/Desktop/ROS2_study/install/ros2_test_subscriber', 'merge_install': False, 'path': '/home/jason/Desktop/ROS2_study/src/ros2_test_subscriber', 'symlink_install': False, 'test_result_base': None}[0m
+[0.587s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_publisher' build argument 'cmake_args' from command line to 'None'
+[0.587s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_publisher' build argument 'cmake_target' from command line to 'None'
+[0.587s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.587s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.587s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.587s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.587s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.587s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.587s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_test_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.587s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ros2_test_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jason/Desktop/ROS2_study/build/ros2_test_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jason/Desktop/ROS2_study/install/ros2_test_publisher', 'merge_install': False, 'path': '/home/jason/Desktop/ROS2_study/src/ros2_test_publisher', 'symlink_install': False, 'test_result_base': None}[0m
+[0.593s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.598s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.598s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/jason/Desktop/ROS2_study/src/ros2_test_interfaces' with build type 'ament_cmake'
+[0.599s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/jason/Desktop/ROS2_study/src/ros2_test_interfaces'
+[0.605s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.605s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.605s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.618s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/jason/Desktop/ROS2_study/src/ros2_test_client' with build type 'ament_cmake'
+[0.618s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/jason/Desktop/ROS2_study/src/ros2_test_client'
+[0.624s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.624s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.637s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/jason/Desktop/ROS2_study/src/ros2_test_node' with build type 'ament_cmake'
+[0.637s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/jason/Desktop/ROS2_study/src/ros2_test_node'
+[0.643s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.643s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.656s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/jason/Desktop/ROS2_study/src/ros2_test_service' with build type 'ament_cmake'
+[0.656s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/jason/Desktop/ROS2_study/src/ros2_test_service'
+[0.662s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.662s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.682s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/jason/Desktop/ROS2_study/src/ros2_test_subscriber' with build type 'ament_cmake'
+[0.682s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/jason/Desktop/ROS2_study/src/ros2_test_subscriber'
+[0.688s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.688s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.703s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_interfaces -- -j32 -l32[0m
+[0.706s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_client -- -j32 -l32[0m
+[0.708s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_node -- -j32 -l32[0m
+[0.710s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_service': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_service -- -j32 -l32[0m
+[0.714s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_subscriber -- -j32 -l32[0m
+[0.747s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_node -- -j32 -l32[0m
+[0.749s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_service -- -j32 -l32[0m
+[0.755s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_subscriber -- -j32 -l32[0m
+[0.774s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_service': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/ROS2_study/build/ros2_test_service[0m
+[0.776s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/ROS2_study/build/ros2_test_node[0m
+[0.776s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/ROS2_study/build/ros2_test_subscriber[0m
+[0.781s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ros2_test_service)
+[0.784s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/ROS2_study/build/ros2_test_service[0m
+[0.796s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_service' for CMake module files
+[0.797s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_service' for CMake config files
+[0.797s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ros2_test_service', 'cmake_prefix_path')
+[0.805s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/hook/cmake_prefix_path.ps1'
+[0.806s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/hook/cmake_prefix_path.dsv'
+[0.806s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/hook/cmake_prefix_path.sh'
+[0.807s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_service/lib'
+[0.807s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_service/bin'
+[0.807s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_service/lib/pkgconfig/ros2_test_service.pc'
+[0.807s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_service/lib/python3.10/site-packages'
+[0.807s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_service/bin'
+[0.816s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/package.ps1'
+[0.817s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/package.dsv'
+[0.817s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/package.sh'
+[0.817s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/package.bash'
+[0.818s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/package.zsh'
+[0.818s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jason/Desktop/ROS2_study/install/ros2_test_service/share/colcon-core/packages/ros2_test_service)
+[0.820s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ros2_test_node)
+[0.821s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/ROS2_study/build/ros2_test_node[0m
+[0.831s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_node' for CMake module files
+[0.831s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_node' for CMake config files
+[0.832s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ros2_test_node', 'cmake_prefix_path')
+[0.840s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jason/Desktop/ROS2_study/install/ros2_test_node/share/ros2_test_node/hook/cmake_prefix_path.ps1'
+[0.840s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jason/Desktop/ROS2_study/install/ros2_test_node/share/ros2_test_node/hook/cmake_prefix_path.dsv'
+[0.841s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jason/Desktop/ROS2_study/install/ros2_test_node/share/ros2_test_node/hook/cmake_prefix_path.sh'
+[0.841s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_node/lib'
+[0.841s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_node/bin'
+[0.841s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_node/lib/pkgconfig/ros2_test_node.pc'
+[0.841s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_node/lib/python3.10/site-packages'
+[0.841s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_node/bin'
+[0.850s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_node/share/ros2_test_node/package.ps1'
+[0.851s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jason/Desktop/ROS2_study/install/ros2_test_node/share/ros2_test_node/package.dsv'
+[0.851s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_node/share/ros2_test_node/package.sh'
+[0.851s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_node/share/ros2_test_node/package.bash'
+[0.851s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_node/share/ros2_test_node/package.zsh'
+[0.852s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jason/Desktop/ROS2_study/install/ros2_test_node/share/colcon-core/packages/ros2_test_node)
+[0.852s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ros2_test_subscriber)
+[0.853s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/ROS2_study/build/ros2_test_subscriber[0m
+[0.861s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_subscriber' for CMake module files
+[0.861s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_subscriber' for CMake config files
+[0.861s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ros2_test_subscriber', 'cmake_prefix_path')
+[0.869s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/share/ros2_test_subscriber/hook/cmake_prefix_path.ps1'
+[0.870s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/share/ros2_test_subscriber/hook/cmake_prefix_path.dsv'
+[0.870s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/share/ros2_test_subscriber/hook/cmake_prefix_path.sh'
+[0.870s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/lib'
+[0.870s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/bin'
+[0.870s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/lib/pkgconfig/ros2_test_subscriber.pc'
+[0.871s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/lib/python3.10/site-packages'
+[0.871s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/bin'
+[0.879s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/share/ros2_test_subscriber/package.ps1'
+[0.880s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/share/ros2_test_subscriber/package.dsv'
+[0.880s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/share/ros2_test_subscriber/package.sh'
+[0.880s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/share/ros2_test_subscriber/package.bash'
+[0.880s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/share/ros2_test_subscriber/package.zsh'
+[0.880s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/share/colcon-core/packages/ros2_test_subscriber)
+[0.889s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ros2_test_service)
+[0.898s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_service' for CMake module files
+[0.898s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_service' for CMake config files
+[0.898s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ros2_test_service', 'cmake_prefix_path')
+[0.907s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/hook/cmake_prefix_path.ps1'
+[0.907s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/hook/cmake_prefix_path.dsv'
+[0.907s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/hook/cmake_prefix_path.sh'
+[0.908s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_service/lib'
+[0.908s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_service/bin'
+[0.908s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_service/lib/pkgconfig/ros2_test_service.pc'
+[0.908s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_service/lib/python3.10/site-packages'
+[0.908s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_service/bin'
+[0.917s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/package.ps1'
+[0.917s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/package.dsv'
+[0.918s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/package.sh'
+[0.918s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/package.bash'
+[0.918s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/package.zsh'
+[0.918s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jason/Desktop/ROS2_study/install/ros2_test_service/share/colcon-core/packages/ros2_test_service)
+[0.928s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ros2_test_node)
+[0.936s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_node' for CMake module files
+[0.936s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_node' for CMake config files
+[0.936s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ros2_test_node', 'cmake_prefix_path')
+[0.944s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jason/Desktop/ROS2_study/install/ros2_test_node/share/ros2_test_node/hook/cmake_prefix_path.ps1'
+[0.944s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jason/Desktop/ROS2_study/install/ros2_test_node/share/ros2_test_node/hook/cmake_prefix_path.dsv'
+[0.944s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jason/Desktop/ROS2_study/install/ros2_test_node/share/ros2_test_node/hook/cmake_prefix_path.sh'
+[0.945s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_node/lib'
+[0.945s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_node/bin'
+[0.945s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_node/lib/pkgconfig/ros2_test_node.pc'
+[0.945s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_node/lib/python3.10/site-packages'
+[0.945s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_node/bin'
+[0.953s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_node/share/ros2_test_node/package.ps1'
+[0.953s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jason/Desktop/ROS2_study/install/ros2_test_node/share/ros2_test_node/package.dsv'
+[0.953s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_node/share/ros2_test_node/package.sh'
+[0.953s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_node/share/ros2_test_node/package.bash'
+[0.954s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_node/share/ros2_test_node/package.zsh'
+[0.954s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jason/Desktop/ROS2_study/install/ros2_test_node/share/colcon-core/packages/ros2_test_node)
+[0.962s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ros2_test_subscriber)
+[0.969s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_subscriber' for CMake module files
+[0.969s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_subscriber' for CMake config files
+[0.969s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ros2_test_subscriber', 'cmake_prefix_path')
+[0.976s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/share/ros2_test_subscriber/hook/cmake_prefix_path.ps1'
+[0.976s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/share/ros2_test_subscriber/hook/cmake_prefix_path.dsv'
+[0.976s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/share/ros2_test_subscriber/hook/cmake_prefix_path.sh'
+[0.976s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/lib'
+[0.977s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/bin'
+[0.977s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/lib/pkgconfig/ros2_test_subscriber.pc'
+[0.977s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/lib/python3.10/site-packages'
+[0.977s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/bin'
+[0.984s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/share/ros2_test_subscriber/package.ps1'
+[0.984s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/share/ros2_test_subscriber/package.dsv'
+[0.984s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/share/ros2_test_subscriber/package.sh'
+[0.985s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/share/ros2_test_subscriber/package.bash'
+[0.985s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/share/ros2_test_subscriber/package.zsh'
+[0.985s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/share/colcon-core/packages/ros2_test_subscriber)
+[0.986s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_interfaces -- -j32 -l32[0m
+[1.052s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/ROS2_study/build/ros2_test_interfaces[0m
+[1.088s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ros2_test_interfaces)
+[1.088s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/ROS2_study/build/ros2_test_interfaces[0m
+[1.096s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces' for CMake module files
+[1.096s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces' for CMake config files
+[1.096s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ros2_test_interfaces', 'cmake_prefix_path')
+[1.103s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/hook/cmake_prefix_path.ps1'
+[1.103s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/hook/cmake_prefix_path.dsv'
+[1.104s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/hook/cmake_prefix_path.sh'
+[1.104s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/lib'
+[1.104s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ros2_test_interfaces', 'ld_library_path_lib')
+[1.110s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/hook/ld_library_path_lib.ps1'
+[1.111s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/hook/ld_library_path_lib.dsv'
+[1.111s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/hook/ld_library_path_lib.sh'
+[1.111s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/bin'
+[1.111s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/lib/pkgconfig/ros2_test_interfaces.pc'
+[1.111s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/lib/python3.10/site-packages'
+[1.111s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/bin'
+[1.118s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/package.ps1'
+[1.118s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/package.dsv'
+[1.118s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/package.sh'
+[1.119s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/package.bash'
+[1.119s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/package.zsh'
+[1.119s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/colcon-core/packages/ros2_test_interfaces)
+[1.179s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ros2_test_interfaces)
+[1.186s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces' for CMake module files
+[1.186s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces' for CMake config files
+[1.186s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ros2_test_interfaces', 'cmake_prefix_path')
+[1.192s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/hook/cmake_prefix_path.ps1'
+[1.193s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/hook/cmake_prefix_path.dsv'
+[1.193s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/hook/cmake_prefix_path.sh'
+[1.193s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/lib'
+[1.193s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ros2_test_interfaces', 'ld_library_path_lib')
+[1.200s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/hook/ld_library_path_lib.ps1'
+[1.200s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/hook/ld_library_path_lib.dsv'
+[1.200s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/hook/ld_library_path_lib.sh'
+[1.200s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/bin'
+[1.200s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/lib/pkgconfig/ros2_test_interfaces.pc'
+[1.200s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/lib/python3.10/site-packages'
+[1.201s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/bin'
+[1.207s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/package.ps1'
+[1.207s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/package.dsv'
+[1.207s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/package.sh'
+[1.208s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/package.bash'
+[1.208s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/package.zsh'
+[1.208s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/colcon-core/packages/ros2_test_interfaces)
+[1.208s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/jason/Desktop/ROS2_study/src/ros2_test_publisher' with build type 'ament_cmake'
+[1.208s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/jason/Desktop/ROS2_study/src/ros2_test_publisher'
+[1.215s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.215s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.233s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_publisher': AMENT_PREFIX_PATH=/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/tdt/openvino/tools/compile_tool:/opt/tdt/openvino/runtime/3rdparty/hddl/lib:/opt/tdt/openvino/runtime/lib/intel64:/opt/tdt/libhikcamera/lib64:/opt/tdt/lib:/usr/local/opencv4.7.0/lib PYTHONPATH=/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_publisher -- -j32 -l32[0m
+[1.275s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_publisher' returned '0': AMENT_PREFIX_PATH=/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/tdt/openvino/tools/compile_tool:/opt/tdt/openvino/runtime/3rdparty/hddl/lib:/opt/tdt/openvino/runtime/lib/intel64:/opt/tdt/libhikcamera/lib64:/opt/tdt/lib:/usr/local/opencv4.7.0/lib PYTHONPATH=/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_publisher -- -j32 -l32[0m
+[1.292s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_publisher': AMENT_PREFIX_PATH=/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/tdt/openvino/tools/compile_tool:/opt/tdt/openvino/runtime/3rdparty/hddl/lib:/opt/tdt/openvino/runtime/lib/intel64:/opt/tdt/libhikcamera/lib64:/opt/tdt/lib:/usr/local/opencv4.7.0/lib PYTHONPATH=/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jason/Desktop/ROS2_study/build/ros2_test_publisher[0m
+[1.298s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ros2_test_publisher)
+[1.299s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_publisher' returned '0': AMENT_PREFIX_PATH=/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/tdt/openvino/tools/compile_tool:/opt/tdt/openvino/runtime/3rdparty/hddl/lib:/opt/tdt/openvino/runtime/lib/intel64:/opt/tdt/libhikcamera/lib64:/opt/tdt/lib:/usr/local/opencv4.7.0/lib PYTHONPATH=/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jason/Desktop/ROS2_study/build/ros2_test_publisher[0m
+[1.305s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_publisher' for CMake module files
+[1.306s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_publisher' for CMake config files
+[1.306s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ros2_test_publisher', 'cmake_prefix_path')
+[1.312s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/hook/cmake_prefix_path.ps1'
+[1.312s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/hook/cmake_prefix_path.dsv'
+[1.313s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/hook/cmake_prefix_path.sh'
+[1.313s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_publisher/lib'
+[1.313s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_publisher/bin'
+[1.313s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_publisher/lib/pkgconfig/ros2_test_publisher.pc'
+[1.313s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_publisher/lib/python3.10/site-packages'
+[1.313s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_publisher/bin'
+[1.320s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/package.ps1'
+[1.320s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/package.dsv'
+[1.320s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/package.sh'
+[1.321s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/package.bash'
+[1.321s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/package.zsh'
+[1.321s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/colcon-core/packages/ros2_test_publisher)
+[1.343s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ros2_test_publisher)
+[1.350s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_publisher' for CMake module files
+[1.350s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_publisher' for CMake config files
+[1.350s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ros2_test_publisher', 'cmake_prefix_path')
+[1.356s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/hook/cmake_prefix_path.ps1'
+[1.357s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/hook/cmake_prefix_path.dsv'
+[1.357s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/hook/cmake_prefix_path.sh'
+[1.357s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_publisher/lib'
+[1.357s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_publisher/bin'
+[1.357s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_publisher/lib/pkgconfig/ros2_test_publisher.pc'
+[1.357s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_publisher/lib/python3.10/site-packages'
+[1.357s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_publisher/bin'
+[1.363s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/package.ps1'
+[1.364s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/package.dsv'
+[1.364s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/package.sh'
+[1.364s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/package.bash'
+[1.364s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/package.zsh'
+[1.364s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/colcon-core/packages/ros2_test_publisher)
+[2.377s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_client' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_client -- -j32 -l32[0m
+[2.400s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ros2_test_client)
+[2.406s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_client' for CMake module files
+[2.406s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_client' for CMake config files
+[2.406s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_client/bin'
+[2.406s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_client/lib/pkgconfig/ros2_test_client.pc'
+[2.407s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_client/lib/python3.10/site-packages'
+[2.407s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jason/Desktop/ROS2_study/install/ros2_test_client/bin'
+[2.413s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_client/share/ros2_test_client/package.ps1'
+[2.413s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jason/Desktop/ROS2_study/install/ros2_test_client/share/ros2_test_client/package.dsv'
+[2.413s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_client/share/ros2_test_client/package.sh'
+[2.413s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_client/share/ros2_test_client/package.bash'
+[2.413s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jason/Desktop/ROS2_study/install/ros2_test_client/share/ros2_test_client/package.zsh'
+[2.414s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jason/Desktop/ROS2_study/install/ros2_test_client/share/colcon-core/packages/ros2_test_client)
+[2.424s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[2.424s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[2.424s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '2'[0m
+[2.424s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[2.434s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.434s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.434s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[2.444s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[2.450s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/jason/Desktop/ROS2_study/install/local_setup.ps1'
+[2.451s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/jason/Desktop/ROS2_study/install/_local_setup_util_ps1.py'
+[2.451s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/jason/Desktop/ROS2_study/install/setup.ps1'
+[2.457s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/jason/Desktop/ROS2_study/install/local_setup.sh'
+[2.458s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/jason/Desktop/ROS2_study/install/_local_setup_util_sh.py'
+[2.458s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/jason/Desktop/ROS2_study/install/setup.sh'
+[2.464s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/jason/Desktop/ROS2_study/install/local_setup.bash'
+[2.464s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/jason/Desktop/ROS2_study/install/setup.bash'
+[2.470s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/jason/Desktop/ROS2_study/install/local_setup.zsh'
+[2.471s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/jason/Desktop/ROS2_study/install/setup.zsh'

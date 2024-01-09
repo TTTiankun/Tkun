@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target ros2_test_publisher[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_test_publisher.dir/src/ros2_test_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ros2_test_publisher[0m
+[100%] Built target ros2_test_publisher

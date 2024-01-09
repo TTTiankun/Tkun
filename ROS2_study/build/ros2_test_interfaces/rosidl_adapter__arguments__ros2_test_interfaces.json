@@ -1,0 +1,8 @@
+{
+  "package_name": "ros2_test_interfaces",
+  "non_idl_tuples": [
+    "/home/jason/Desktop/ROS2_study/src/ros2_test_interfaces:msg/TestInterfaces.msg",
+    "/home/jason/Desktop/ROS2_study/src/ros2_test_interfaces:srv/TestInterfaces.srv",
+    "/home/jason/Desktop/ROS2_study/src/ros2_test_interfaces:srv/SellBook.srv"
+  ]
+}

@@ -1,0 +1,11 @@
+[0.020s] Invoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_publisher -- -j32 -l32
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target ros2_test_publisher[0m
+[0.097s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_test_publisher.dir/src/ros2_test_publisher.cpp.o[0m
+[1.219s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher(std::string)[m[K’:
+[1.220s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:31:100:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_callback[m[K’ is not a member of ‘[01m[KMinimalPublisher[m[K’
+[1.220s]    31 |         timer_=this->create_wall_timer(std::chrono::milliseconds(500),std::bind(&MinimalPublisher::[01;31m[Ktimer_callback[m[K,this));
+[1.220s]       |                                                                                                    [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.587s] gmake[2]: *** [CMakeFiles/ros2_test_publisher.dir/build.make:76：CMakeFiles/ros2_test_publisher.dir/src/ros2_test_publisher.cpp.o] 错误 1
+[1.588s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ros2_test_publisher.dir/all] 错误 2
+[1.588s] gmake: *** [Makefile:146：all] 错误 2
+[1.589s] Invoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_publisher' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_publisher -- -j32 -l32

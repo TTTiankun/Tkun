@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:14 (add_message_files):
+  Unknown CMake command "add_message_files".
+
+[0m
+gmake: *** [Makefile:541：cmake_check_build_system] 错误 1

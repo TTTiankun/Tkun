@@ -1,0 +1,59 @@
+[0.021s] Invoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_parameters': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/ROS2_study/src/ros2_test_parameters -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/ROS2_study/install/ros2_test_parameters
+[0.123s] -- The C compiler identification is GNU 11.4.0
+[0.238s] -- The CXX compiler identification is GNU 11.4.0
+[0.258s] -- Detecting C compiler ABI info
+[0.377s] -- Detecting C compiler ABI info - done
+[0.394s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.395s] -- Detecting C compile features
+[0.396s] -- Detecting C compile features - done
+[0.402s] -- Detecting CXX compiler ABI info
+[0.545s] -- Detecting CXX compiler ABI info - done
+[0.559s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.560s] -- Detecting CXX compile features
+[0.561s] -- Detecting CXX compile features - done
+[0.565s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.848s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.985s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[1.053s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.061s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.075s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.095s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.122s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.248s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.252s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.394s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.431s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.502s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.513s] -- Looking for pthread.h
+[1.615s] -- Looking for pthread.h - found
+[1.616s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.720s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.722s] -- Found Threads: TRUE  
+[1.934s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[2.012s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.124s] -- Added test 'lint_cmake' to check CMake code style
+[2.126s] -- Added test 'xmllint' to check XML markup files
+[2.128s] -- Configuring done
+[2.133s] -- Generating done
+[2.135s] -- Build files have been written to: /home/jason/Desktop/ROS2_study/build/ros2_test_parameters
+[2.149s] Invoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_parameters' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/ROS2_study/src/ros2_test_parameters -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/ROS2_study/install/ros2_test_parameters
+[2.152s] Invoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_parameters': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_parameters -- -j32 -l32
+[2.212s] Invoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_parameters' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_parameters -- -j32 -l32
+[2.264s] Invoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_parameters': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/ROS2_study/build/ros2_test_parameters
+[2.276s] -- Install configuration: ""
+[2.276s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_parameters/share/ament_index/resource_index/package_run_dependencies/ros2_test_parameters
+[2.276s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_parameters/share/ament_index/resource_index/parent_prefix_path/ros2_test_parameters
+[2.276s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_parameters/share/ros2_test_parameters/environment/ament_prefix_path.sh
+[2.276s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_parameters/share/ros2_test_parameters/environment/ament_prefix_path.dsv
+[2.277s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_parameters/share/ros2_test_parameters/environment/path.sh
+[2.277s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_parameters/share/ros2_test_parameters/environment/path.dsv
+[2.277s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_parameters/share/ros2_test_parameters/local_setup.bash
+[2.278s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_parameters/share/ros2_test_parameters/local_setup.sh
+[2.278s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_parameters/share/ros2_test_parameters/local_setup.zsh
+[2.278s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_parameters/share/ros2_test_parameters/local_setup.dsv
+[2.278s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_parameters/share/ros2_test_parameters/package.dsv
+[2.278s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_parameters/share/ament_index/resource_index/packages/ros2_test_parameters
+[2.278s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_parameters/share/ros2_test_parameters/cmake/ros2_test_parametersConfig.cmake
+[2.278s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_parameters/share/ros2_test_parameters/cmake/ros2_test_parametersConfig-version.cmake
+[2.279s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_parameters/share/ros2_test_parameters/package.xml
+[2.281s] Invoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_parameters' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/ROS2_study/build/ros2_test_parameters

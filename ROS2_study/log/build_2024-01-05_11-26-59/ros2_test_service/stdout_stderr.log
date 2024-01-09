@@ -1,0 +1,56 @@
+[35m[1mConsolidate compiler generated dependencies of target ros2_test_service[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_test_service.dir/src/ros2_test_service.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_service/src/ros2_test_service.cpp:2[m[K:
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_service/src/ros2_test_service.cpp:[m[K In member function ‘[01m[Kvoid Service_test01::add_ints_callback(std::shared_ptr<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >, std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_service/src/ros2_test_service.cpp:23:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_a_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   23 |         RCLCPP_INFO(this->get_logger(),[01;35m[K"request: %d + %ld = %d"[m[K,[32m[Krequest->a[m[K,request->b,response->sum);
+      |                                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K [32m[K~~~~~~~~~~[m[K
+      |                                                                          [32m[K|[m[K
+      |                                                                          [32m[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_a_type {aka long int}[m[K
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_service/src/ros2_test_service.cpp:23:51:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   23 |         RCLCPP_INFO(this->get_logger(),"request: [01;36m[K%d[m[K + %ld = %d",request->a,request->b,response->sum);
+      |                                                  [01;36m[K~^[m[K
+      |                                                   [01;36m[K|[m[K
+      |                                                   [01;36m[Kint[m[K
+      |                                                  [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_service/src/ros2_test_service.cpp:2[m[K:
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_service/src/ros2_test_service.cpp:23:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kexample_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   23 |         RCLCPP_INFO(this->get_logger(),[01;35m[K"request: %d + %ld = %d"[m[K,request->a,request->b,[32m[Kresponse->sum[m[K);
+      |                                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K                       [32m[K~~~~~~~~~~~~~[m[K
+      |                                                                                                 [32m[K|[m[K
+      |                                                                                                 [32m[Kexample_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type {aka long int}[m[K
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_service/src/ros2_test_service.cpp:23:62:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   23 |         RCLCPP_INFO(this->get_logger(),"request: %d + %ld = [01;36m[K%d[m[K",request->a,request->b,response->sum);
+      |                                                             [01;36m[K~^[m[K
+      |                                                              [01;36m[K|[m[K
+      |                                                              [01;36m[Kint[m[K
+      |                                                             [32m[K%ld[m[K
+[100%] [32m[1mLinking CXX executable ros2_test_service[0m
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/ros2_test_service.dir/build.make:183：ros2_test_service] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ros2_test_service.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

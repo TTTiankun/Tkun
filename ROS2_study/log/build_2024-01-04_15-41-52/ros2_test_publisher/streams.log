@@ -1,0 +1,48 @@
+[0.034s] Invoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_publisher': AMENT_PREFIX_PATH=/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/tdt/openvino/tools/compile_tool:/opt/tdt/openvino/runtime/3rdparty/hddl/lib:/opt/tdt/openvino/runtime/lib/intel64:/opt/tdt/libhikcamera/lib64:/opt/tdt/lib:/usr/local/opencv4.7.0/lib PYTHONPATH=/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_publisher -- -j32 -l32
+[0.068s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.345s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.388s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.391s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.398s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.411s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.434s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.502s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.503s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.563s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.754s] -- Found ros2_test_interfaces: 0.0.0 (/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/cmake)
+[0.873s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.943s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.943s] -- Configured cppcheck include dirs: 
+[0.943s] -- Configured cppcheck exclude dirs and/or files: 
+[0.944s] -- Added test 'lint_cmake' to check CMake code style
+[0.945s] -- Added test 'uncrustify' to check C / C++ code style
+[0.945s] -- Configured uncrustify additional arguments: 
+[0.945s] -- Added test 'xmllint' to check XML markup files
+[0.949s] -- Configuring done
+[0.966s] -- Generating done
+[0.969s] -- Build files have been written to: /home/jason/Desktop/ROS2_study/build/ros2_test_publisher
+[1.000s] [35m[1mConsolidate compiler generated dependencies of target ros2_test_publisher[0m
+[1.025s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_test_publisher.dir/src/ros2_test_publisher.cpp.o[0m
+[3.406s] [100%] [32m[1mLinking CXX executable ros2_test_publisher[0m
+[3.706s] [100%] Built target ros2_test_publisher
+[3.716s] Invoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_publisher' returned '0': AMENT_PREFIX_PATH=/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/tdt/openvino/tools/compile_tool:/opt/tdt/openvino/runtime/3rdparty/hddl/lib:/opt/tdt/openvino/runtime/lib/intel64:/opt/tdt/libhikcamera/lib64:/opt/tdt/lib:/usr/local/opencv4.7.0/lib PYTHONPATH=/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_publisher -- -j32 -l32
+[3.762s] Invoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_publisher': AMENT_PREFIX_PATH=/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/tdt/openvino/tools/compile_tool:/opt/tdt/openvino/runtime/3rdparty/hddl/lib:/opt/tdt/openvino/runtime/lib/intel64:/opt/tdt/libhikcamera/lib64:/opt/tdt/lib:/usr/local/opencv4.7.0/lib PYTHONPATH=/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jason/Desktop/ROS2_study/build/ros2_test_publisher
+[3.771s] -- Install configuration: ""
+[3.771s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ament_index/resource_index/package_run_dependencies/ros2_test_publisher
+[3.772s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ament_index/resource_index/parent_prefix_path/ros2_test_publisher
+[3.772s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/environment/ament_prefix_path.sh
+[3.773s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/environment/ament_prefix_path.dsv
+[3.773s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/environment/path.sh
+[3.773s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/environment/path.dsv
+[3.773s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/local_setup.bash
+[3.773s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/local_setup.sh
+[3.774s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/local_setup.zsh
+[3.774s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/local_setup.dsv
+[3.774s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/package.dsv
+[3.774s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ament_index/resource_index/packages/ros2_test_publisher
+[3.774s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/cmake/ros2_test_publisherConfig.cmake
+[3.774s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/cmake/ros2_test_publisherConfig-version.cmake
+[3.774s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/package.xml
+[3.775s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_publisher/lib/ros2_test_publisher/ros2_test_publisher
+[3.777s] -- Set runtime path of "/home/jason/Desktop/ROS2_study/install/ros2_test_publisher/lib/ros2_test_publisher/ros2_test_publisher" to ""
+[3.780s] Invoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_publisher' returned '0': AMENT_PREFIX_PATH=/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/tdt/openvino/tools/compile_tool:/opt/tdt/openvino/runtime/3rdparty/hddl/lib:/opt/tdt/openvino/runtime/lib/intel64:/opt/tdt/libhikcamera/lib64:/opt/tdt/lib:/usr/local/opencv4.7.0/lib PYTHONPATH=/home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jason/Desktop/ROS2_study/build/ros2_test_publisher

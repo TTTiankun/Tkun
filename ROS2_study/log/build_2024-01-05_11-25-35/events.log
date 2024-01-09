@@ -1,0 +1,201 @@
+[0.000000] (-) TimerEvent: {}
+[0.000423] (-) JobUnselected: {'identifier': 'ros2_test_interfaces'}
+[0.000450] (-) JobUnselected: {'identifier': 'ros2_test_node'}
+[0.000462] (-) JobUnselected: {'identifier': 'ros2_test_publisher'}
+[0.000472] (-) JobUnselected: {'identifier': 'ros2_test_subscriber'}
+[0.000483] (ros2_test_service) JobQueued: {'identifier': 'ros2_test_service', 'dependencies': OrderedDict()}
+[0.000495] (ros2_test_service) JobStarted: {'identifier': 'ros2_test_service'}
+[0.040352] (ros2_test_service) JobProgress: {'identifier': 'ros2_test_service', 'progress': 'cmake'}
+[0.041016] (ros2_test_service) Command: {'cmd': ['/usr/bin/cmake', '/home/jason/Desktop/ROS2_study/src/ros2_test_service', '-DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/ROS2_study/install/ros2_test_service'], 'cwd': '/home/jason/Desktop/ROS2_study/build/ros2_test_service', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'jason'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/tdt/openvino/tools/compile_tool:/opt/tdt/openvino/runtime/3rdparty/hddl/lib:/opt/tdt/openvino/runtime/lib/intel64::/opt/tdt/libhikcamera/lib64:/opt/tdt/lib:/usr/local/opencv4.7.0/lib'), ('HDDL_INSTALL_DIR', '/opt/tdt/openvino/runtime/3rdparty/hddl'), ('HOME', '/home/jason'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/jason/Desktop/ROS2_study/src/ros2_test_service/src'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('INTEL_OPENVINO_DIR', '/opt/tdt/openvino'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1726'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'jason'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/tdt/openvino/runtime/lib/intel64/pkgconfig:/opt/tdt/lib/pkgconfig:/usr/local/opencv4.7.0/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jason'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MVCAM_SDK_PATH', '/opt/tdt/MVS'), ('PATH', '/opt/tdt/libhikcamera/cmake:/opt/tdt/lib/cmake:/opt/ros/humble/bin:/opt/tdt/libhikcamera/cmake:/opt/tdt/lib/cmake:/home/jason/miniconda3/condabin:/opt/tdt/libhikcamera/cmake:/opt/tdt/lib/cmake:/home/jason/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jason-Legion:@/tmp/.ICE-unix/1706,unix/jason-Legion:/tmp/.ICE-unix/1706'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3b056f72_9ecb_4c62_89cf_4723b66ffc25'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b7a0f9322e.sock'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/jason/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('ngraph_DIR', '/opt/tdt/openvino/runtime/cmake'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('InferenceEngine_DIR', '/opt/tdt/openvino/runtime/cmake'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/jason/Desktop/ROS2_study/build/ros2_test_service'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/jason/miniconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('OpenVINO_DIR', '/opt/tdt/openvino/runtime/cmake'), ('MVCAM_COMMON_RUNENV', '/opt/tdt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100044] (-) TimerEvent: {}
+[0.161402] (ros2_test_service) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.200135] (-) TimerEvent: {}
+[0.258357] (ros2_test_service) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.271452] (ros2_test_service) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300232] (-) TimerEvent: {}
+[0.372170] (ros2_test_service) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.382897] (ros2_test_service) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.383415] (ros2_test_service) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.384242] (ros2_test_service) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.389178] (ros2_test_service) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400405] (-) TimerEvent: {}
+[0.500746] (-) TimerEvent: {}
+[0.528626] (ros2_test_service) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.544124] (ros2_test_service) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.544836] (ros2_test_service) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.546033] (ros2_test_service) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.551880] (ros2_test_service) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600925] (-) TimerEvent: {}
+[0.701331] (-) TimerEvent: {}
+[0.801687] (-) TimerEvent: {}
+[0.830948] (ros2_test_service) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.901806] (-) TimerEvent: {}
+[0.952968] (ros2_test_service) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.002010] (-) TimerEvent: {}
+[1.037700] (ros2_test_service) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.048505] (ros2_test_service) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.066483] (ros2_test_service) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.101170] (ros2_test_service) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.102097] (-) TimerEvent: {}
+[1.138673] (ros2_test_service) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.202309] (-) TimerEvent: {}
+[1.254319] (ros2_test_service) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.261586] (ros2_test_service) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.302439] (-) TimerEvent: {}
+[1.402978] (-) TimerEvent: {}
+[1.487590] (ros2_test_service) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.503185] (-) TimerEvent: {}
+[1.540041] (ros2_test_service) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.603392] (-) TimerEvent: {}
+[1.638457] (ros2_test_service) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.660248] (ros2_test_service) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.703562] (-) TimerEvent: {}
+[1.794856] (ros2_test_service) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.795562] (ros2_test_service) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.803648] (-) TimerEvent: {}
+[1.904092] (-) TimerEvent: {}
+[1.912725] (ros2_test_service) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.915136] (ros2_test_service) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.004233] (-) TimerEvent: {}
+[2.104775] (-) TimerEvent: {}
+[2.136739] (ros2_test_service) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[2.204899] (-) TimerEvent: {}
+[2.305382] (-) TimerEvent: {}
+[2.321550] (ros2_test_service) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.405523] (-) TimerEvent: {}
+[2.452913] (ros2_test_service) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.453350] (ros2_test_service) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.453475] (ros2_test_service) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.454371] (ros2_test_service) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.456063] (ros2_test_service) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.456284] (ros2_test_service) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.456983] (ros2_test_service) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.459281] (ros2_test_service) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.477702] (ros2_test_service) StdoutLine: {'line': b'-- Generating done\n'}
+[2.480531] (ros2_test_service) StdoutLine: {'line': b'-- Build files have been written to: /home/jason/Desktop/ROS2_study/build/ros2_test_service\n'}
+[2.492239] (ros2_test_service) CommandEnded: {'returncode': 0}
+[2.493274] (ros2_test_service) JobProgress: {'identifier': 'ros2_test_service', 'progress': 'build'}
+[2.495725] (ros2_test_service) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jason/Desktop/ROS2_study/build/ros2_test_service', '--', '-j32', '-l32'], 'cwd': '/home/jason/Desktop/ROS2_study/build/ros2_test_service', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'jason'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/tdt/openvino/tools/compile_tool:/opt/tdt/openvino/runtime/3rdparty/hddl/lib:/opt/tdt/openvino/runtime/lib/intel64::/opt/tdt/libhikcamera/lib64:/opt/tdt/lib:/usr/local/opencv4.7.0/lib'), ('HDDL_INSTALL_DIR', '/opt/tdt/openvino/runtime/3rdparty/hddl'), ('HOME', '/home/jason'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/jason/Desktop/ROS2_study/src/ros2_test_service/src'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('INTEL_OPENVINO_DIR', '/opt/tdt/openvino'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1726'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'jason'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/tdt/openvino/runtime/lib/intel64/pkgconfig:/opt/tdt/lib/pkgconfig:/usr/local/opencv4.7.0/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jason'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MVCAM_SDK_PATH', '/opt/tdt/MVS'), ('PATH', '/opt/tdt/libhikcamera/cmake:/opt/tdt/lib/cmake:/opt/ros/humble/bin:/opt/tdt/libhikcamera/cmake:/opt/tdt/lib/cmake:/home/jason/miniconda3/condabin:/opt/tdt/libhikcamera/cmake:/opt/tdt/lib/cmake:/home/jason/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jason-Legion:@/tmp/.ICE-unix/1706,unix/jason-Legion:/tmp/.ICE-unix/1706'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3b056f72_9ecb_4c62_89cf_4723b66ffc25'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b7a0f9322e.sock'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/jason/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('ngraph_DIR', '/opt/tdt/openvino/runtime/cmake'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('InferenceEngine_DIR', '/opt/tdt/openvino/runtime/cmake'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/jason/Desktop/ROS2_study/build/ros2_test_service'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/jason/miniconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('OpenVINO_DIR', '/opt/tdt/openvino/runtime/cmake'), ('MVCAM_COMMON_RUNENV', '/opt/tdt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.505645] (-) TimerEvent: {}
+[2.595516] (ros2_test_service) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ros2_test_service.dir/src/ros2_test_service.cpp.o\x1b[0m\n'}
+[2.605905] (-) TimerEvent: {}
+[2.706472] (-) TimerEvent: {}
+[2.807096] (-) TimerEvent: {}
+[2.907661] (-) TimerEvent: {}
+[3.008343] (-) TimerEvent: {}
+[3.108946] (-) TimerEvent: {}
+[3.209588] (-) TimerEvent: {}
+[3.310032] (-) TimerEvent: {}
+[3.410392] (-) TimerEvent: {}
+[3.510716] (-) TimerEvent: {}
+[3.611104] (-) TimerEvent: {}
+[3.711499] (-) TimerEvent: {}
+[3.811902] (-) TimerEvent: {}
+[3.912282] (-) TimerEvent: {}
+[4.012687] (-) TimerEvent: {}
+[4.113100] (-) TimerEvent: {}
+[4.213368] (-) TimerEvent: {}
+[4.250680] (ros2_test_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/Desktop/ROS2_study/src/ros2_test_service/src/ros2_test_service.cpp:5:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_1\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.250864] (ros2_test_service) StderrLine: {'line': b'    5 | std::placeholders::\x1b[01;31m\x1b[K_1\x1b[m\x1b[K;\n'}
+[4.250932] (ros2_test_service) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.250994] (ros2_test_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[4.251055] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[4.251120] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:8\x1b[m\x1b[K,\n'}
+[4.251185] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/example_interfaces/example_interfaces/srv/add_two_ints.hpp:7\x1b[m\x1b[K,\n'}
+[4.251248] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jason/Desktop/ROS2_study/src/ros2_test_service/src/ros2_test_service.cpp:1\x1b[m\x1b[K:\n'}
+[4.251306] (ros2_test_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:225:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[4.251365] (ros2_test_service) StderrLine: {'line': b'  225 |     extern const _Placeholder<1> \x1b[01;36m\x1b[K_1\x1b[m\x1b[K;\n'}
+[4.251422] (ros2_test_service) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.251480] (ros2_test_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/Desktop/ROS2_study/src/ros2_test_service/src/ros2_test_service.cpp:6:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_2\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.251538] (ros2_test_service) StderrLine: {'line': b'    6 | std::placeholders::\x1b[01;31m\x1b[K_2\x1b[m\x1b[K;\n'}
+[4.251595] (ros2_test_service) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.251652] (ros2_test_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[4.251709] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[4.251767] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:8\x1b[m\x1b[K,\n'}
+[4.251829] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/example_interfaces/example_interfaces/srv/add_two_ints.hpp:7\x1b[m\x1b[K,\n'}
+[4.251885] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jason/Desktop/ROS2_study/src/ros2_test_service/src/ros2_test_service.cpp:1\x1b[m\x1b[K:\n'}
+[4.251942] (ros2_test_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:226:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders::_2\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[4.251999] (ros2_test_service) StderrLine: {'line': b'  226 |     extern const _Placeholder<2> \x1b[01;36m\x1b[K_2\x1b[m\x1b[K;\n'}
+[4.252055] (ros2_test_service) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.274574] (ros2_test_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[4.274790] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.274856] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.274917] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.274976] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.275036] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.275094] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.275156] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.275214] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.275281] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.275339] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.275397] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jason/Desktop/ROS2_study/src/ros2_test_service/src/ros2_test_service.cpp:2\x1b[m\x1b[K:\n'}
+[4.275553] (ros2_test_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/Desktop/ROS2_study/src/ros2_test_service/src/ros2_test_service.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Service_test01::add_ints_callback(std::shared_ptr<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >, std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.275621] (ros2_test_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/Desktop/ROS2_study/src/ros2_test_service/src/ros2_test_service.cpp:25:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_a_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.275795] (ros2_test_service) StderrLine: {'line': b'   25 |         RCLCPP_INFO(this->get_logger(),\x1b[01;35m\x1b[K"request: %d + %d = %d"\x1b[m\x1b[K,\x1b[32m\x1b[Krequest->a\x1b[m\x1b[K,request->b,response->sum);\n'}
+[4.275828] (ros2_test_service) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \x1b[32m\x1b[K~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.275857] (ros2_test_service) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[4.275884] (ros2_test_service) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_a_type {aka long int}\x1b[m\x1b[K\n'}
+[4.275911] (ros2_test_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/Desktop/ROS2_study/src/ros2_test_service/src/ros2_test_service.cpp:25:51:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[4.275938] (ros2_test_service) StderrLine: {'line': b'   25 |         RCLCPP_INFO(this->get_logger(),"request: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K + %d = %d",request->a,request->b,response->sum);\n'}
+[4.275964] (ros2_test_service) StderrLine: {'line': b'      |                                                  \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[4.275990] (ros2_test_service) StderrLine: {'line': b'      |                                                   \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[4.276015] (ros2_test_service) StderrLine: {'line': b'      |                                                   \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[4.276041] (ros2_test_service) StderrLine: {'line': b'      |                                                  \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[4.276067] (ros2_test_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[4.276093] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.276119] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.276146] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.276173] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.276197] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.276223] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.276248] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.276272] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.276298] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.276322] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.276347] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jason/Desktop/ROS2_study/src/ros2_test_service/src/ros2_test_service.cpp:2\x1b[m\x1b[K:\n'}
+[4.276372] (ros2_test_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/Desktop/ROS2_study/src/ros2_test_service/src/ros2_test_service.cpp:25:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_b_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.276399] (ros2_test_service) StderrLine: {'line': b'   25 |         RCLCPP_INFO(this->get_logger(),\x1b[01;35m\x1b[K"request: %d + %d = %d"\x1b[m\x1b[K,request->a,\x1b[32m\x1b[Krequest->b\x1b[m\x1b[K,response->sum);\n'}
+[4.276425] (ros2_test_service) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K            \x1b[32m\x1b[K~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.276451] (ros2_test_service) StderrLine: {'line': b'      |                                                                                    \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[4.276478] (ros2_test_service) StderrLine: {'line': b'      |                                                                                    \x1b[32m\x1b[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_b_type {aka long int}\x1b[m\x1b[K\n'}
+[4.276504] (ros2_test_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/Desktop/ROS2_study/src/ros2_test_service/src/ros2_test_service.cpp:25:56:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[4.276529] (ros2_test_service) StderrLine: {'line': b'   25 |         RCLCPP_INFO(this->get_logger(),"request: %d + \x1b[01;36m\x1b[K%d\x1b[m\x1b[K = %d",request->a,request->b,response->sum);\n'}
+[4.276555] (ros2_test_service) StderrLine: {'line': b'      |                                                       \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[4.276580] (ros2_test_service) StderrLine: {'line': b'      |                                                        \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[4.276606] (ros2_test_service) StderrLine: {'line': b'      |                                                        \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[4.276631] (ros2_test_service) StderrLine: {'line': b'      |                                                       \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[4.276657] (ros2_test_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[4.276684] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.276708] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.276733] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.276759] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.276784] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.276809] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.276833] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.276857] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.276882] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.276906] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.276931] (ros2_test_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jason/Desktop/ROS2_study/src/ros2_test_service/src/ros2_test_service.cpp:2\x1b[m\x1b[K:\n'}
+[4.276957] (ros2_test_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/Desktop/ROS2_study/src/ros2_test_service/src/ros2_test_service.cpp:25:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 7 has type \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.276984] (ros2_test_service) StderrLine: {'line': b'   25 |         RCLCPP_INFO(this->get_logger(),\x1b[01;35m\x1b[K"request: %d + %d = %d"\x1b[m\x1b[K,request->a,request->b,\x1b[32m\x1b[Kresponse->sum\x1b[m\x1b[K);\n'}
+[4.277016] (ros2_test_service) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                       \x1b[32m\x1b[K~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.277041] (ros2_test_service) StderrLine: {'line': b'      |                                                                                                \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[4.277066] (ros2_test_service) StderrLine: {'line': b'      |                                                                                                \x1b[32m\x1b[Kexample_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type {aka long int}\x1b[m\x1b[K\n'}
+[4.277091] (ros2_test_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/Desktop/ROS2_study/src/ros2_test_service/src/ros2_test_service.cpp:25:61:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[4.277116] (ros2_test_service) StderrLine: {'line': b'   25 |         RCLCPP_INFO(this->get_logger(),"request: %d + %d = \x1b[01;36m\x1b[K%d\x1b[m\x1b[K",request->a,request->b,response->sum);\n'}
+[4.277143] (ros2_test_service) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[4.277168] (ros2_test_service) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[4.277193] (ros2_test_service) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[4.277218] (ros2_test_service) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[4.313499] (-) TimerEvent: {}
+[4.413960] (-) TimerEvent: {}
+[4.514342] (-) TimerEvent: {}
+[4.614630] (-) TimerEvent: {}
+[4.715013] (-) TimerEvent: {}
+[4.725654] (ros2_test_service) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ros2_test_service.dir/build.make:76\xef\xbc\x9aCMakeFiles/ros2_test_service.dir/src/ros2_test_service.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[4.726029] (ros2_test_service) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/ros2_test_service.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[4.726463] (ros2_test_service) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[4.729085] (ros2_test_service) CommandEnded: {'returncode': 2}
+[4.815757] (-) TimerEvent: {}
+[4.828503] (ros2_test_service) JobEnded: {'identifier': 'ros2_test_service', 'rc': 2}
+[4.839240] (-) EventReactorShutdown: {}

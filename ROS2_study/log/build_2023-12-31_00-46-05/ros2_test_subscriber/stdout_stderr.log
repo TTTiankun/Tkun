@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target ros2_test_subscriber[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_test_subscriber.dir/src/ros2_test_subscriber.cpp.o[0m
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_subscriber/src/ros2_test_subscriber.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber(const char*)[m[K’:
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_subscriber/src/ros2_test_subscriber.cpp:24:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode_name[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   24 |     MinimalSubscriber([01;35m[Kconst char* node_name[m[K):Node("minimal_subscriber")
+      |                       [01;35m[K~~~~~~~~~~~~^~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable ros2_test_subscriber[0m
+[100%] Built target ros2_test_subscriber
+-- Install configuration: ""
+-- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/share/ament_index/resource_index/package_run_dependencies/ros2_test_subscriber
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/share/ament_index/resource_index/parent_prefix_path/ros2_test_subscriber
+-- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/share/ros2_test_subscriber/environment/ament_prefix_path.sh
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/share/ros2_test_subscriber/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/share/ros2_test_subscriber/environment/path.sh
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/share/ros2_test_subscriber/environment/path.dsv
+-- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/share/ros2_test_subscriber/local_setup.bash
+-- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/share/ros2_test_subscriber/local_setup.sh
+-- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/share/ros2_test_subscriber/local_setup.zsh
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/share/ros2_test_subscriber/local_setup.dsv
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/share/ros2_test_subscriber/package.dsv
+-- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/share/ament_index/resource_index/packages/ros2_test_subscriber
+-- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/share/ros2_test_subscriber/cmake/ros2_test_subscriberConfig.cmake
+-- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/share/ros2_test_subscriber/cmake/ros2_test_subscriberConfig-version.cmake
+-- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/share/ros2_test_subscriber/package.xml
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/lib/ros2_test_subscriber/ros2_test_subscriber
+-- Set runtime path of "/home/jason/Desktop/ROS2_study/install/ros2_test_subscriber/lib/ros2_test_subscriber/ros2_test_subscriber" to ""

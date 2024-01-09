@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ros2_test_interfaces/srv/SellBook.srv
+// generated code does not contain a copyright notice
+
+
+module ros2_test_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "request")
+    struct SellBook_Request {
+      uint32 money;
+    };
+    @verbatim (language="comment", text=
+      "response   ")
+    struct SellBook_Response {
+      sequence<string> novels;
+    };
+  };
+};

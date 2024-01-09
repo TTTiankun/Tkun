@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_test_interfaces/msg/TestInterfaces.msg
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+
+module ros2_test_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "标准消息接口std_msgs下的string类型" "\n"
+      "std_msgs/String content 其中一种写法")
+    struct TestInterfaces {
+      @verbatim (language="comment", text=
+        "调用原始的数据类型")
+      string content;
+
+      @verbatim (language="comment", text=
+        "调用已有的数据类型" "\n"
+        "图像消息，调用sensor_msgs下的Image类型")
+      sensor_msgs::msg::Image image;
+    };
+  };
+};

@@ -1,0 +1,15 @@
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher(const char*)[m[K’:
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:31:100:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_callback[m[K’ is not a member of ‘[01m[KMinimalPublisher[m[K’
+   31 |         timer_=this->create_wall_timer(std::chrono::milliseconds(500),std::bind(&MinimalPublisher::[01;31m[Ktimer_callback[m[K,this));
+      |                                                                                                    [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:24:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode_name[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   24 |     MinimalPublisher([01;35m[Kconst char* node_name[m[K):Node("minimal_publisher")
+      |                      [01;35m[K~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::topic_callback()[m[K’:
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:43:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope; did you mean ‘[01m[Kmessages[m[K’?
+   43 |         [01;31m[Kmessage[m[K.data = "Hello World!";//赋值
+      |         [01;31m[K^~~~~~~[m[K
+      |         [32m[Kmessages[m[K
+gmake[2]: *** [CMakeFiles/ros2_test_publisher.dir/build.make:76：CMakeFiles/ros2_test_publisher.dir/src/ros2_test_publisher.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ros2_test_publisher.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

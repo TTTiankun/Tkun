@@ -1,0 +1,35 @@
+[0.030s] Invoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_publisher -- -j32 -l32
+[0.080s] [35m[1mConsolidate compiler generated dependencies of target ros2_test_publisher[0m
+[0.113s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_test_publisher.dir/src/ros2_test_publisher.cpp.o[0m
+[1.410s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.410s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:25:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.410s]    25 | opic_callback([01;35m[Kconst std_msgs::msg::String::SharedPtr msg[m[K)
+[1.410s]       |               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.410s] 
+[1.415s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher(const char*)[m[K’:
+[1.415s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:40:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode_name[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.415s]    40 |     MinimalPublisher([01;35m[Kconst char* node_name[m[K):Node("minimal_publisher")
+[1.415s]       |                      [01;35m[K~~~~~~~~~~~~^~~~~~~~~[m[K
+[4.813s] [100%] [32m[1mLinking CXX executable ros2_test_publisher[0m
+[5.046s] [100%] Built target ros2_test_publisher
+[5.058s] Invoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_publisher -- -j32 -l32
+[5.105s] Invoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/ROS2_study/build/ros2_test_publisher
+[5.114s] -- Install configuration: ""
+[5.114s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ament_index/resource_index/package_run_dependencies/ros2_test_publisher
+[5.114s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ament_index/resource_index/parent_prefix_path/ros2_test_publisher
+[5.114s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/environment/ament_prefix_path.sh
+[5.115s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/environment/ament_prefix_path.dsv
+[5.115s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/environment/path.sh
+[5.115s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/environment/path.dsv
+[5.115s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/local_setup.bash
+[5.115s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/local_setup.sh
+[5.115s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/local_setup.zsh
+[5.116s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/local_setup.dsv
+[5.116s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/package.dsv
+[5.116s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ament_index/resource_index/packages/ros2_test_publisher
+[5.116s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/cmake/ros2_test_publisherConfig.cmake
+[5.116s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/cmake/ros2_test_publisherConfig-version.cmake
+[5.116s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_publisher/share/ros2_test_publisher/package.xml
+[5.116s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_publisher/lib/ros2_test_publisher/ros2_test_publisher
+[5.119s] -- Set runtime path of "/home/jason/Desktop/ROS2_study/install/ros2_test_publisher/lib/ros2_test_publisher/ros2_test_publisher" to ""
+[5.122s] Invoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/ROS2_study/build/ros2_test_publisher

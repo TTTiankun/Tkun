@@ -1,0 +1,142 @@
+[0.045s] Invoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_service': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/ROS2_study/src/ros2_test_service -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/ROS2_study/install/ros2_test_service
+[0.161s] -- The C compiler identification is GNU 11.4.0
+[0.258s] -- The CXX compiler identification is GNU 11.4.0
+[0.271s] -- Detecting C compiler ABI info
+[0.372s] -- Detecting C compiler ABI info - done
+[0.383s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.383s] -- Detecting C compile features
+[0.384s] -- Detecting C compile features - done
+[0.389s] -- Detecting CXX compiler ABI info
+[0.528s] -- Detecting CXX compiler ABI info - done
+[0.544s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.544s] -- Detecting CXX compile features
+[0.546s] -- Detecting CXX compile features - done
+[0.552s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.831s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.953s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[1.037s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.048s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.066s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.101s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.138s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.254s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.261s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.487s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.540s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.638s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.660s] -- Looking for pthread.h
+[1.795s] -- Looking for pthread.h - found
+[1.795s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.912s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.915s] -- Found Threads: TRUE  
+[2.136s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[2.321s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.453s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.453s] -- Configured cppcheck include dirs: 
+[2.453s] -- Configured cppcheck exclude dirs and/or files: 
+[2.454s] -- Added test 'lint_cmake' to check CMake code style
+[2.456s] -- Added test 'uncrustify' to check C / C++ code style
+[2.456s] -- Configured uncrustify additional arguments: 
+[2.457s] -- Added test 'xmllint' to check XML markup files
+[2.459s] -- Configuring done
+[2.477s] -- Generating done
+[2.480s] -- Build files have been written to: /home/jason/Desktop/ROS2_study/build/ros2_test_service
+[2.492s] Invoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/ROS2_study/src/ros2_test_service -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/ROS2_study/install/ros2_test_service
+[2.496s] Invoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_service': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_service -- -j32 -l32
+[2.595s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_test_service.dir/src/ros2_test_service.cpp.o[0m
+[4.250s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_service/src/ros2_test_service.cpp:5:20:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ in namespace ‘[01m[Kstd::placeholders[m[K’ does not name a type
+[4.250s]     5 | std::placeholders::[01;31m[K_1[m[K;
+[4.250s]       |                    [01;31m[K^~[m[K
+[4.251s] In file included from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[4.251s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[4.251s]                  from [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:8[m[K,
+[4.251s]                  from [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/srv/add_two_ints.hpp:7[m[K,
+[4.251s]                  from [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_service/src/ros2_test_service.cpp:1[m[K:
+[4.251s] [01m[K/usr/include/c++/11/functional:225:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+[4.251s]   225 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+[4.251s]       |                                  [01;36m[K^~[m[K
+[4.251s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_service/src/ros2_test_service.cpp:6:20:[m[K [01;31m[Kerror: [m[K‘[01m[K_2[m[K’ in namespace ‘[01m[Kstd::placeholders[m[K’ does not name a type
+[4.251s]     6 | std::placeholders::[01;31m[K_2[m[K;
+[4.251s]       |                    [01;31m[K^~[m[K
+[4.251s] In file included from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[4.251s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[4.251s]                  from [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:8[m[K,
+[4.251s]                  from [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/srv/add_two_ints.hpp:7[m[K,
+[4.251s]                  from [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_service/src/ros2_test_service.cpp:1[m[K:
+[4.251s] [01m[K/usr/include/c++/11/functional:226:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_2[m[K’ declared here
+[4.252s]   226 |     extern const _Placeholder<2> [01;36m[K_2[m[K;
+[4.252s]       |                                  [01;36m[K^~[m[K
+[4.274s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.274s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.274s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.274s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.275s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.275s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.275s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.275s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.275s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.275s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.275s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.275s]                  from [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_service/src/ros2_test_service.cpp:2[m[K:
+[4.275s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_service/src/ros2_test_service.cpp:[m[K In member function ‘[01m[Kvoid Service_test01::add_ints_callback(std::shared_ptr<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >, std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > >)[m[K’:
+[4.275s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_service/src/ros2_test_service.cpp:25:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_a_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[4.275s]    25 |         RCLCPP_INFO(this->get_logger(),[01;35m[K"request: %d + %d = %d"[m[K,[32m[Krequest->a[m[K,request->b,response->sum);
+[4.275s]       |                                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K [32m[K~~~~~~~~~~[m[K
+[4.275s]       |                                                                         [32m[K|[m[K
+[4.275s]       |                                                                         [32m[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_a_type {aka long int}[m[K
+[4.275s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_service/src/ros2_test_service.cpp:25:51:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[4.275s]    25 |         RCLCPP_INFO(this->get_logger(),"request: [01;36m[K%d[m[K + %d = %d",request->a,request->b,response->sum);
+[4.275s]       |                                                  [01;36m[K~^[m[K
+[4.276s]       |                                                   [01;36m[K|[m[K
+[4.276s]       |                                                   [01;36m[Kint[m[K
+[4.276s]       |                                                  [32m[K%ld[m[K
+[4.276s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.276s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.276s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.276s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.276s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.276s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.276s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.276s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.276s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.276s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.276s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.276s]                  from [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_service/src/ros2_test_service.cpp:2[m[K:
+[4.276s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_service/src/ros2_test_service.cpp:25:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_b_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[4.276s]    25 |         RCLCPP_INFO(this->get_logger(),[01;35m[K"request: %d + %d = %d"[m[K,request->a,[32m[Krequest->b[m[K,response->sum);
+[4.276s]       |                                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K            [32m[K~~~~~~~~~~[m[K
+[4.276s]       |                                                                                    [32m[K|[m[K
+[4.276s]       |                                                                                    [32m[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_b_type {aka long int}[m[K
+[4.276s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_service/src/ros2_test_service.cpp:25:56:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[4.276s]    25 |         RCLCPP_INFO(this->get_logger(),"request: %d + [01;36m[K%d[m[K = %d",request->a,request->b,response->sum);
+[4.276s]       |                                                       [01;36m[K~^[m[K
+[4.276s]       |                                                        [01;36m[K|[m[K
+[4.276s]       |                                                        [01;36m[Kint[m[K
+[4.276s]       |                                                       [32m[K%ld[m[K
+[4.276s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.276s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.276s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.276s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.276s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.276s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.276s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.276s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.276s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.276s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.276s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.276s]                  from [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_service/src/ros2_test_service.cpp:2[m[K:
+[4.276s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_service/src/ros2_test_service.cpp:25:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kexample_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[4.277s]    25 |         RCLCPP_INFO(this->get_logger(),[01;35m[K"request: %d + %d = %d"[m[K,request->a,request->b,[32m[Kresponse->sum[m[K);
+[4.277s]       |                                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K                       [32m[K~~~~~~~~~~~~~[m[K
+[4.277s]       |                                                                                                [32m[K|[m[K
+[4.277s]       |                                                                                                [32m[Kexample_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type {aka long int}[m[K
+[4.277s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_service/src/ros2_test_service.cpp:25:61:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[4.277s]    25 |         RCLCPP_INFO(this->get_logger(),"request: %d + %d = [01;36m[K%d[m[K",request->a,request->b,response->sum);
+[4.277s]       |                                                            [01;36m[K~^[m[K
+[4.277s]       |                                                             [01;36m[K|[m[K
+[4.277s]       |                                                             [01;36m[Kint[m[K
+[4.277s]       |                                                            [32m[K%ld[m[K
+[4.725s] gmake[2]: *** [CMakeFiles/ros2_test_service.dir/build.make:76：CMakeFiles/ros2_test_service.dir/src/ros2_test_service.cpp.o] 错误 1
+[4.726s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ros2_test_service.dir/all] 错误 2
+[4.726s] gmake: *** [Makefile:146：all] 错误 2
+[4.729s] Invoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_service' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_service -- -j32 -l32

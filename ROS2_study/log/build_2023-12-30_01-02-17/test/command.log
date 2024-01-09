@@ -1,0 +1,2 @@
+Invoking command in '/home/jason/Desktop/ROS2_study/build/test': /usr/bin/cmake /home/jason/Desktop/ROS2_study -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/ROS2_study/install/test
+Invoked command in '/home/jason/Desktop/ROS2_study/build/test' returned '1': /usr/bin/cmake /home/jason/Desktop/ROS2_study -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/ROS2_study/install/test

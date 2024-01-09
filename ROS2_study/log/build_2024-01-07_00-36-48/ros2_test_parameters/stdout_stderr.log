@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target ros2_test_parameters[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_test_parameters.dir/src/ros2_test_parameters.cpp.o[0m
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_parameters/src/ros2_test_parameters.cpp:[m[K In constructor ‘[01m[KParameters_test01::Parameters_test01(std::string)[m[K’:
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_parameters/src/ros2_test_parameters.cpp:22:23:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Krclcpp::Logger[m[K’
+   22 |     this->get_logger()[01;31m[K->[m[Kset_level((rclcpp::Logger::Level)log_level);//设置日志级别 含义：设置日志级别为log_level
+      |                       [01;31m[K^~[m[K
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_parameters/src/ros2_test_parameters.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_parameters/src/ros2_test_parameters.cpp:44:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   44 | int main([01;35m[Kint argc[m[K,char** argv){
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_parameters/src/ros2_test_parameters.cpp:44:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   44 | int main(int argc,[01;35m[Kchar** argv[m[K){
+      |                   [01;35m[K~~~~~~~^~~~[m[K
+gmake[2]: *** [CMakeFiles/ros2_test_parameters.dir/build.make:76：CMakeFiles/ros2_test_parameters.dir/src/ros2_test_parameters.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ros2_test_parameters.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

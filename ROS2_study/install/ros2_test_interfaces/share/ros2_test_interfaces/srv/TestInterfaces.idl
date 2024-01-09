@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ros2_test_interfaces/srv/TestInterfaces.srv
+// generated code does not contain a copyright notice
+
+
+module ros2_test_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "request")
+    struct TestInterfaces_Request {
+      string name;
+
+      uint32 money;
+    };
+    @verbatim (language="comment", text=
+      "response")
+    struct TestInterfaces_Response {
+      boolean success;
+
+      uint32 money;
+    };
+  };
+};

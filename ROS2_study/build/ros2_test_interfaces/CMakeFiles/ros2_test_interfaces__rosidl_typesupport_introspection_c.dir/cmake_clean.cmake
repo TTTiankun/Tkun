@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/ros2_test_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_test_interfaces/msg/detail/test_interfaces__type_support.c.o"
+  "CMakeFiles/ros2_test_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_test_interfaces/msg/detail/test_interfaces__type_support.c.o.d"
+  "CMakeFiles/ros2_test_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_test_interfaces/srv/detail/sell_book__type_support.c.o"
+  "CMakeFiles/ros2_test_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_test_interfaces/srv/detail/sell_book__type_support.c.o.d"
+  "CMakeFiles/ros2_test_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_test_interfaces/srv/detail/test_interfaces__type_support.c.o"
+  "CMakeFiles/ros2_test_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_test_interfaces/srv/detail/test_interfaces__type_support.c.o.d"
+  "libros2_test_interfaces__rosidl_typesupport_introspection_c.pdb"
+  "libros2_test_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/ros2_test_interfaces/msg/detail/test_interfaces__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/ros2_test_interfaces/msg/detail/test_interfaces__type_support.c"
+  "rosidl_typesupport_introspection_c/ros2_test_interfaces/srv/detail/sell_book__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/ros2_test_interfaces/srv/detail/sell_book__type_support.c"
+  "rosidl_typesupport_introspection_c/ros2_test_interfaces/srv/detail/test_interfaces__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/ros2_test_interfaces/srv/detail/test_interfaces__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/ros2_test_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

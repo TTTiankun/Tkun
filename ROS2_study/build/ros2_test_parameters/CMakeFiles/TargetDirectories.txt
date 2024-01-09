@@ -1,0 +1,10 @@
+/home/jason/Desktop/ROS2_study/build/ros2_test_parameters/CMakeFiles/uninstall.dir
+/home/jason/Desktop/ROS2_study/build/ros2_test_parameters/CMakeFiles/ros2_test_parameters_uninstall.dir
+/home/jason/Desktop/ROS2_study/build/ros2_test_parameters/CMakeFiles/ros2_test_parameters.dir
+/home/jason/Desktop/ROS2_study/build/ros2_test_parameters/CMakeFiles/test.dir
+/home/jason/Desktop/ROS2_study/build/ros2_test_parameters/CMakeFiles/edit_cache.dir
+/home/jason/Desktop/ROS2_study/build/ros2_test_parameters/CMakeFiles/rebuild_cache.dir
+/home/jason/Desktop/ROS2_study/build/ros2_test_parameters/CMakeFiles/list_install_components.dir
+/home/jason/Desktop/ROS2_study/build/ros2_test_parameters/CMakeFiles/install.dir
+/home/jason/Desktop/ROS2_study/build/ros2_test_parameters/CMakeFiles/install/local.dir
+/home/jason/Desktop/ROS2_study/build/ros2_test_parameters/CMakeFiles/install/strip.dir

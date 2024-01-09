@@ -1,0 +1,5 @@
+[0.020s] Invoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_interfaces -- -j32 -l32
+[0.030s] [0mCMake Error: The source directory "/home/jason/Desktop/ROS2_study/interfaces/ros2_test_interfaces" does not exist.
+[0.031s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.031s] gmake: *** [Makefile:226：cmake_check_build_system] 错误 1
+[0.032s] Invoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_interfaces -- -j32 -l32

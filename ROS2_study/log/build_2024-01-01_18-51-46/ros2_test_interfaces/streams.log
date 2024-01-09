@@ -1,0 +1,20 @@
+[0.021s] Invoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_interfaces -- -j32 -l32
+[0.056s] Invoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_interfaces -- -j32 -l32
+[0.097s] Invoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/ROS2_study/build/ros2_test_interfaces
+[0.104s] -- Install configuration: ""
+[0.104s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ament_index/resource_index/package_run_dependencies/ros2_test_interfaces
+[0.105s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ament_index/resource_index/parent_prefix_path/ros2_test_interfaces
+[0.105s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/environment/ament_prefix_path.sh
+[0.105s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/environment/ament_prefix_path.dsv
+[0.105s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/environment/path.sh
+[0.105s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/environment/path.dsv
+[0.105s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/local_setup.bash
+[0.105s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/local_setup.sh
+[0.105s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/local_setup.zsh
+[0.105s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/local_setup.dsv
+[0.105s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/package.dsv
+[0.105s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ament_index/resource_index/packages/ros2_test_interfaces
+[0.105s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/cmake/ros2_test_interfacesConfig.cmake
+[0.105s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/cmake/ros2_test_interfacesConfig-version.cmake
+[0.105s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/package.xml
+[0.107s] Invoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/ROS2_study/build/ros2_test_interfaces

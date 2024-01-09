@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target ros2_test_client[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_test_client.dir/src/ros2_test_client.cpp.o[0m
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_client/src/ros2_test_client.cpp:[m[K In member function ‘[01m[Kvoid Client_test01::result_callback(rclcpp::Client<example_interfaces::srv::AddTwoInts>::SharedFuture)[m[K’:
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_client/src/ros2_test_client.cpp:45:21:[m[K [01;31m[Kerror: [m[Kinvalid cast from type ‘[01m[Kconst std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > >[m[K’ to type ‘[01m[Kint[m[K’
+   45 |     auto response = [01;31m[K(int)result_future.get()[m[K;
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ros2_test_client.dir/build.make:76：CMakeFiles/ros2_test_client.dir/src/ros2_test_client.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ros2_test_client.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

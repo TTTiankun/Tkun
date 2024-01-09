@@ -1,0 +1,2 @@
+Invoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_action': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/ROS2_study/src/ros2_test_action -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/ROS2_study/install/ros2_test_action
+Invoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_action' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/ROS2_study/src/ros2_test_action -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/ROS2_study/install/ros2_test_action

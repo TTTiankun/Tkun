@@ -1,0 +1,11 @@
+[0.024s] Invoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_service': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_service -- -j32 -l32
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target ros2_test_service[0m
+[0.095s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_test_service.dir/src/ros2_test_service.cpp.o[0m
+[1.708s] [100%] [32m[1mLinking CXX executable ros2_test_service[0m
+[1.778s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[1.778s] (.text+0x1b): undefined reference to `main'
+[1.780s] collect2: error: ld returned 1 exit status
+[1.781s] gmake[2]: *** [CMakeFiles/ros2_test_service.dir/build.make:183：ros2_test_service] 错误 1
+[1.781s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ros2_test_service.dir/all] 错误 2
+[1.781s] gmake: *** [Makefile:146：all] 错误 2
+[1.783s] Invoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_service' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_service -- -j32 -l32

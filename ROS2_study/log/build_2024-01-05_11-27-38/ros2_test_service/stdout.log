@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target ros2_test_service[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_test_service.dir/src/ros2_test_service.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ros2_test_service[0m

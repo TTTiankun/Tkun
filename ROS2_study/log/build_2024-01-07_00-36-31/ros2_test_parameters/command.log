@@ -1,0 +1,2 @@
+Invoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_parameters': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_parameters -- -j32 -l32
+Invoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_parameters' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_parameters -- -j32 -l32

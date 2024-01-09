@@ -1,0 +1,22 @@
+[0.057s] Invoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_service -- -j32 -l32
+[0.086s] [100%] Built target ros2_test_service
+[0.095s] Invoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_service -- -j32 -l32
+[0.118s] Invoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/ROS2_study/build/ros2_test_service
+[0.124s] -- Install configuration: ""
+[0.124s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ament_index/resource_index/package_run_dependencies/ros2_test_service
+[0.124s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ament_index/resource_index/parent_prefix_path/ros2_test_service
+[0.124s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/environment/ament_prefix_path.sh
+[0.124s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/environment/ament_prefix_path.dsv
+[0.124s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/environment/path.sh
+[0.124s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/environment/path.dsv
+[0.125s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/local_setup.bash
+[0.125s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/local_setup.sh
+[0.126s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/local_setup.zsh
+[0.126s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/local_setup.dsv
+[0.126s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/package.dsv
+[0.126s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ament_index/resource_index/packages/ros2_test_service
+[0.126s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/cmake/ros2_test_serviceConfig.cmake
+[0.127s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/cmake/ros2_test_serviceConfig-version.cmake
+[0.127s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/package.xml
+[0.127s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_service/lib/ros2_test_service/ros2_test_service
+[0.199s] Invoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/ROS2_study/build/ros2_test_service

@@ -1,0 +1,17 @@
+[35m[1mConsolidate compiler generated dependencies of target ros2_test_client[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_test_client.dir/src/ros2_test_client.cpp.o[0m
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_client/src/ros2_test_client.cpp:30:5:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+   30 |     [01;31m[Kauto[m[K request =
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_client/src/ros2_test_client.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krequest[m[K’ does not name a type
+   32 |     [01;31m[Krequest[m[K->a = a;
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_client/src/ros2_test_client.cpp:33:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krequest[m[K’ does not name a type
+   33 |     [01;31m[Krequest[m[K->b = b;
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_client/src/ros2_test_client.cpp:36:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kadd_ints_client[m[K’ does not name a type
+   36 |     [01;31m[Kadd_ints_client[m[K->async_send_request(
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ros2_test_client.dir/build.make:76：CMakeFiles/ros2_test_client.dir/src/ros2_test_client.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ros2_test_client.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

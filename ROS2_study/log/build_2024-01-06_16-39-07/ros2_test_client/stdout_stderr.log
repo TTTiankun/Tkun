@@ -1,0 +1,37 @@
+[35m[1mConsolidate compiler generated dependencies of target ros2_test_client[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_test_client.dir/src/ros2_test_client.cpp.o[0m
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_client/src/ros2_test_client.cpp:30:5:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+   30 |     [01;31m[Kauto[m[K request = std::make_shared<example_interfaces::srv::AddTwoInts::Request>();
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_client/src/ros2_test_client.cpp:31:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krequest[m[K’ does not name a type
+   31 |     [01;31m[Krequest[m[K->a = a;
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_client/src/ros2_test_client.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krequest[m[K’ does not name a type
+   32 |     [01;31m[Krequest[m[K->b = b;
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_client/src/ros2_test_client.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kadd_ints_client[m[K’ does not name a type
+   35 |     [01;31m[Kadd_ints_client[m[K->async_send_request(
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_client/src/ros2_test_client.cpp:[m[K In member function ‘[01m[Kvoid Client_test01::send_request(int, int)[m[K’:
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_client/src/ros2_test_client.cpp:20:15:[m[K [01;31m[Kerror: [m[K‘[01m[K！add_ints_client[m[K’ was not declared in this scope; did you mean ‘[01m[Kadd_ints_client[m[K’?
+   20 |         while([01;31m[K！add_ints_client[m[K->wait_for_service(std::chrono::seconds(1))){
+      |               [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |               [32m[Kadd_ints_client[m[K
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_client/src/ros2_test_client.cpp:[m[K In member function ‘[01m[Kvoid Client_test01::result_callback(std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_client/src/ros2_test_client.cpp:45:14:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kauto response[m[K’ shadows a parameter
+   45 |         auto [01;31m[Kresponse[m[K = response.get();
+      |              [01;31m[K^~~~~~~~[m[K
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_client/src/ros2_test_client.cpp:44:95:[m[K [01;36m[Knote: [m[K‘[01m[Kconst std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > response[m[K’ previously declared here
+   44 | ([01;36m[Kconst std::shared_ptr<example_interfaces::srv::AddTwoInts::Response> response[m[K){
+      |  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_client/src/ros2_test_client.cpp:45:25:[m[K [01;31m[Kerror: [m[Kuse of ‘[01m[Kresponse[m[K’ before deduction of ‘[01m[Kauto[m[K’
+   45 |         auto response = [01;31m[Kresponse[m[K.get();
+      |                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_client/src/ros2_test_client.cpp:44:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   44 | ([01;35m[Kconst std::shared_ptr<example_interfaces::srv::AddTwoInts::Response> response[m[K){
+      |  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/ros2_test_client.dir/build.make:76：CMakeFiles/ros2_test_client.dir/src/ros2_test_client.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ros2_test_client.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

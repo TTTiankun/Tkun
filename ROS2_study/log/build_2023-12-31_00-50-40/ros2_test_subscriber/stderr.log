@@ -1,0 +1,4 @@
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_subscriber/src/ros2_test_subscriber.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber(const char*)[m[K’:
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_subscriber/src/ros2_test_subscriber.cpp:24:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode_name[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   24 |     MinimalSubscriber([01;35m[Kconst char* node_name[m[K):Node("minimal_subscriber")
+      |                       [01;35m[K~~~~~~~~~~~~^~~~~~~~~[m[K

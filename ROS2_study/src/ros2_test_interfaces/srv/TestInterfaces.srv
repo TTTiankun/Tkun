@@ -1,0 +1,7 @@
+#request
+string name
+uint32 money
+---
+#response
+bool success
+uint32 money

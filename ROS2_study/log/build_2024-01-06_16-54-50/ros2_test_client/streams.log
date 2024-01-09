@@ -1,0 +1,26 @@
+[0.088s] Invoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_client -- -j32 -l32
+[0.113s] [35m[1mConsolidate compiler generated dependencies of target ros2_test_client[0m
+[0.125s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_test_client.dir/src/ros2_test_client.cpp.o[0m
+[1.418s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.418s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.418s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.418s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.418s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.418s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.418s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.418s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.418s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.418s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.418s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.418s]                  from [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_client/src/ros2_test_client.cpp:2[m[K:
+[1.418s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_client/src/ros2_test_client.cpp:[m[K In member function ‘[01m[Kvoid Client_test01::result_callback(rclcpp::Client<example_interfaces::srv::AddTwoInts>::SharedFuture)[m[K’:
+[1.418s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_client/src/ros2_test_client.cpp:46:77:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kresult_future[m[K’
+[1.418s]    46 |         RCLCPP_INFO(this->get_logger(), "Result of %d + %d = %d", response->[01;31m[Kresult_future[m[K.a, response->result_future.b, response->sum);
+[1.418s]       |                                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+[1.419s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_client/src/ros2_test_client.cpp:46:104:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kresult_future[m[K’
+[1.419s]    46 |         RCLCPP_INFO(this->get_logger(), "Result of %d + %d = %d", response->result_future.a, response->[01;31m[Kresult_future[m[K.b, response->sum);
+[1.419s]       |                                                                                                        [01;31m[K^~~~~~~~~~~~~[m[K
+[1.757s] gmake[2]: *** [CMakeFiles/ros2_test_client.dir/build.make:76：CMakeFiles/ros2_test_client.dir/src/ros2_test_client.cpp.o] 错误 1
+[1.757s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ros2_test_client.dir/all] 错误 2
+[1.757s] gmake: *** [Makefile:146：all] 错误 2
+[1.759s] Invoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_client' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_client -- -j32 -l32

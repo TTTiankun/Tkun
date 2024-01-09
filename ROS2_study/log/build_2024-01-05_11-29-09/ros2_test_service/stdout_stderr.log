@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target ros2_test_service[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_test_service.dir/src/ros2_test_service.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ros2_test_service[0m
+[100%] Built target ros2_test_service
+-- Install configuration: ""
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ament_index/resource_index/package_run_dependencies/ros2_test_service
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ament_index/resource_index/parent_prefix_path/ros2_test_service
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/environment/ament_prefix_path.sh
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/environment/ament_prefix_path.dsv
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/environment/path.sh
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/environment/path.dsv
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/local_setup.bash
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/local_setup.sh
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/local_setup.zsh
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/local_setup.dsv
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/package.dsv
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ament_index/resource_index/packages/ros2_test_service
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/cmake/ros2_test_serviceConfig.cmake
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/cmake/ros2_test_serviceConfig-version.cmake
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_service/share/ros2_test_service/package.xml

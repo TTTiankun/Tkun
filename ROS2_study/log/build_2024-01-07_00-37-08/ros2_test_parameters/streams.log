@@ -1,0 +1,33 @@
+[0.022s] Invoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_parameters': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_parameters -- -j32 -l32
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target ros2_test_parameters[0m
+[0.098s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_test_parameters.dir/src/ros2_test_parameters.cpp.o[0m
+[1.258s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_parameters/src/ros2_test_parameters.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.258s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_parameters/src/ros2_test_parameters.cpp:44:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.258s]    44 | int main([01;35m[Kint argc[m[K,char** argv){
+[1.258s]       |          [01;35m[K~~~~^~~~[m[K
+[1.258s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_parameters/src/ros2_test_parameters.cpp:44:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.258s]    44 | int main(int argc,[01;35m[Kchar** argv[m[K){
+[1.258s]       |                   [01;35m[K~~~~~~~^~~~[m[K
+[1.617s] [100%] [32m[1mLinking CXX executable ros2_test_parameters[0m
+[1.796s] [100%] Built target ros2_test_parameters
+[1.810s] Invoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_parameters' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_parameters -- -j32 -l32
+[1.866s] Invoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_parameters': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/ROS2_study/build/ros2_test_parameters
+[1.877s] -- Install configuration: ""
+[1.877s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_parameters/share/ament_index/resource_index/package_run_dependencies/ros2_test_parameters
+[1.877s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_parameters/share/ament_index/resource_index/parent_prefix_path/ros2_test_parameters
+[1.877s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_parameters/share/ros2_test_parameters/environment/ament_prefix_path.sh
+[1.878s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_parameters/share/ros2_test_parameters/environment/ament_prefix_path.dsv
+[1.878s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_parameters/share/ros2_test_parameters/environment/path.sh
+[1.878s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_parameters/share/ros2_test_parameters/environment/path.dsv
+[1.878s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_parameters/share/ros2_test_parameters/local_setup.bash
+[1.878s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_parameters/share/ros2_test_parameters/local_setup.sh
+[1.878s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_parameters/share/ros2_test_parameters/local_setup.zsh
+[1.878s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_parameters/share/ros2_test_parameters/local_setup.dsv
+[1.879s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_parameters/share/ros2_test_parameters/package.dsv
+[1.879s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_parameters/share/ament_index/resource_index/packages/ros2_test_parameters
+[1.879s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_parameters/share/ros2_test_parameters/cmake/ros2_test_parametersConfig.cmake
+[1.879s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_parameters/share/ros2_test_parameters/cmake/ros2_test_parametersConfig-version.cmake
+[1.879s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_parameters/share/ros2_test_parameters/package.xml
+[1.879s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_parameters/lib/ros2_test_parameters/ros2_test_parameters
+[1.880s] -- Set runtime path of "/home/jason/Desktop/ROS2_study/install/ros2_test_parameters/lib/ros2_test_parameters/ros2_test_parameters" to ""
+[1.882s] Invoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_parameters' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/ROS2_study/build/ros2_test_parameters

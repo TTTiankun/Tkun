@@ -1,0 +1,74 @@
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:15:33:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+   15 | imalPublisher : public [01;31m[Krclcpp[m[K::Node
+      |                        [01;31m[K^~~~~~[m[K
+
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:15:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KNode[m[K’
+   15 | malPublisher : public rclcpp::[01;31m[KNode[m[K
+      |                               [01;31m[K^~~~[m[K
+
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:17:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kprivate[m[K’
+   17 | [01;31m[Kprivate[m[K:
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:17:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kprivate[m[K’
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:16:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   16 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:21:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+   21 |     [01;31m[Krclcpp[m[K::Publisher<std_msgs::msg::UInt32>::SharedPtr publisher;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:24:46:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type
+   24 | k(const std_msgs::msg::[01;31m[KString[m[K::SharedPtr msg)
+      |                        [01;31m[K^~~~~~[m[K
+
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:24:64:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+   24 | _msgs::msg::String::SharedPtr [01;31m[Kmsg[m[K)
+      |                               [01;31m[K^~~[m[K
+
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:24:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+   24 | _msgs::msg::String::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K)
+      |                              [01;31m[K^[m[K[32m[K~~~[m[K
+      |                              [32m[K)[m[K
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:24:64:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+   24 | _msgs::msg::String::SharedPtr [01;31m[Kmsg[m[K)
+      |                               [01;31m[K^~~[m[K
+
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:36:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kpublic[m[K’
+   36 | [01;31m[Kpublic[m[K:
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:48:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   48 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:53:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+   53 |     [01;31m[Krclcpp[m[K::init(argc, argv);
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:57:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+   57 |     [01;31m[Krclcpp[m[K::spin(node);
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:59:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+   59 |     [01;31m[Krclcpp[m[K::shutdown();
+      |     [01;31m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/unordered_map:42[m[K,
+                 from [01m[K/usr/include/c++/11/functional:61[m[K,
+                 from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/u_int32__struct.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/u_int32.hpp:7[m[K,
+                 from [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:8[m[K:
+/usr/include/c++/11/ext/aligned_buffer.h: In instantiation of ‘[01m[Kstruct __gnu_cxx::__aligned_buffer<MinimalPublisher>[m[K’:
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:506:35:[m[K   required from ‘[01m[Kclass std::_Sp_counted_ptr_inplace<MinimalPublisher, std::allocator<MinimalPublisher>, __gnu_cxx::_S_atomic>::_Impl[m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:567:13:[m[K   required from ‘[01m[Kclass std::_Sp_counted_ptr_inplace<MinimalPublisher, std::allocator<MinimalPublisher>, __gnu_cxx::_S_atomic>[m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:647:43:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = MinimalPublisher; _Alloc = std::allocator<MinimalPublisher>; _Args = {const char (&)[20]}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MinimalPublisher>; _Args = {const char (&)[20]}; _Tp = MinimalPublisher; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MinimalPublisher>; _Args = {const char (&)[20]}; _Tp = MinimalPublisher][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = MinimalPublisher; _Alloc = std::allocator<MinimalPublisher>; _Args = {const char (&)[20]}][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = MinimalPublisher; _Args = {const char (&)[20]}][m[K’
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:55:51:[m[K   required from here
+[01m[K/usr/include/c++/11/ext/aligned_buffer.h:91:28:[m[K [01;31m[Kerror: [m[Kinvalid application of ‘[01m[Ksizeof[m[K’ to incomplete type ‘[01m[KMinimalPublisher[m[K’
+   91 | : std::aligned_storage<[01;31m[Ksizeof(_Tp)[m[K, __alignof__(_Tp)>
+      |                        [01;31m[K^~~~~~~~~~~[m[K
+
+[01m[K/usr/include/c++/11/ext/aligned_buffer.h:91:28:[m[K [01;31m[Kerror: [m[Kinvalid application of ‘[01m[Ksizeof[m[K’ to incomplete type ‘[01m[KMinimalPublisher[m[K’
+gmake[2]: *** [CMakeFiles/ros2_test_publisher.dir/build.make:76：CMakeFiles/ros2_test_publisher.dir/src/ros2_test_publisher.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ros2_test_publisher.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

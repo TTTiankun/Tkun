@@ -1,0 +1,23 @@
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jason/Desktop/ROS2_study/build/ros2_test_interfaces
+-- Install configuration: ""
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ament_index/resource_index/package_run_dependencies/ros2_test_interfaces
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ament_index/resource_index/parent_prefix_path/ros2_test_interfaces
+-- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/environment/ament_prefix_path.sh
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/environment/path.sh
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/environment/path.dsv
+-- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/local_setup.bash
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/local_setup.sh
+-- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/local_setup.zsh
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/local_setup.dsv
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/package.dsv
+-- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ament_index/resource_index/packages/ros2_test_interfaces
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/cmake/ros2_test_interfacesConfig.cmake
+-- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/cmake/ros2_test_interfacesConfig-version.cmake
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_interfaces/share/ros2_test_interfaces/package.xml

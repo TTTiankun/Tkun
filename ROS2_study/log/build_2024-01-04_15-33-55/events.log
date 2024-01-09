@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000078] (-) JobUnselected: {'identifier': 'ros2_test_interfaces'}
+[0.000092] (-) JobUnselected: {'identifier': 'ros2_test_node'}
+[0.000100] (-) JobUnselected: {'identifier': 'ros2_test_publisher'}
+[0.000107] (-) JobUnselected: {'identifier': 'ros2_test_subscriber'}
+[0.000114] (-) EventReactorShutdown: {}

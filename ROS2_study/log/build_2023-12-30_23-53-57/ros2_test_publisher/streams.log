@@ -1,0 +1,120 @@
+[0.033s] Invoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/ROS2_study/src/ros2_test_publisher -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/ROS2_study/install/ros2_test_publisher
+[0.142s] -- The C compiler identification is GNU 11.4.0
+[0.220s] -- The CXX compiler identification is GNU 11.4.0
+[0.227s] -- Detecting C compiler ABI info
+[0.275s] -- Detecting C compiler ABI info - done
+[0.279s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.280s] -- Detecting C compile features
+[0.280s] -- Detecting C compile features - done
+[0.282s] -- Detecting CXX compiler ABI info
+[0.353s] -- Detecting CXX compiler ABI info - done
+[0.360s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.360s] -- Detecting CXX compile features
+[0.360s] -- Detecting CXX compile features - done
+[0.363s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.528s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.585s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.639s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.647s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.664s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.687s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.721s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.831s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.835s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.983s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.012s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.077s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.089s] -- Looking for pthread.h
+[1.189s] -- Looking for pthread.h - found
+[1.190s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.299s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.301s] -- Found Threads: TRUE  
+[1.552s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.671s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.671s] -- Configured cppcheck include dirs: 
+[1.671s] -- Configured cppcheck exclude dirs and/or files: 
+[1.672s] -- Added test 'lint_cmake' to check CMake code style
+[1.674s] -- Added test 'uncrustify' to check C / C++ code style
+[1.674s] -- Configured uncrustify additional arguments: 
+[1.674s] -- Added test 'xmllint' to check XML markup files
+[1.677s] -- Configuring done
+[1.689s] -- Generating done
+[1.691s] -- Build files have been written to: /home/jason/Desktop/ROS2_study/build/ros2_test_publisher
+[1.703s] Invoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jason/Desktop/ROS2_study/src/ros2_test_publisher -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/ROS2_study/install/ros2_test_publisher
+[1.706s] Invoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_publisher -- -j32 -l32
+[1.783s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_test_publisher.dir/src/ros2_test_publisher.cpp.o[0m
+[2.240s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:15:33:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[2.241s]    15 | lic [01;31m[Krclcpp[m[K::Node
+[2.241s]       |     [01;31m[K^~~~~~[m[K
+[2.241s] 
+[2.241s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:15:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KNode[m[K’
+[2.241s]    15 | ic rclcpp::[01;31m[KNode[m[K
+[2.241s]       |            [01;31m[K^~~~[m[K
+[2.241s] 
+[2.241s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:17:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kprivate[m[K’
+[2.241s]    17 | [01;31m[Kprivate[m[K:
+[2.241s]       | [01;31m[K^~~~~~~[m[K
+[2.241s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:17:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kprivate[m[K’
+[2.241s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:16:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.241s]    16 | [01;36m[K{[m[K
+[2.241s]       | [01;36m[K^[m[K
+[2.241s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:21:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+[2.241s]    21 |     [01;31m[Krclcpp[m[K::Publisher<std_msgs::msg::UInt32>::SharedPtr publisher;
+[2.241s]       |     [01;31m[K^~~~~~[m[K
+[2.241s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:24:46:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type
+[2.241s]    24 | sg::[01;31m[KString[m[K::SharedPtr msg)
+[2.241s]       |     [01;31m[K^~~~~~[m[K
+[2.241s] 
+[2.241s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:24:64:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+[2.241s]    24 | :SharedPtr [01;31m[Kmsg[m[K)
+[2.241s]       |            [01;31m[K^~~[m[K
+[2.241s] 
+[2.241s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:24:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+[2.241s]    24 | :SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K)
+[2.241s]       |           [01;31m[K^[m[K[32m[K~~~[m[K
+[2.241s]       |           [32m[K)[m[K
+[2.241s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:24:64:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+[2.242s]    24 | :SharedPtr [01;31m[Kmsg[m[K)
+[2.242s]       |            [01;31m[K^~~[m[K
+[2.242s] 
+[2.242s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:36:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kpublic[m[K’
+[2.242s]    36 | [01;31m[Kpublic[m[K:
+[2.242s]       | [01;31m[K^~~~~~[m[K
+[2.242s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:48:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[2.242s]    48 | [01;31m[K}[m[K;
+[2.242s]       | [01;31m[K^[m[K
+[2.242s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.242s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:53:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[2.242s]    53 |     [01;31m[Krclcpp[m[K::init(argc, argv);
+[2.242s]       |     [01;31m[K^~~~~~[m[K
+[2.242s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:57:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[2.242s]    57 |     [01;31m[Krclcpp[m[K::spin(node);
+[2.242s]       |     [01;31m[K^~~~~~[m[K
+[2.242s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:59:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[2.242s]    59 |     [01;31m[Krclcpp[m[K::shutdown();
+[2.242s]       |     [01;31m[K^~~~~~[m[K
+[2.260s] In file included from [01m[K/usr/include/c++/11/unordered_map:42[m[K,
+[2.261s]                  from [01m[K/usr/include/c++/11/functional:61[m[K,
+[2.261s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[2.261s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[2.261s]                  from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/u_int32__struct.hpp:8[m[K,
+[2.261s]                  from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/u_int32.hpp:7[m[K,
+[2.261s]                  from [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:8[m[K:
+[2.261s] /usr/include/c++/11/ext/aligned_buffer.h: In instantiation of ‘[01m[Kstruct __gnu_cxx::__aligned_buffer<MinimalPublisher>[m[K’:
+[2.261s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:506:35:[m[K   required from ‘[01m[Kclass std::_Sp_counted_ptr_inplace<MinimalPublisher, std::allocator<MinimalPublisher>, __gnu_cxx::_S_atomic>::_Impl[m[K’
+[2.261s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:567:13:[m[K   required from ‘[01m[Kclass std::_Sp_counted_ptr_inplace<MinimalPublisher, std::allocator<MinimalPublisher>, __gnu_cxx::_S_atomic>[m[K’
+[2.261s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:647:43:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = MinimalPublisher; _Alloc = std::allocator<MinimalPublisher>; _Args = {const char (&)[20]}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[2.261s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MinimalPublisher>; _Args = {const char (&)[20]}; _Tp = MinimalPublisher; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[2.261s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MinimalPublisher>; _Args = {const char (&)[20]}; _Tp = MinimalPublisher][m[K’
+[2.261s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = MinimalPublisher; _Alloc = std::allocator<MinimalPublisher>; _Args = {const char (&)[20]}][m[K’
+[2.261s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = MinimalPublisher; _Args = {const char (&)[20]}][m[K’
+[2.261s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_publisher/src/ros2_test_publisher.cpp:55:51:[m[K   required from here
+[2.261s] [01m[K/usr/include/c++/11/ext/aligned_buffer.h:91:28:[m[K [01;31m[Kerror: [m[Kinvalid application of ‘[01m[Ksizeof[m[K’ to incomplete type ‘[01m[KMinimalPublisher[m[K’
+[2.261s]    91 | age<[01;31m[Ksizeof(_Tp)[m[K, __alignof__(_Tp)>
+[2.261s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[2.261s] 
+[2.261s] [01m[K/usr/include/c++/11/ext/aligned_buffer.h:91:28:[m[K [01;31m[Kerror: [m[Kinvalid application of ‘[01m[Ksizeof[m[K’ to incomplete type ‘[01m[KMinimalPublisher[m[K’
+[2.267s] gmake[2]: *** [CMakeFiles/ros2_test_publisher.dir/build.make:76：CMakeFiles/ros2_test_publisher.dir/src/ros2_test_publisher.cpp.o] 错误 1
+[2.268s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ros2_test_publisher.dir/all] 错误 2
+[2.268s] gmake: *** [Makefile:146：all] 错误 2
+[2.269s] Invoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_publisher' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_publisher -- -j32 -l32

@@ -1,0 +1,25 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_test_subscriber.dir/src/ros2_test_subscriber.cpp.o[0m
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/11/memory:64[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_subscriber/src/ros2_test_subscriber.cpp:10[m[K:
+/usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = MinimalSubscriber; _Args = {const char (&)[21]}; _Tp = MinimalSubscriber][m[K’:
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = MinimalSubscriber; _Args = {const char (&)[21]}; _Tp = MinimalSubscriber; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<MinimalSubscriber>][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const char (&)[21]}; _Tp = MinimalSubscriber; _Alloc = std::allocator<MinimalSubscriber>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = MinimalSubscriber; _Alloc = std::allocator<MinimalSubscriber>; _Args = {const char (&)[21]}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MinimalSubscriber>; _Args = {const char (&)[21]}; _Tp = MinimalSubscriber; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MinimalSubscriber>; _Args = {const char (&)[21]}; _Tp = MinimalSubscriber][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = MinimalSubscriber; _Alloc = std::allocator<MinimalSubscriber>; _Args = {const char (&)[21]}][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = MinimalSubscriber; _Args = {const char (&)[21]}][m[K’
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_subscriber/src/ros2_test_subscriber.cpp:49:52:[m[K   required from here
+[01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalSubscriber::MinimalSubscriber(const char [21])[m[K’
+  162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_subscriber/src/ros2_test_subscriber.cpp:23:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’
+   23 |     [01;36m[KMinimalSubscriber[m[K():Node("minimal_subscriber")
+      |     [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_subscriber/src/ros2_test_subscriber.cpp:23:5:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+gmake[2]: *** [CMakeFiles/ros2_test_subscriber.dir/build.make:76：CMakeFiles/ros2_test_subscriber.dir/src/ros2_test_subscriber.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ros2_test_subscriber.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

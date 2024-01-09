@@ -1,0 +1,59 @@
+[0.000000] (-) TimerEvent: {}
+[0.000115] (test) JobQueued: {'identifier': 'test', 'dependencies': OrderedDict()}
+[0.000167] (test) JobStarted: {'identifier': 'test'}
+[0.029706] (test) JobProgress: {'identifier': 'test', 'progress': 'cmake'}
+[0.029958] (test) Command: {'cmd': ['/usr/bin/cmake', '/home/jason/Desktop/ROS2_study', '-DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/ROS2_study/install/test'], 'cwd': '/home/jason/Desktop/ROS2_study/build/test', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'jason'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/tdt/openvino/tools/compile_tool:/opt/tdt/openvino/runtime/3rdparty/hddl/lib:/opt/tdt/openvino/runtime/lib/intel64::/opt/tdt/libhikcamera/lib64:/opt/tdt/lib:/usr/local/opencv4.7.0/lib'), ('HDDL_INSTALL_DIR', '/opt/tdt/openvino/runtime/3rdparty/hddl'), ('HOME', '/home/jason'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/jason/Desktop/ROS2_study/build'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('INTEL_OPENVINO_DIR', '/opt/tdt/openvino'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1743'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'jason'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/tdt/openvino/runtime/lib/intel64/pkgconfig:/opt/tdt/lib/pkgconfig:/usr/local/opencv4.7.0/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jason'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MVCAM_SDK_PATH', '/opt/tdt/MVS'), ('PATH', '/opt/tdt/libhikcamera/cmake:/opt/tdt/lib/cmake:/opt/ros/humble/bin:/opt/tdt/libhikcamera/cmake:/opt/tdt/lib/cmake:/home/jason/miniconda3/condabin:/opt/tdt/libhikcamera/cmake:/opt/tdt/lib/cmake:/home/jason/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jason-Legion:@/tmp/.ICE-unix/1717,unix/jason-Legion:/tmp/.ICE-unix/1717'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b9651927_9962_48ad_8363_1995d2e46b73'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b7a0f9322e.sock'), ('GNOME_TERMINAL_SERVICE', ':1.230'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/jason/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('ngraph_DIR', '/opt/tdt/openvino/runtime/cmake'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('InferenceEngine_DIR', '/opt/tdt/openvino/runtime/cmake'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/jason/Desktop/ROS2_study/build/test'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/jason/miniconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('OpenVINO_DIR', '/opt/tdt/openvino/runtime/cmake'), ('MVCAM_COMMON_RUNENV', '/opt/tdt/MVS/lib')]), 'shell': False}
+[0.099632] (-) TimerEvent: {}
+[0.116435] (test) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.188852] (test) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.197144] (test) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199797] (-) TimerEvent: {}
+[0.287231] (test) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.295350] (test) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.295647] (test) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.296350] (test) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.299704] (test) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299855] (-) TimerEvent: {}
+[0.392623] (test) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.400042] (-) TimerEvent: {}
+[0.401992] (test) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.402424] (test) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.403079] (test) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.405124] (test) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.500223] (-) TimerEvent: {}
+[0.600618] (-) TimerEvent: {}
+[0.656625] (test) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.700802] (-) TimerEvent: {}
+[0.801102] (-) TimerEvent: {}
+[0.818332] (test) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.824228] (test) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.835991] (test) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.854321] (test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.872850] (test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.901203] (-) TimerEvent: {}
+[0.928845] (test) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.932330] (test) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.001336] (-) TimerEvent: {}
+[1.041922] (test) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.077828] (test) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.101487] (-) TimerEvent: {}
+[1.124091] (test) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.142570] (test) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.201673] (-) TimerEvent: {}
+[1.227082] (test) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.227701] (test) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.301858] (-) TimerEvent: {}
+[1.324949] (test) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.326768] (test) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.401988] (-) TimerEvent: {}
+[1.502350] (-) TimerEvent: {}
+[1.506432] (test) StdoutLine: {'line': b'-- Found OpenCV: /usr/local/opencv4.7.0 (found version "4.7.0") \n'}
+[1.506960] (test) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:21 (add_executable):\n'}
+[1.507031] (test) StderrLine: {'line': b'  The target name "test" is reserved when CTest testing is enabled.\n'}
+[1.507059] (test) StderrLine: {'line': b'\n'}
+[1.507082] (test) StderrLine: {'line': b'\x1b[0m\n'}
+[1.507105] (test) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.507129] (test) StdoutLine: {'line': b'See also "/home/jason/Desktop/ROS2_study/build/test/CMakeFiles/CMakeOutput.log".\n'}
+[1.512238] (test) CommandEnded: {'returncode': 1}
+[1.512464] (test) JobEnded: {'identifier': 'test', 'rc': 1}
+[1.522662] (-) EventReactorShutdown: {}
