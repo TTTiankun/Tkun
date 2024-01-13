@@ -7,8 +7,9 @@ void hanluota(int a,char source,char auxiliary,char target){
     if(a == 1){
         printf("%c->%c ",source,target);
     }else{
-        printf("%c->%c ",source,target);
-        hanluota(a-1,auxiliary,source,target);
+        hanluota(a-1,source,target,auxiliary);
+        printf("%c->%c ", source, target);  // 添加这一行，输出移动信息
+        hanluota(a - 1, auxiliary, source, target);  // 调整参数顺序
     }
 }
 

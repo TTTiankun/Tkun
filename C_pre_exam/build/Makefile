@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jason/Desktop/Tkun/recursion_study
+CMAKE_SOURCE_DIR = /home/jason/Desktop/C_pre_exam
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jason/Desktop/Tkun/recursion_study/build
+CMAKE_BINARY_DIR = /home/jason/Desktop/C_pre_exam/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jason/Desktop/Tkun/recursion_study/build/CMakeFiles /home/jason/Desktop/Tkun/recursion_study/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jason/Desktop/C_pre_exam/build/CMakeFiles /home/jason/Desktop/C_pre_exam/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jason/Desktop/Tkun/recursion_study/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jason/Desktop/C_pre_exam/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,29 +129,29 @@ test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
 
-test4.o: test4.c.o
-.PHONY : test4.o
+main.o: main.c.o
+.PHONY : main.o
 
 # target to build an object file
-test4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test4.c.o
-.PHONY : test4.c.o
+main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/main.c.o
+.PHONY : main.c.o
 
-test4.i: test4.c.i
-.PHONY : test4.i
+main.i: main.c.i
+.PHONY : main.i
 
 # target to preprocess a source file
-test4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test4.c.i
-.PHONY : test4.c.i
+main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/main.c.i
+.PHONY : main.c.i
 
-test4.s: test4.c.s
-.PHONY : test4.s
+main.s: main.c.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-test4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test4.c.s
-.PHONY : test4.c.s
+main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/main.c.s
+.PHONY : main.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... test4.o"
-	@echo "... test4.i"
-	@echo "... test4.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

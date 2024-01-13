@@ -1,4 +1,5 @@
-CMakeFiles/test.dir/test4.c.o: /home/jason/Desktop/test/test4.c \
+CMakeFiles/test.dir/test4.c.o: \
+ /home/jason/Desktop/Tkun/recursion_study/test4.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
