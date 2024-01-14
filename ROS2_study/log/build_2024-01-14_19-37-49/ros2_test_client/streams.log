@@ -1,0 +1,12 @@
+[0.030s] Invoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_client -- -j32 -l32
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target ros2_test_client[0m
+[0.066s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_test_client.dir/src/ros2_test_client.cpp.o[0m
+[1.194s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_client/src/ros2_test_client.cpp:[m[K In constructor ‘[01m[KClient_test01::Client_test01(std::string)[m[K’:
+[1.194s] [01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_client/src/ros2_test_client.cpp:14:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[1.194s]    14 |         [01;31m[Ktimer_[m[K = this->create_wall_timer(std::chrono::milliseconds(500), std::bind(&Client_test01::send_request_around, this));
+[1.194s]       |         [01;31m[K^~~~~~[m[K
+[1.194s]       |         [32m[Ktimer_t[m[K
+[1.530s] gmake[2]: *** [CMakeFiles/ros2_test_client.dir/build.make:76：CMakeFiles/ros2_test_client.dir/src/ros2_test_client.cpp.o] 错误 1
+[1.530s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ros2_test_client.dir/all] 错误 2
+[1.531s] gmake: *** [Makefile:146：all] 错误 2
+[1.532s] Invoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_client' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_client -- -j32 -l32

@@ -1,0 +1,23 @@
+[0.233s] Invoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_interfaces -- -j32 -l32
+[0.271s] [  2%] Built target ros2_test_interfaces__cpp
+[0.276s] [ 12%] Built target ros2_test_interfaces__rosidl_generator_c
+[0.286s] [ 12%] Built target ament_cmake_python_copy_ros2_test_interfaces
+[0.291s] [ 23%] Built target ros2_test_interfaces__rosidl_typesupport_cpp
+[0.296s] [ 34%] Built target ros2_test_interfaces__rosidl_typesupport_fastrtps_c
+[0.297s] [ 44%] Built target ros2_test_interfaces__rosidl_typesupport_introspection_cpp
+[0.298s] [ 55%] Built target ros2_test_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.299s] [ 65%] Built target ros2_test_interfaces__rosidl_typesupport_introspection_c
+[0.301s] [ 76%] Built target ros2_test_interfaces__rosidl_typesupport_c
+[0.322s] [ 76%] Built target ros2_test_interfaces
+[0.345s] [ 78%] Built target ros2_test_interfaces__py
+[0.366s] [ 87%] Built target ros2_test_interfaces__rosidl_generator_py
+[0.388s] [100%] Built target ros2_test_interfaces__rosidl_typesupport_c__pyext
+[0.389s] [100%] Built target ros2_test_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.389s] [100%] Built target ros2_test_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.492s] running egg_info
+[0.493s] writing ros2_test_interfaces.egg-info/PKG-INFO
+[0.493s] writing dependency_links to ros2_test_interfaces.egg-info/dependency_links.txt
+[0.493s] writing top-level names to ros2_test_interfaces.egg-info/top_level.txt
+[0.496s] reading manifest file 'ros2_test_interfaces.egg-info/SOURCES.txt'
+[0.497s] writing manifest file 'ros2_test_interfaces.egg-info/SOURCES.txt'
+[0.519s] [100%] Built target ament_cmake_python_build_ros2_test_interfaces_egg

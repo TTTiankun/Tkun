@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target ros2_test_client_low[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_test_client_low.dir/src/ros2_test_client_low.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ros2_test_client_low[0m
+[100%] Built target ros2_test_client_low
+-- Install configuration: ""
+-- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_client_low/share/ament_index/resource_index/package_run_dependencies/ros2_test_client_low
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_client_low/share/ament_index/resource_index/parent_prefix_path/ros2_test_client_low
+-- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_client_low/share/ros2_test_client_low/environment/ament_prefix_path.sh
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_client_low/share/ros2_test_client_low/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_client_low/share/ros2_test_client_low/environment/path.sh
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_client_low/share/ros2_test_client_low/environment/path.dsv
+-- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_client_low/share/ros2_test_client_low/local_setup.bash
+-- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_client_low/share/ros2_test_client_low/local_setup.sh
+-- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_client_low/share/ros2_test_client_low/local_setup.zsh
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_client_low/share/ros2_test_client_low/local_setup.dsv
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_client_low/share/ros2_test_client_low/package.dsv
+-- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_client_low/share/ament_index/resource_index/packages/ros2_test_client_low
+-- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_client_low/share/ros2_test_client_low/cmake/ros2_test_client_lowConfig.cmake
+-- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_client_low/share/ros2_test_client_low/cmake/ros2_test_client_lowConfig-version.cmake
+-- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_client_low/share/ros2_test_client_low/package.xml
+-- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_client_low/lib/ros2_test_client_low/ros2_test_client_low
+-- Set runtime path of "/home/jason/Desktop/ROS2_study/install/ros2_test_client_low/lib/ros2_test_client_low/ros2_test_client_low" to ""

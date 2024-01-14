@@ -1,0 +1,2 @@
+[0.142s] Invoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_node -- -j32 -l32
+[0.180s] [100%] Built target ros2_test_node

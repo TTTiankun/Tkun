@@ -57,7 +57,7 @@
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "DockerRun.DisableDockerrc": true,
-  "cmake.sourceDirectory": "/home/jason/Desktop/ROS2_study/src",
+  "cmake.sourceDirectory": "/home/jason/Desktop/ROS2_study/build/ros2_test_interfaces/ros2_test_interfaces__py",
   "files.associations": {
     "functional": "cpp",
     "chrono": "cpp",

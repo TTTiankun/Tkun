@@ -1,0 +1,7 @@
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_client_low/src/ros2_test_client_low.cpp:[m[K In member function ‘[01m[Kvoid Client_test02::send_request(int, int)[m[K’:
+[01m[K/home/jason/Desktop/ROS2_study/src/ros2_test_client_low/src/ros2_test_client_low.cpp:38:33:[m[K [01;31m[Kerror: [m[K‘[01m[KClient_test01[m[K’ has not been declared
+   38 |             request, std::bind(&[01;31m[KClient_test01[m[K::result_callback, this, std::placeholders::_1));
+      |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ros2_test_client_low.dir/build.make:76：CMakeFiles/ros2_test_client_low.dir/src/ros2_test_client_low.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ros2_test_client_low.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,26 @@
+[0.143s] Invoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_client_low': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_client_low -- -j32 -l32
+[0.169s] [35m[1mConsolidate compiler generated dependencies of target ros2_test_client_low[0m
+[0.184s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_test_client_low.dir/src/ros2_test_client_low.cpp.o[0m
+[2.288s] [100%] [32m[1mLinking CXX executable ros2_test_client_low[0m
+[2.396s] [100%] Built target ros2_test_client_low
+[2.404s] Invoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_client_low' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_client_low -- -j32 -l32
+[2.422s] Invoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_client_low': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/ROS2_study/build/ros2_test_client_low
+[2.427s] -- Install configuration: ""
+[2.427s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_client_low/share/ament_index/resource_index/package_run_dependencies/ros2_test_client_low
+[2.427s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_client_low/share/ament_index/resource_index/parent_prefix_path/ros2_test_client_low
+[2.427s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_client_low/share/ros2_test_client_low/environment/ament_prefix_path.sh
+[2.427s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_client_low/share/ros2_test_client_low/environment/ament_prefix_path.dsv
+[2.427s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_client_low/share/ros2_test_client_low/environment/path.sh
+[2.427s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_client_low/share/ros2_test_client_low/environment/path.dsv
+[2.427s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_client_low/share/ros2_test_client_low/local_setup.bash
+[2.427s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_client_low/share/ros2_test_client_low/local_setup.sh
+[2.427s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_client_low/share/ros2_test_client_low/local_setup.zsh
+[2.427s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_client_low/share/ros2_test_client_low/local_setup.dsv
+[2.428s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_client_low/share/ros2_test_client_low/package.dsv
+[2.428s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_client_low/share/ament_index/resource_index/packages/ros2_test_client_low
+[2.428s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_client_low/share/ros2_test_client_low/cmake/ros2_test_client_lowConfig.cmake
+[2.428s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_client_low/share/ros2_test_client_low/cmake/ros2_test_client_lowConfig-version.cmake
+[2.428s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_client_low/share/ros2_test_client_low/package.xml
+[2.428s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_client_low/lib/ros2_test_client_low/ros2_test_client_low
+[2.428s] -- Set runtime path of "/home/jason/Desktop/ROS2_study/install/ros2_test_client_low/lib/ros2_test_client_low/ros2_test_client_low" to ""
+[2.429s] Invoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_client_low' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/ROS2_study/build/ros2_test_client_low

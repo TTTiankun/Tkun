@@ -1,0 +1,25 @@
+[0.083s] Invoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_node -- -j32 -l32
+[0.114s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_test_node.dir/src/ros2_test_node.cpp.o[0m
+[1.615s] [100%] [32m[1mLinking CXX executable ros2_test_node[0m
+[1.669s] [100%] Built target ros2_test_node
+[1.677s] Invoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/Desktop/ROS2_study/build/ros2_test_node -- -j32 -l32
+[1.693s] Invoking command in '/home/jason/Desktop/ROS2_study/build/ros2_test_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/ROS2_study/build/ros2_test_node
+[1.698s] -- Install configuration: ""
+[1.698s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_node/share/ament_index/resource_index/package_run_dependencies/ros2_test_node
+[1.698s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_node/share/ament_index/resource_index/parent_prefix_path/ros2_test_node
+[1.698s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_node/share/ros2_test_node/environment/ament_prefix_path.sh
+[1.698s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_node/share/ros2_test_node/environment/ament_prefix_path.dsv
+[1.698s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_node/share/ros2_test_node/environment/path.sh
+[1.698s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_node/share/ros2_test_node/environment/path.dsv
+[1.699s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_node/share/ros2_test_node/local_setup.bash
+[1.699s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_node/share/ros2_test_node/local_setup.sh
+[1.699s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_node/share/ros2_test_node/local_setup.zsh
+[1.699s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_node/share/ros2_test_node/local_setup.dsv
+[1.699s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_node/share/ros2_test_node/package.dsv
+[1.699s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_node/share/ament_index/resource_index/packages/ros2_test_node
+[1.699s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_node/share/ros2_test_node/cmake/ros2_test_nodeConfig.cmake
+[1.699s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_node/share/ros2_test_node/cmake/ros2_test_nodeConfig-version.cmake
+[1.699s] -- Up-to-date: /home/jason/Desktop/ROS2_study/install/ros2_test_node/share/ros2_test_node/package.xml
+[1.699s] -- Installing: /home/jason/Desktop/ROS2_study/install/ros2_test_node/lib/ros2_test_node/ros2_test_node
+[1.699s] -- Set runtime path of "/home/jason/Desktop/ROS2_study/install/ros2_test_node/lib/ros2_test_node/ros2_test_node" to ""
+[1.700s] Invoked command in '/home/jason/Desktop/ROS2_study/build/ros2_test_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jason/Desktop/ROS2_study/build/ros2_test_node

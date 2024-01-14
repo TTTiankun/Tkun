@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:35 (install):
+  install TARGETS given target "ros2_test_client_lower" which does not exist.
+
+[0m
+gmake: *** [Makefile:267：cmake_check_build_system] 错误 1

@@ -1,0 +1,10 @@
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+  ament_package_xml() package name 'ros2_test_client_low' in '/package.xml'
+  does not match current PROJECT_NAME 'ros2_test_client_lower'.  You must
+  call project() with the same package name before.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+  CMakeLists.txt:26 (ament_lint_auto_find_test_dependencies)
+
+[0m
+gmake: *** [Makefile:267：cmake_check_build_system] 错误 1

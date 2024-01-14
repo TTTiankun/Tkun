@@ -1,6 +1,7 @@
 #include "example_interfaces/srv/add_two_ints.hpp"
 #include "rclcpp/rclcpp.hpp"
 #include <iostream>
+//这个升级版的客户端，可以发送多个请求，但是只能等待一个响应
 
 class Client_test01 : public rclcpp::Node {
 public:
@@ -9,6 +10,14 @@ public:
         RCLCPP_INFO(this->get_logger(), "%s has been started.", name.c_str());
         // 创建客户端
         add_ints_client = this->create_client<example_interfaces::srv::AddTwoInts>("add_two_ints");
+
+
+        timer_ = this->create_wall_timer(std::chrono::milliseconds(500), std::bind(&Client_test01::send_request_around, this));
+        
+    }
+
+    void send_request_around(){
+        send_request(std::rand()%10, std::rand()%10);
     }
 
     void send_request(int a, int b) {
@@ -32,13 +41,15 @@ public:
         auto future_result = add_ints_client->async_send_request(
             request, std::bind(&Client_test01::result_callback, this, std::placeholders::_1));
 
-        // 等待异步请求完成
-        rclcpp::spin_until_future_complete(this->get_node_base_interface(), future_result);
+        //不再使用异步请求，而是等待计时器回调处理响应
     }
 
 private:
     // 声明客户端
     rclcpp::Client<example_interfaces::srv::AddTwoInts>::SharedPtr add_ints_client;
+
+    //声明一个定时器指针
+    rclcpp::TimerBase::SharedPtr timer_;
 
    void result_callback(const rclcpp::Client<example_interfaces::srv::AddTwoInts>::SharedFuture result_future) {
     // 获取响应
@@ -50,6 +61,9 @@ private:
     } else {
         RCLCPP_ERROR(this->get_logger(), "Failed to get response.");// 响应失败
     }
+
+    
+
 }
 
 };
@@ -60,8 +74,11 @@ int main() {
     // 创建节点
     auto node = std::make_shared<Client_test01>("client_test01");
     // 发送请求
-    node->send_request(3, 8);
+    node->send_request_around();
     // 循环等待回调函数
+    //开启一个线程，等待回调函数
+    rclcpp::spin(node);
+    // 关闭ROS
     rclcpp::shutdown();
     return 0;
 }
