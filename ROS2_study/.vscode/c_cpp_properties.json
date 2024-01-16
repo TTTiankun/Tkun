@@ -4,7 +4,7 @@
             "name": "linux-gcc-x64",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/opt/ros/humble/include/**"
+                "/opt/ros/humble/**"
             ],
             "compilerPath": "/usr/bin/gcc",
             "cStandard": "${default}",
