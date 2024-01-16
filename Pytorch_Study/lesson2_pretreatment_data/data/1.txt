@@ -1,0 +1,4 @@
+NumRooms,Alley,Price,SquareFeet,Neighborhood
+NA,Pave,NA,1416,NridgHt
+2,NA,NA,948,OldTown
+3,NA,178100,1717,StoneBr
