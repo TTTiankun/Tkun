@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/jason/Desktop/ubuntu_package/test/build",
-  "command": "/usr/bin/c++ -DTBB_PREVIEW_WAITING_FOR_WORKERS=1 -isystem /usr/local/opencv4.7.0/include/opencv4 -isystem /opt/tdt/openvino/runtime/include -isystem /opt/tdt/openvino/runtime/include/ie -g -Wno-error=deprecated-declarations -o CMakeFiles/test.dir/Matrix.cpp.o -c /home/jason/Desktop/ubuntu_package/test/Matrix.cpp",
-  "file": "/home/jason/Desktop/ubuntu_package/test/Matrix.cpp"
-}
-]

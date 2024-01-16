@@ -1,3 +1,0 @@
-/home/jason/Desktop/Tkun/KF_predict/build/CMakeFiles/test.dir
-/home/jason/Desktop/Tkun/KF_predict/build/CMakeFiles/edit_cache.dir
-/home/jason/Desktop/Tkun/KF_predict/build/CMakeFiles/rebuild_cache.dir

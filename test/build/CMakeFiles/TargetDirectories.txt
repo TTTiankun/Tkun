@@ -1,3 +1,0 @@
-/home/jason/Desktop/ubuntu_package/test/build/CMakeFiles/test.dir
-/home/jason/Desktop/ubuntu_package/test/build/CMakeFiles/edit_cache.dir
-/home/jason/Desktop/ubuntu_package/test/build/CMakeFiles/rebuild_cache.dir

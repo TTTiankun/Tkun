@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/jason/Desktop/C_pre_exam/build",
-  "command": "/usr/bin/cc  -I/home/jason/Desktop/C_pre_exam/include -isystem /usr/local/opencv4.7.0/include/opencv4 -g -o CMakeFiles/test.dir/main.c.o -c /home/jason/Desktop/C_pre_exam/main.c",
-  "file": "/home/jason/Desktop/C_pre_exam/main.c"
-}
-]

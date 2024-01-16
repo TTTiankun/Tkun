@@ -1,3 +1,0 @@
-/home/jason/Desktop/C_pre_exam/build/CMakeFiles/test.dir
-/home/jason/Desktop/C_pre_exam/build/CMakeFiles/edit_cache.dir
-/home/jason/Desktop/C_pre_exam/build/CMakeFiles/rebuild_cache.dir
