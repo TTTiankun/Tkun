@@ -65,7 +65,6 @@ def train(net,train_iter,test_iter,num_epochs,lr,device):
     net.to(device)
     optimizer = torch.optim.SGD(net.parameters(),lr=lr) # 随机梯度下降
     loss = nn.CrossEntropyLoss() # 交叉熵损失函数
-    animator = d2l.Animator(xlabel='epoch',xlim=[1,num_epochs],legend=['train loss','train acc','test acc']) # 动画
     timer = d2l.Timer() # 计时器
     for epoch in range(num_epochs):
         metric = d2l.Accumulator(3) # 训练损失总和，训练准确度总和，样本数
@@ -90,6 +89,7 @@ def train(net,train_iter,test_iter,num_epochs,lr,device):
 
     print(f'loss {train_loss:.3f}, train acc {train_acc:.3f}, 'f'test acc {test_acc:.3f}')
     print(f'{metric[2]*num_epochs/timer.sum():.1f} examples/sec 'f'on {str(device)}')
+    print(f'{timer.sum()} seconds')
 
 #训练测试
 #设置超参数

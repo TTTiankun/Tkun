@@ -58,3 +58,4 @@ print(X)
 
 pool2d = nn.MaxPool2d(3, padding=1, stride=2) # 最大池化层 3*3的池化窗口 填充 步幅
 print(pool2d(X)) # 输出
+#输出通道数为输入通道数的一半

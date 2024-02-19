@@ -39,7 +39,7 @@ def corr2d_multi_in_out(X, K):
     #stack函数将多个张量合并在一起
 
 #测试
-K = torch.stack([K, K + 1, K + 2], 0) # 核 3个2行2列的张量 逐个相加
+K = torch.stack([K, K + 1, K + 2], 0) # 核 3个2行2列的张量 逐个相加 三个通道
 print(K) # 输出
-print(K.shape) # 输出
+print(K.shape) # 输出 
 print(corr2d_multi_in_out(X, K)) # 输出
