@@ -123,13 +123,13 @@ class TinySSD(nn.Module):
         return anchors, cls_preds, bbox_preds
     
 #测试代码 创建一个模型实例 并使用它做前向计算
-net = TinySSD(num_classes=1) #类别数是1
-X = torch.zeros((32, 3, 256, 256)) #输入的形状
-anchors, cls_preds, bbox_preds = net(X) #输入X经过net后输出锚框类别预测和边界框预测
+# net = TinySSD(num_classes=1) #类别数是1
+# X = torch.zeros((32, 3, 256, 256)) #输入的形状
+# anchors, cls_preds, bbox_preds = net(X) #输入X经过net后输出锚框类别预测和边界框预测
 
-print('output anchors:', anchors.shape) #输出的锚框的形状
-print('output class preds:', cls_preds.shape) #输出的类别预测的形状
-print('output bbox preds:', bbox_preds.shape) #输出的边界框预测的形状
+# print('output anchors:', anchors.shape) #输出的锚框的形状
+# print('output class preds:', cls_preds.shape) #输出的类别预测的形状
+# print('output bbox preds:', bbox_preds.shape) #输出的边界框预测的形状
 
 #加载数据集
 batch_size = 32 #批量大小
