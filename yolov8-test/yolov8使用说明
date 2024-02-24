@@ -1,0 +1,10 @@
+配置一下文件
+1.安装miniconda3 并设置一个新的pytorch环境
+2.在环境之中pip install ultralytics
+
+调整训练文件
+1.数据集文件夹要在桌面
+2.修改yaml文件的路径
+
+训练模型
+打开train_yolov8.py文件运行即可开始训练
