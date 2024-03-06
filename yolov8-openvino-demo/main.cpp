@@ -3,9 +3,11 @@
 
 #include<iostream>
 
+#include <opencv2/core/types.hpp>
 #include<opencv2/opencv.hpp>
 #include<openvino/openvino.hpp>
 #include<chrono>
+#include <vector>
 
 //全局变量区
 cv::VideoCapture cap;
@@ -32,6 +34,8 @@ std::vector<cv::Scalar> colors = { cv::Scalar(255, 0, 0), cv::Scalar(255, 0, 255
                                    cv::Scalar(255, 255, 0), cv::Scalar(0, 255, 85), cv::Scalar(170, 255, 0), cv::Scalar(0, 85, 255),
                                    cv::Scalar(0, 255, 170), cv::Scalar(0, 0, 255), cv::Scalar(0, 255, 255), cv::Scalar(85, 0, 255),
                                    cv::Scalar(0, 170, 255)};
+
+std::vector<cv::Scalar> colors_best = { cv::Scalar(255, 0, 0), cv::Scalar(255, 0, 255)};
 
 std::vector<std::string> class_names_pose = {"person"};
 

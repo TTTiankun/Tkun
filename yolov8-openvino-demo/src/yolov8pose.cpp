@@ -151,7 +151,7 @@ void Yolov8pose::show(cv::Mat &source){
         cv::putText(source, label, cv::Point(boxes[index].tl().x, boxes[index].tl().y - 5), cv::FONT_HERSHEY_SIMPLEX, 0.5, cv::Scalar(255, 255, 255));
         // 画点
         std::vector<float> object_keypoints = obj_keypoints[index];
-        for (int i = 0; i < 17; i++) {
+        for (int i = 0; i < 4; i++) {
             int x = std::clamp(int(object_keypoints[i*3+0]), 0, source.cols);//将object_keypoints的值限制在0到source.cols之间
             int y = std::clamp(int(object_keypoints[i*3+1]), 0, source.rows);
             cv::circle(source, cv::Point(x, y), 5, colors[i], -1);            
