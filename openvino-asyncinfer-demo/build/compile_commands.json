@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/jason/Desktop/openvino-asyncinfer/build",
+  "command": "/usr/bin/c++ -DTBB_PREVIEW_WAITING_FOR_WORKERS=1 -I/home/jason/Desktop/openvino-asyncinfer/include -isystem /usr/local/opencv4.7.0/include/opencv4 -isystem /opt/tdt/openvino/runtime/include -isystem /opt/tdt/openvino/runtime/include/ie -g -Wno-error=deprecated-declarations -std=gnu++17 -o CMakeFiles/test.dir/main.cpp.o -c /home/jason/Desktop/openvino-asyncinfer/main.cpp",
+  "file": "/home/jason/Desktop/openvino-asyncinfer/main.cpp"
+},
+{
+  "directory": "/home/jason/Desktop/openvino-asyncinfer/build",
+  "command": "/usr/bin/c++ -DTBB_PREVIEW_WAITING_FOR_WORKERS=1 -I/home/jason/Desktop/openvino-asyncinfer/include -isystem /usr/local/opencv4.7.0/include/opencv4 -isystem /opt/tdt/openvino/runtime/include -isystem /opt/tdt/openvino/runtime/include/ie -g -Wno-error=deprecated-declarations -std=gnu++17 -o CMakeFiles/test.dir/src/asyncinfer.cpp.o -c /home/jason/Desktop/openvino-asyncinfer/src/asyncinfer.cpp",
+  "file": "/home/jason/Desktop/openvino-asyncinfer/src/asyncinfer.cpp"
+}
+]
