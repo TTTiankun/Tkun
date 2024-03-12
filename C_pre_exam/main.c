@@ -62,6 +62,7 @@ void dataout(){
     double d = 30.0;
     char c = 'a';
     char str[10] = "hello";
+    double f = ceil(3.1);//向上取整
 
     printf("%d\n",a);//最常规
     printf("%04d\n",a);//输出4位整型，不足4位前面补0 （只有整型可以这样用）
@@ -72,6 +73,7 @@ void dataout(){
     printf("%s\n",str);//最常规
     printf("%10s\n",str);//输出10个字符，不足10个前面补空格
     printf("%5.3s\n",str);//输出3个字符(不包括结束符)，不足3个输出全部，从左到右
+    printf("%lf\n",f);//输出f
 }
 
 //数据输入
