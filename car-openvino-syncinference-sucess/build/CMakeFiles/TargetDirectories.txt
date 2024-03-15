@@ -1,0 +1,3 @@
+/home/jason/Desktop/car-openvino-syncinference-sucess/build/CMakeFiles/test.dir
+/home/jason/Desktop/car-openvino-syncinference-sucess/build/CMakeFiles/edit_cache.dir
+/home/jason/Desktop/car-openvino-syncinference-sucess/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/jason/Desktop/car-openvino-original/build",
+  "command": "/usr/bin/c++ -DTBB_PREVIEW_WAITING_FOR_WORKERS=1 -I/home/jason/Desktop/car-openvino-original/include -isystem /usr/local/opencv4.7.0/include/opencv4 -isystem /opt/tdt/openvino/runtime/include -isystem /opt/tdt/openvino/runtime/include/ie -g -Wno-error=deprecated-declarations -std=gnu++17 -o CMakeFiles/test.dir/main.cpp.o -c /home/jason/Desktop/car-openvino-original/main.cpp",
+  "file": "/home/jason/Desktop/car-openvino-original/main.cpp"
+},
+{
+  "directory": "/home/jason/Desktop/car-openvino-original/build",
+  "command": "/usr/bin/c++ -DTBB_PREVIEW_WAITING_FOR_WORKERS=1 -I/home/jason/Desktop/car-openvino-original/include -isystem /usr/local/opencv4.7.0/include/opencv4 -isystem /opt/tdt/openvino/runtime/include -isystem /opt/tdt/openvino/runtime/include/ie -g -Wno-error=deprecated-declarations -std=gnu++17 -o CMakeFiles/test.dir/src/numberdetector.cpp.o -c /home/jason/Desktop/car-openvino-original/src/numberdetector.cpp",
+  "file": "/home/jason/Desktop/car-openvino-original/src/numberdetector.cpp"
+},
+{
+  "directory": "/home/jason/Desktop/car-openvino-original/build",
+  "command": "/usr/bin/c++ -DTBB_PREVIEW_WAITING_FOR_WORKERS=1 -I/home/jason/Desktop/car-openvino-original/include -isystem /usr/local/opencv4.7.0/include/opencv4 -isystem /opt/tdt/openvino/runtime/include -isystem /opt/tdt/openvino/runtime/include/ie -g -Wno-error=deprecated-declarations -std=gnu++17 -o CMakeFiles/test.dir/src/yolov8pose.cpp.o -c /home/jason/Desktop/car-openvino-original/src/yolov8pose.cpp",
+  "file": "/home/jason/Desktop/car-openvino-original/src/yolov8pose.cpp"
+}
+]
