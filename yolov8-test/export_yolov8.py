@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 
-path = 'next_model.pt'
+path = 'car-0.5.pt'
 
 model = YOLO(path)
 
