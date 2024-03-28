@@ -1,3 +1,0 @@
-/home/jason/Desktop/car-openvino-original-yolo/build/CMakeFiles/test.dir
-/home/jason/Desktop/car-openvino-original-yolo/build/CMakeFiles/edit_cache.dir
-/home/jason/Desktop/car-openvino-original-yolo/build/CMakeFiles/rebuild_cache.dir
