@@ -1,7 +1,7 @@
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/opencv.hpp>
 #include <iostream>
-
+//这个是用来调HSV的程序，如果要调参那这个调好了再在主程序中改
 using namespace std;
 using namespace cv;
 

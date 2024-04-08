@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/jason/Desktop/find_ball/build",
+  "command": "/usr/bin/c++  -I/home/jason/Desktop/find_ball/src -isystem /usr/local/opencv4.7.0/include/opencv4 -g -std=gnu++17 -o CMakeFiles/test.dir/main.cpp.o -c /home/jason/Desktop/find_ball/main.cpp",
+  "file": "/home/jason/Desktop/find_ball/main.cpp"
+},
+{
+  "directory": "/home/jason/Desktop/find_ball/build",
+  "command": "/usr/bin/c++  -I/home/jason/Desktop/find_ball/src -isystem /usr/local/opencv4.7.0/include/opencv4 -g -std=gnu++17 -o CMakeFiles/test.dir/src/detect_min_ball.cpp.o -c /home/jason/Desktop/find_ball/src/detect_min_ball.cpp",
+  "file": "/home/jason/Desktop/find_ball/src/detect_min_ball.cpp"
+}
+]

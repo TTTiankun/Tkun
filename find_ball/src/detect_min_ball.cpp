@@ -81,6 +81,7 @@ void detect_ball::detect(cv::Mat &input, cv::Mat &output){
     // cv::imshow("output", output);
 }
 
+//找球的主程序
 void detect_ball::show_detect(cv::Mat &input, cv::Mat &output){
     for(int i = 0;i<centers.size();i++){
         cv::Point2f center = centers[i]/size_factor;
