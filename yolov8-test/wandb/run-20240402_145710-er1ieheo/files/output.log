@@ -1,0 +1,88 @@
+Freezing layer 'model.22.dfl.conv.weight'
+[34m[1mAMP: [39m[22mrunning Automatic Mixed Precision (AMP) checks with YOLOv8n...
+[34m[1mAMP: [39m[22mchecks passed ✅
+[34m[1mtrain: [39m[22mNew cache created: /home/jason/Desktop/datasets/rx_datasets_plus/train/labels.cache
+[34m[1malbumentations: [39m[22mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01), CLAHE(p=0.01, clip_limit=(1, 4.0), tile_grid_size=(8, 8))
+[34m[1mval: [39m[22mNew cache created: /home/jason/Desktop/datasets/rx_datasets_plus/val/labels.cache
+Plotting labels to runs/detect/train10/labels.jpg...
+[34m[1mtrain: [39m[22mScanning /home/jason/Desktop/datasets/rx_datasets_plus/train/labels... 49 images, 0 backgrounds, 0 cor
+Exception ignored in: <function _releaseLock at 0x7b6cd19e3600>
+Traceback (most recent call last):
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/logging/__init__.py", line 237, in _releaseLock
+    def _releaseLock():
+KeyboardInterrupt:
+[34m[1mval: [39m[22mScanning /home/jason/Desktop/datasets/rx_datasets_plus/val/labels... 49 images, 0 backgrounds, 0 corrupt
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.001667, momentum=0.9) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.000546875), 63 bias(decay=0.0)
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added ✅
+Image sizes 640 train, 640 val
+Using 8 dataloader workers
+Logging results to [1mruns/detect/train10
+Starting training for 10 epochs...
+Closing dataloader mosaic
+[34m[1malbumentations: [39m[22mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01), CLAHE(p=0.01, clip_limit=(1, 4.0), tile_grid_size=(8, 8))
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+Exception in thread Thread-29 (_pin_memory_loop):
+Traceback (most recent call last):
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/torch/utils/data/_utils/pin_memory.py", line 54, in _pin_memory_loop
+    do_one_step()
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/torch/utils/data/_utils/pin_memory.py", line 31, in do_one_step
+    r = in_queue.get(timeout=MP_STATUS_CHECK_INTERVAL)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/multiprocessing/queues.py", line 122, in get
+    return _ForkingPickler.loads(res)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/torch/multiprocessing/reductions.py", line 355, in rebuild_storage_fd
+    fd = df.detach()
+         ^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/multiprocessing/resource_sharer.py", line 57, in detach
+    with _resource_sharer.get_connection(self._id) as conn:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/multiprocessing/resource_sharer.py", line 86, in get_connection
+    c = Client(address, authkey=process.current_process().authkey)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/multiprocessing/connection.py", line 518, in Client
+    c = SocketClient(address)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/multiprocessing/connection.py", line 646, in SocketClient
+    s.connect(address)
+FileNotFoundError: [Errno 2] No such file or directory
+       1/10      2.18G      2.262      4.498      2.089         14        640: 100%|██████████| 4/4 [00:01<00
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/
+Traceback (most recent call last):
+  File "/home/jason/Desktop/yolov8-test/train_yolov8.py", line 8, in <module>
+    results = model.train(data='breast_plus.yaml', epochs=10,device='0',
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/ultralytics/engine/model.py", line 655, in train
+    self.trainer.train()
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/ultralytics/engine/trainer.py", line 213, in train
+    self._do_train(world_size)
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/ultralytics/engine/trainer.py", line 429, in _do_train
+    self.metrics, self.fitness = self.validate()
+                                 ^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/ultralytics/engine/trainer.py", line 551, in validate
+    metrics = self.validator(self)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/ultralytics/engine/validator.py", line 169, in __call__
+    for batch_i, batch in enumerate(bar):
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/tqdm/std.py", line 1182, in __iter__
+    for obj in iterable:
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/ultralytics/data/build.py", line 49, in __iter__
+    yield next(self.iterator)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 1328, in _next_data
+    idx, data = self._get_data()
+                ^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 1289, in _get_data
+    raise RuntimeError('Pin memory thread exited unexpectedly')
+RuntimeError: Pin memory thread exited unexpectedly

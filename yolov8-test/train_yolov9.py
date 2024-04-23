@@ -1,10 +1,9 @@
 from ultralytics import YOLO
 
-#创造模型结构文件
-# model = YOLO('yolov9.yaml')
+#创造模型结构文件并导入权重
+model = YOLO('yolov9.yaml').load('yolov9.pt')
 
-#导入模型权重
-model = YOLO('yolov9.pt')
+
 
 #训练模型
 results = model.train(data='breast.yaml', epochs=50,device='0',

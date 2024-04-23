@@ -1,0 +1,19 @@
+2024-04-11 22:29:07,295 INFO    StreamThr :54894 [internal.py:wandb_internal():86] W&B internal server running at pid: 54894, started at: 2024-04-11 22:29:07.295334
+2024-04-11 22:29:07,296 DEBUG   HandlerThread:54894 [handler.py:handle_request():146] handle_request: status
+2024-04-11 22:29:07,298 INFO    WriterThread:54894 [datastore.py:open_for_write():87] open: /home/jason/Desktop/yolov8-test/wandb/run-20240411_222907-cnnswcfg/run-cnnswcfg.wandb
+2024-04-11 22:29:07,298 DEBUG   SenderThread:54894 [sender.py:send():379] send: header
+2024-04-11 22:29:07,298 DEBUG   SenderThread:54894 [sender.py:send():379] send: run
+2024-04-11 22:29:07,900 DEBUG   HandlerThread:54894 [handler.py:handle_request():146] handle_request: shutdown
+2024-04-11 22:29:07,900 INFO    HandlerThread:54894 [handler.py:finish():866] shutting down handler
+2024-04-11 22:29:08,067 INFO    SenderThread:54894 [dir_watcher.py:__init__():211] watching files in: /home/jason/Desktop/yolov8-test/wandb/run-20240411_222907-cnnswcfg/files
+2024-04-11 22:29:08,067 INFO    SenderThread:54894 [sender.py:_start_run_threads():1124] run started: cnnswcfg with start time 1712845747.295493
+2024-04-11 22:29:08,067 INFO    SenderThread:54894 [sender.py:finish():1546] shutting down sender
+2024-04-11 22:29:08,067 INFO    SenderThread:54894 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-04-11 22:29:08,298 INFO    WriterThread:54894 [datastore.py:close():296] close: /home/jason/Desktop/yolov8-test/wandb/run-20240411_222907-cnnswcfg/run-cnnswcfg.wandb
+2024-04-11 22:29:09,067 INFO    SenderThread:54894 [dir_watcher.py:finish():388] scan: /home/jason/Desktop/yolov8-test/wandb/run-20240411_222907-cnnswcfg/files
+2024-04-11 22:29:09,067 INFO    SenderThread:54894 [dir_watcher.py:finish():402] scan save: /home/jason/Desktop/yolov8-test/wandb/run-20240411_222907-cnnswcfg/files/config.yaml config.yaml
+2024-04-11 22:29:09,068 INFO    SenderThread:54894 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-11 22:29:09,068 INFO    SenderThread:54894 [file_pusher.py:join():178] waiting for file pusher
+2024-04-11 22:29:10,353 INFO    wandb-upload_0:54894 [upload_job.py:push():131] Uploaded file /home/jason/Desktop/yolov8-test/wandb/run-20240411_222907-cnnswcfg/files/config.yaml
+2024-04-11 22:29:10,569 INFO    SenderThread:54894 [file_stream.py:finish():614] file stream finish called
+2024-04-11 22:29:10,938 INFO    SenderThread:54894 [file_stream.py:finish():618] file stream finish is done

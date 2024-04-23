@@ -1,0 +1,61 @@
+Freezing layer 'model.22.dfl.conv.weight'
+[34m[1mAMP: [39m[22mrunning Automatic Mixed Precision (AMP) checks with YOLOv8n...
+[34m[1mAMP: [39m[22mchecks passed ✅
+[34m[1malbumentations: [39m[22mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01), CLAHE(p=0.01, clip_limit=(1, 4.0), tile_grid_size=(8, 8))
+Plotting labels to runs/detect/train7/labels.jpg...
+[34m[1mtrain: [39m[22mScanning /home/jason/Desktop/rx_datasets/train/labels.cache... 50 images, 13 backgrounds, 0 corrupt: 100%|██████████| 50/50 [00:00<?, ?it/s]
+[34m[1mval: [39m[22mScanning /home/jason/Desktop/rx_datasets/val/labels.cache... 18 images, 7 backgrounds, 0 corrupt: 100%|██████████| 18/18 [00:00<?, ?it/s]
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.00125, momentum=0.9) with parameter groups 77 weight(decay=0.0), 84 weight(decay=0.0005625000000000001), 83 bias(decay=0.0)
+  0%|          | 0/3 [00:00<?, ?it/s]
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added ✅
+Image sizes 640 train, 640 val
+Using 8 dataloader workers
+Logging results to [1mruns/detect/train7
+Starting training for 250 epochs...
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+Traceback (most recent call last):
+  File "/home/jason/Desktop/yolov8-test/train_yolov8.py", line 10, in <module>
+    results = model.train(data='breast.yaml', epochs=250,device='0',
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/ultralytics/engine/model.py", line 655, in train
+    self.trainer.train()
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/ultralytics/engine/trainer.py", line 213, in train
+    self._do_train(world_size)
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/ultralytics/engine/trainer.py", line 381, in _do_train
+    self.loss, self.loss_items = self.model(batch)
+                                 ^^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/ultralytics/nn/tasks.py", line 88, in forward
+    return self.loss(x, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/ultralytics/nn/tasks.py", line 266, in loss
+    preds = self.forward(batch["img"]) if preds is None else preds
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/ultralytics/nn/tasks.py", line 89, in forward
+    return self.predict(x, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/ultralytics/nn/tasks.py", line 107, in predict
+    return self._predict_once(x, profile, visualize, embed)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/ultralytics/nn/tasks.py", line 128, in _predict_once
+    x = m(x)  # run
+        ^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/torch/nn/modules/upsampling.py", line 156, in forward
+    return F.interpolate(input, self.size, self.scale_factor, self.mode, self.align_corners,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/torch/nn/functional.py", line 3983, in interpolate
+    return torch._C._nn.upsample_nearest2d(input, output_size, scale_factors)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 44.00 MiB. GPU 0 has a total capacty of 5.77 GiB of which 20.31 MiB is free. Including non-PyTorch memory, this process has 5.73 GiB memory in use. Of the allocated memory 5.45 GiB is allocated by PyTorch, and 113.96 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

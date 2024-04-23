@@ -1,0 +1,1 @@
+{"_wandb": {"runtime": 3}, "train/box_loss": 0.0, "train/pose_loss": 0.0, "train/kobj_loss": 0.0, "train/cls_loss": 52.31193, "train/dfl_loss": 0.0, "_timestamp": 1712845266.1492958, "lr/pg0": 0.0, "lr/pg1": 0.0, "lr/pg2": 0.0, "_runtime": 4.781719923019409, "_step": 1}

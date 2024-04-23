@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 
-path = 'car-0.5.pt'
+path = 'stomach.pt'
 
 model = YOLO(path)
 

@@ -1,0 +1,76 @@
+[34m[1mAMP: [39m[22mrunning Automatic Mixed Precision (AMP) checks with YOLOv8n...
+[34m[1mAMP: [39m[22mchecks passed ✅
+WARNING ⚠️ updating to 'imgsz=640'. 'train' and 'val' imgsz must be an integer, while 'predict' and 'export' imgsz may be a [h, w] list or an integer, i.e. 'yolo export imgsz=640,480' or 'yolo export imgsz=640'
+[34m[1mtrain: [39m[22mScanning /home/jason/Desktop/yolov8-test/datasets/station_datasets/train/labels... 242 ima
+[34m[1mtrain: [39m[22mNew cache created: /home/jason/Desktop/yolov8-test/datasets/station_datasets/train/labels.cache
+[34m[1malbumentations: [39m[22mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01), CLAHE(p=0.01, clip_limit=(1, 4.0), tile_grid_size=(8, 8))
+[34m[1mval: [39m[22mScanning /home/jason/Desktop/yolov8-test/datasets/station_datasets/val/labels... 45 images,
+[34m[1mval: [39m[22mNew cache created: /home/jason/Desktop/yolov8-test/datasets/station_datasets/val/labels.cache
+Plotting labels to runs/detect/train8/labels.jpg...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.001667, momentum=0.9) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.000625), 63 bias(decay=0.0)
+Image sizes 640 train, 640 val
+Using 8 dataloader workers
+Logging results to [1mruns/detect/train8
+Starting training for 10 epochs...
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+       1/10       5.2G      1.469      3.495      1.563          9        640: 100%|██████████| 7
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██
+                   all         45         87    0.00484      0.583     0.0679     0.0291
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+       2/10      5.23G      1.157      2.989      1.307          6        640: 100%|██████████| 7
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██
+                   all         45         87    0.00631      0.976      0.463      0.368
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+       3/10      5.22G     0.9082      1.668      1.161          4        640: 100%|██████████| 7
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██
+                   all         45         87    0.00599      0.917      0.451      0.275
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+       4/10      5.23G     0.8504      1.238       1.06         13        640: 100%|██████████| 7
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██
+                   all         45         87    0.00622       0.94      0.295      0.162
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+       5/10      5.23G     0.7823      1.076      1.017         10        640: 100%|██████████| 7
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██
+                   all         45         87      0.964      0.425      0.481      0.346
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+       6/10      5.22G     0.8651      1.163      1.084          4        640: 100%|██████████| 7
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██
+                   all         45         87      0.967      0.478      0.566      0.476
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+       7/10      5.23G     0.7085     0.9309     0.9955         11        640: 100%|██████████| 7
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██
+                   all         45         87      0.956      0.457       0.57      0.408
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+       8/10      5.22G     0.7319     0.9291      1.005          5        640: 100%|██████████| 7
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██
+                   all         45         87       0.99      0.489      0.857        0.7
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+       9/10      5.22G     0.7095     0.8449      1.004          7        640: 100%|██████████| 7
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██
+                   all         45         87      0.989      0.492      0.741      0.639
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+      10/10      5.22G     0.7125      1.013      1.035          3        640: 100%|██████████| 7
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██
+                   all         45         87      0.995      0.527      0.983      0.818
+10 epochs completed in 0.009 hours.
+Optimizer stripped from runs/detect/train8/weights/last.pt, 6.2MB
+Optimizer stripped from runs/detect/train8/weights/best.pt, 6.2MB
+Validating runs/detect/train8/weights/best.pt...
+Ultralytics YOLOv8.0.124 🚀 Python-3.11.7 torch-2.1.2+cu121 CUDA:0 (NVIDIA GeForce RTX 4050 Laptop GPU, 5905MiB)
+YOLOv8n summary (fused): 168 layers, 3006038 parameters, 0 gradients, 8.1 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██
+                   all         45         87      0.995      0.527      0.983      0.816
+               station         45         45       0.99          1      0.995      0.874
+               small_L         45         42          1     0.0539      0.971      0.759
+Speed: 0.2ms preprocess, 1.5ms inference, 0.0ms loss, 1.5ms postprocess per image
+Results saved to [1mruns/detect/train8
+Ultralytics YOLOv8.0.124 🚀 Python-3.11.7 torch-2.1.2+cu121 CUDA:0 (NVIDIA GeForce RTX 4050 Laptop GPU, 5905MiB)
+YOLOv8n summary (fused): 168 layers, 3006038 parameters, 0 gradients, 8.1 GFLOPs
+[34m[1mval: [39m[22mScanning /home/jason/Desktop/yolov8-test/datasets/station_datasets/val/labels.cache... 45 im
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██
+                   all         45         87      0.995      0.527      0.983      0.814
+               station         45         45       0.99          1      0.995      0.878
+               small_L         45         42          1      0.054      0.971       0.75
+Speed: 0.6ms preprocess, 7.0ms inference, 0.0ms loss, 1.2ms postprocess per image
+Results saved to [1mruns/detect/val

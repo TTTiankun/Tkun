@@ -1,0 +1,16 @@
+
+
+path: ../datasets/station_datasets   # dataset root dir
+train: train # train images (relative to 'path') 
+val: val  # val images (relative to 'path') 
+test:  # test images (optional)
+
+#在修改网络结果的时候，全新的块和网络存放在nn/models目录下（注意修改包括的块），然后要注意调整传入的参数是否符合条件
+#之后在init和task（有两个地方）文件中添加网络，方便调用
+
+# Classes
+nc: 2
+names:
+  0: station
+  1: small_L
+

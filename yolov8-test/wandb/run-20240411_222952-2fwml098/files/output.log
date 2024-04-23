@@ -1,0 +1,82 @@
+Freezing layer 'model.22.dfl.conv.weight'
+[34m[1mAMP: [39m[22mrunning Automatic Mixed Precision (AMP) checks with YOLOv8n...
+[34m[1mAMP: [39m[22mchecks passed ✅
+WARNING ⚠️ updating to 'imgsz=640'. 'train' and 'val' imgsz must be an integer, while 'predict' and 'export' imgsz may be a [h, w] list or an integer, i.e. 'yolo export imgsz=640,480' or 'yolo export imgsz=640'
+[34m[1mtrain: [39m[22mNew cache created: /home/jason/Desktop/datasets/testdatasets/train/labels.cache
+WARNING ⚠️ No 'flip_idx' array defined in data.yaml, setting augmentation 'fliplr=0.0'
+[34m[1mval: [39m[22mNew cache created: /home/jason/Desktop/datasets/testdatasets/val/labels.cache
+[34m[1mtrain: [39m[22mScanning /home/jason/Desktop/datasets/testdatasets/train/labels... 6 images, 0 backgrounds, 0 corrupt: 100%|██████████| 6/
+[34m[1mval: [39m[22mScanning /home/jason/Desktop/datasets/testdatasets/val/labels... 6 images, 0 backgrounds, 0 corrupt: 100%|██████████| 6/6 [0
+Plotting labels to /home/jason/Desktop/YOLO-Pruning-RKNN/runs/pose/train20/labels.jpg...
+      1/500      1.07G     0.7096      8.447          0      53.02      0.354         11        640: 100%|██████████| 1/1 [00:00<
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Pose(P          R      mAP50  mAP50-
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.001429, momentum=0.9) with parameter groups 63 weight(decay=0.0), 73 weight(decay=0.000625), 72 bias(decay=0.0)
+Image sizes 640 train, 640 val
+Using 8 dataloader workers
+Logging results to [1m/home/jason/Desktop/YOLO-Pruning-RKNN/runs/pose/train20
+Starting training for 500 epochs...
+      Epoch    GPU_mem   box_loss  pose_loss  kobj_loss   cls_loss   dfl_loss  Instances       Size
+                   all          6          6          0          0          0          0          0          0          0          0
+      Epoch    GPU_mem   box_loss  pose_loss  kobj_loss   cls_loss   dfl_loss  Instances       Size
+                   all          6          6          0          0          0          0          0          0          0          0
+      2/500      1.08G       4.95      8.957          0      56.07      2.746         13        640: 100%|██████████| 1/1 [00:00<
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Pose(P          R      mAP50  mAP50-
+      3/500      1.08G     0.6402      7.855          0      52.85     0.3668          9        640: 100%|██████████| 1/1 [00:00<
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Pose(P          R      mAP50  mAP50-
+      4/500      1.08G      4.549      9.282          0      55.56      1.961         11        640: 100%|██████████| 1/1 [00:00<
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Pose(P          R      mAP50  mAP50-
+      5/500      1.08G      1.444      7.615          0      52.96     0.6478          6        640: 100%|██████████| 1/1 [00:00<
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Pose(P          R      mAP50  mAP50-
+  0%|          | 0/1 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/jason/Desktop/yolov8-test/train_yolov8_pose.py", line 8, in <module>
+    results = model.train(data='buff.yaml', epochs=500,device='0',
+  File "/home/jason/.local/lib/python3.10/site-packages/ultralytics/engine/model.py", line 668, in train
+    self.trainer.train()
+  File "/home/jason/.local/lib/python3.10/site-packages/ultralytics/engine/trainer.py", line 198, in train
+    self._do_train(world_size)
+  File "/home/jason/.local/lib/python3.10/site-packages/ultralytics/engine/trainer.py", line 370, in _do_train
+    self.loss, self.loss_items = self.model(batch)
+  File "/home/jason/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/jason/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jason/.local/lib/python3.10/site-packages/ultralytics/nn/tasks.py", line 88, in forward
+    return self.loss(x, *args, **kwargs)
+  File "/home/jason/.local/lib/python3.10/site-packages/ultralytics/nn/tasks.py", line 266, in loss
+    preds = self.forward(batch["img"]) if preds is None else preds
+  File "/home/jason/.local/lib/python3.10/site-packages/ultralytics/nn/tasks.py", line 89, in forward
+    return self.predict(x, *args, **kwargs)
+  File "/home/jason/.local/lib/python3.10/site-packages/ultralytics/nn/tasks.py", line 107, in predict
+    return self._predict_once(x, profile, visualize, embed)
+  File "/home/jason/.local/lib/python3.10/site-packages/ultralytics/nn/tasks.py", line 128, in _predict_once
+    x = m(x)  # run
+  File "/home/jason/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/jason/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jason/.local/lib/python3.10/site-packages/ultralytics/nn/modules/block.py", line 229, in forward
+    y = list(self.cv1(x).chunk(2, 1))
+  File "/home/jason/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/jason/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jason/.local/lib/python3.10/site-packages/ultralytics/nn/modules/conv.py", line 50, in forward
+    return self.act(self.bn(self.conv(x)))
+  File "/home/jason/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/jason/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jason/.local/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 460, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/jason/.local/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 456, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+KeyboardInterrupt
+      Epoch    GPU_mem   box_loss  pose_loss  kobj_loss   cls_loss   dfl_loss  Instances       Size
+                   all          6          6          0          0          0          0          0          0          0          0
+      Epoch    GPU_mem   box_loss  pose_loss  kobj_loss   cls_loss   dfl_loss  Instances       Size
+                   all          6          6          0          0          0          0          0          0          0          0
+      Epoch    GPU_mem   box_loss  pose_loss  kobj_loss   cls_loss   dfl_loss  Instances       Size
+                   all          6          6          0          0          0          0          0          0          0          0
+      Epoch    GPU_mem   box_loss  pose_loss  kobj_loss   cls_loss   dfl_loss  Instances       Size

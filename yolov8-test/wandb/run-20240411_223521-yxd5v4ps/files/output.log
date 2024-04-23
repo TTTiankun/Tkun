@@ -1,0 +1,40 @@
+Freezing layer 'model.22.dfl.conv.weight'
+[34m[1mAMP: [39m[22mrunning Automatic Mixed Precision (AMP) checks with YOLOv8n...
+[34m[1mAMP: [39m[22mchecks passed ✅
+WARNING ⚠️ updating to 'imgsz=640'. 'train' and 'val' imgsz must be an integer, while 'predict' and 'export' imgsz may be a [h, w] list or an integer, i.e. 'yolo export imgsz=640,480' or 'yolo export imgsz=640'
+
+
+[34m[1mtrain: [39m[22mScanning /home/jason/Desktop/datasets/buff_datasets/train/labels... 1653 images, 6 backgrounds, 0 corrupt: 100%|██████████
+[34m[1mtrain: [39m[22mNew cache created: /home/jason/Desktop/datasets/buff_datasets/train/labels.cache
+WARNING ⚠️ No 'flip_idx' array defined in data.yaml, setting augmentation 'fliplr=0.0'
+
+[34m[1mval: [39m[22mScanning /home/jason/Desktop/datasets/buff_datasets/val/labels... 552 images, 2 backgrounds, 0 corrupt: 100%|██████████| 552
+[34m[1mval: [39m[22mNew cache created: /home/jason/Desktop/datasets/buff_datasets/val/labels.cache
+Plotting labels to /home/jason/Desktop/YOLO-Pruning-RKNN/runs/pose/train22/labels.jpg...
+  0%|          | 0/42 [00:00<?, ?it/s]
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m SGD(lr=0.01, momentum=0.9) with parameter groups 63 weight(decay=0.0), 73 weight(decay=0.000625), 72 bias(decay=0.0)
+Image sizes 640 train, 640 val
+Using 8 dataloader workers
+Logging results to [1m/home/jason/Desktop/YOLO-Pruning-RKNN/runs/pose/train22
+Starting training for 500 epochs...
+
+      1/500      5.71G       1.85      7.069          0      4.716      1.739        182        640:  10%|▉         | 4/42 [00:05
+Traceback (most recent call last):
+  File "/home/jason/Desktop/yolov8-test/train_yolov8_pose.py", line 8, in <module>
+    results = model.train(data='buff.yaml', epochs=500,device='0',
+  File "/home/jason/.local/lib/python3.10/site-packages/ultralytics/engine/model.py", line 668, in train
+    self.trainer.train()
+  File "/home/jason/.local/lib/python3.10/site-packages/ultralytics/engine/trainer.py", line 198, in train
+    self._do_train(world_size)
+  File "/home/jason/.local/lib/python3.10/site-packages/ultralytics/engine/trainer.py", line 382, in _do_train
+    self.optimizer_step()
+  File "/home/jason/.local/lib/python3.10/site-packages/ultralytics/engine/trainer.py", line 541, in optimizer_step
+    self.scaler.step(self.optimizer)
+  File "/home/jason/.local/lib/python3.10/site-packages/torch/cuda/amp/grad_scaler.py", line 452, in step
+    retval = self._maybe_opt_step(optimizer, optimizer_state, *args, **kwargs)
+  File "/home/jason/.local/lib/python3.10/site-packages/torch/cuda/amp/grad_scaler.py", line 349, in _maybe_opt_step
+    if not sum(v.item() for v in optimizer_state["found_inf_per_device"].values()):
+  File "/home/jason/.local/lib/python3.10/site-packages/torch/cuda/amp/grad_scaler.py", line 349, in <genexpr>
+    if not sum(v.item() for v in optimizer_state["found_inf_per_device"].values()):
+KeyboardInterrupt

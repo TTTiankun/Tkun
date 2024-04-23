@@ -1,0 +1,38 @@
+Freezing layer 'model.22.dfl.conv.weight'
+[34m[1mAMP: [39m[22mrunning Automatic Mixed Precision (AMP) checks with YOLOv8n...
+[34m[1mAMP: [39m[22mchecks passed ✅
+WARNING ⚠️ updating to 'imgsz=640'. 'train' and 'val' imgsz must be an integer, while 'predict' and 'export' imgsz may be a [h, w] list or an integer, i.e. 'yolo export imgsz=640,480' or 'yolo export imgsz=640'
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jason/Desktop/datasets/car_dataset/train/images/2022-07-14-21-41-50.752.png: ignoring corrupt image/label: negative label values [  -0.090278    -0.15509]
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jason/Desktop/datasets/car_dataset/train/images/S504.png: ignoring corrupt image/label: negative label values [   -0.78191]
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jason/Desktop/datasets/car_dataset/train/images/S505.png: ignoring corrupt image/label: negative label values [   -0.55733    -0.48581]
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jason/Desktop/datasets/car_dataset/train/images/S514.png: ignoring corrupt image/label: negative label values [   -0.13202     -0.1909]
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jason/Desktop/datasets/car_dataset/train/images/S519.png: ignoring corrupt image/label: negative label values [   -0.63175]
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jason/Desktop/datasets/car_dataset/train/images/S522.png: ignoring corrupt image/label: negative label values [   -0.41528    -0.49444]
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jason/Desktop/datasets/car_dataset/train/images/S529.png: ignoring corrupt image/label: negative label values [   -0.52908    -0.25914]
+[34m[1mtrain: [39m[22mScanning /home/jason/Desktop/datasets/car_dataset/train/labels.cache... 3045 images, 2 backgrounds, 7 corrupt: 100%|██████
+Traceback (most recent call last):
+  File "/home/jason/Desktop/yolov8-test/train_yolov8_pose.py", line 8, in <module>
+    results = model.train(data='cars-pose.yaml', epochs=500,device='0',
+  File "/home/jason/.local/lib/python3.10/site-packages/ultralytics/engine/model.py", line 668, in train
+    self.trainer.train()
+  File "/home/jason/.local/lib/python3.10/site-packages/ultralytics/engine/trainer.py", line 198, in train
+    self._do_train(world_size)
+  File "/home/jason/.local/lib/python3.10/site-packages/ultralytics/engine/trainer.py", line 312, in _do_train
+    self._setup_train(world_size)
+  File "/home/jason/.local/lib/python3.10/site-packages/ultralytics/engine/trainer.py", line 276, in _setup_train
+    self.train_loader = self.get_dataloader(self.trainset, batch_size=batch_size, rank=RANK, mode="train")
+  File "/home/jason/.local/lib/python3.10/site-packages/ultralytics/models/yolo/detect/train.py", line 49, in get_dataloader
+    dataset = self.build_dataset(dataset_path, mode, batch_size)
+  File "/home/jason/.local/lib/python3.10/site-packages/ultralytics/models/yolo/detect/train.py", line 43, in build_dataset
+    return build_yolo_dataset(self.args, img_path, batch, self.data, mode=mode, rect=mode == "val", stride=gs)
+  File "/home/jason/.local/lib/python3.10/site-packages/ultralytics/data/build.py", line 88, in build_yolo_dataset
+    return dataset(
+  File "/home/jason/.local/lib/python3.10/site-packages/ultralytics/data/dataset.py", line 63, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/jason/.local/lib/python3.10/site-packages/ultralytics/data/base.py", line 97, in __init__
+    self.transforms = self.build_transforms(hyp=hyp)
+  File "/home/jason/.local/lib/python3.10/site-packages/ultralytics/data/dataset.py", line 178, in build_transforms
+    transforms = v8_transforms(self, self.imgsz, hyp)
+  File "/home/jason/.local/lib/python3.10/site-packages/ultralytics/data/augment.py", line 1117, in v8_transforms
+    raise ValueError(f"data.yaml flip_idx={flip_idx} length must be equal to kpt_shape[0]={kpt_shape[0]}")
+ValueError: data.yaml flip_idx=[0, 1, 2, 3] length must be equal to kpt_shape[0]=5

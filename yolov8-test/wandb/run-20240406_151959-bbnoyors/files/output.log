@@ -1,0 +1,347 @@
+Freezing layer 'model.22.dfl.conv.weight'
+[34m[1mAMP: [39m[22mrunning Automatic Mixed Precision (AMP) checks with YOLOv8n...
+[34m[1mAMP: [39m[22mchecks passed ✅
+[34m[1mtrain: [39m[22mScanning /home/jason/Desktop/yolov8-test/datasets/car_dataset/train/labels... 1234 images, 2 backgrounds, 0 corrup
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jason/Desktop/yolov8-test/datasets/car_dataset/train/images/2022-07-14-21-41-50.752.png: ignoring corrupt image/label: negative label values [  -0.090278    -0.15509]
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jason/Desktop/yolov8-test/datasets/car_dataset/train/images/S504.png: ignoring corrupt image/label: negative label values [   -0.78191]
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jason/Desktop/yolov8-test/datasets/car_dataset/train/images/S505.png: ignoring corrupt image/label: negative label values [   -0.55733    -0.48581]
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jason/Desktop/yolov8-test/datasets/car_dataset/train/images/S514.png: ignoring corrupt image/label: negative label values [   -0.13202     -0.1909]
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jason/Desktop/yolov8-test/datasets/car_dataset/train/images/S519.png: ignoring corrupt image/label: negative label values [   -0.63175]
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jason/Desktop/yolov8-test/datasets/car_dataset/train/images/S522.png: ignoring corrupt image/label: negative label values [   -0.41528    -0.49444]
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jason/Desktop/yolov8-test/datasets/car_dataset/train/images/S529.png: ignoring corrupt image/label: negative label values [   -0.52908    -0.25914]
+[34m[1mtrain: [39m[22mScanning /home/jason/Desktop/yolov8-test/datasets/car_dataset/train/labels... 3045 images, 2 backgrounds, 7 corrup
+[34m[1mval: [39m[22mScanning /home/jason/Desktop/yolov8-test/datasets/car_dataset/val/labels... 125 images, 0 backgrounds, 0 corrupt:  1
+[34m[1malbumentations: [39m[22mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01), CLAHE(p=0.01, clip_limit=(1, 4.0), tile_grid_size=(8, 8))
+[34m[1mval: [39m[22mNew cache created: /home/jason/Desktop/yolov8-test/datasets/car_dataset/val/labels.cache
+
+[34m[1mval: [39m[22mScanning /home/jason/Desktop/yolov8-test/datasets/car_dataset/val/labels... 1032 images, 0 backgrounds, 0 corrupt: 1
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.001667, momentum=0.9) with parameter groups 63 weight(decay=0.0), 73 weight(decay=0.0004375), 72 bias(decay=0.0)
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added ✅
+Image sizes 640 train, 640 val
+Using 8 dataloader workers
+Logging results to [1mruns/pose/train2
+Starting training for 50 epochs...
+      Epoch    GPU_mem   box_loss  pose_loss  kobj_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+       1/50      4.28G      1.554      2.693          0      1.907      1.438         97        640: 100%|██████████| 109
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Pose(P          R      mAP50
+                   all       1032       3522      0.871      0.804      0.895       0.56      0.774      0.706      0.732      0.566
+      Epoch    GPU_mem   box_loss  pose_loss  kobj_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+       2/50      4.11G      1.209      1.199          0     0.9733      1.184        125        640: 100%|██████████| 109
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Pose(P          R      mAP50
+                   all       1032       3522      0.895      0.849      0.933      0.634       0.86      0.809       0.87      0.768
+      Epoch    GPU_mem   box_loss  pose_loss  kobj_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+       3/50      3.94G        1.2       0.93          0     0.8951      1.173         92        640: 100%|██████████| 109
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Pose(P          R      mAP50
+                   all       1032       3522       0.87      0.884      0.938      0.628      0.815      0.803      0.815      0.733
+  0%|          | 0/109 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+       4/50      3.95G      1.174     0.8503          0      0.844      1.168        110        640: 100%|██████████| 109
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Pose(P          R      mAP50
+                   all       1032       3522        0.9      0.927       0.96      0.643      0.896      0.919      0.953      0.894
+      Epoch    GPU_mem   box_loss  pose_loss  kobj_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+       5/50      3.93G      1.147     0.7261          0     0.8034      1.155         95        640: 100%|██████████| 109
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Pose(P          R      mAP50
+                   all       1032       3522      0.938      0.933      0.975      0.688      0.908      0.902      0.929      0.887
+      Epoch    GPU_mem   box_loss  pose_loss  kobj_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+       6/50      3.96G      1.117     0.6696          0     0.7545      1.129         96        640: 100%|██████████| 109
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Pose(P          R      mAP50
+                   all       1032       3522      0.952      0.924      0.975      0.688      0.937      0.906      0.945      0.896
+      Epoch    GPU_mem   box_loss  pose_loss  kobj_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+       7/50      3.94G      1.089     0.6345          0      0.715      1.116         80        640: 100%|██████████| 109
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Pose(P          R      mAP50
+                   all       1032       3522      0.953      0.948      0.983      0.719      0.937      0.935      0.957      0.924
+      Epoch    GPU_mem   box_loss  pose_loss  kobj_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+       8/50      4.01G      1.066      0.603          0     0.7014      1.105        123        640: 100%|██████████| 109
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Pose(P          R      mAP50
+                   all       1032       3522      0.959      0.948      0.983      0.727      0.933      0.921      0.942      0.907
+      Epoch    GPU_mem   box_loss  pose_loss  kobj_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+       9/50      3.93G      1.052     0.5799          0     0.6873      1.097         91        640: 100%|██████████| 109
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Pose(P          R      mAP50
+                   all       1032       3522      0.951      0.952      0.985      0.738      0.947      0.923      0.966      0.941
+      Epoch    GPU_mem   box_loss  pose_loss  kobj_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+      10/50         4G      1.025     0.5315          0     0.6587      1.085         73        640: 100%|██████████| 109
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Pose(P          R      mAP50
+                   all       1032       3522      0.962      0.956      0.987      0.746      0.947       0.94      0.969      0.944
+      Epoch    GPU_mem   box_loss  pose_loss  kobj_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+      11/50      3.93G      1.019     0.5132          0     0.6465      1.085         58        640: 100%|██████████| 109
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Pose(P          R      mAP50
+                   all       1032       3522      0.969      0.965      0.989      0.745      0.954       0.95      0.967      0.943
+      Epoch    GPU_mem   box_loss  pose_loss  kobj_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+      12/50      3.96G      1.008     0.4965          0     0.6317      1.073         89        640: 100%|██████████| 109
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Pose(P          R      mAP50
+                   all       1032       3522      0.966      0.962      0.989      0.757      0.955      0.951       0.97      0.956
+      13/50      3.93G      1.039     0.4828          0     0.6713      1.071        173        640:   2%|▏         | 2/1
+
+
+
+
+
+
+
+
+
+
+
+      13/50      3.93G          1      0.484          0     0.6256      1.071        106        640: 100%|██████████| 109
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Pose(P          R      mAP50
+                   all       1032       3522      0.972       0.96      0.989      0.743      0.953       0.94      0.963      0.944
+  0%|          | 0/109 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+      14/50      3.95G     0.9979     0.4744          0     0.6195      1.073         87        640: 100%|██████████| 109
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Pose(P          R      mAP50
+                   all       1032       3522      0.966      0.963      0.989      0.752       0.96      0.963      0.983      0.968
+      Epoch    GPU_mem   box_loss  pose_loss  kobj_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+      15/50      3.99G     0.9825      0.439          0     0.5977      1.063        120        640: 100%|██████████| 109
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Pose(P          R      mAP50
+                   all       1032       3522      0.969      0.967      0.989      0.756      0.944      0.944      0.951      0.933
+      Epoch    GPU_mem   box_loss  pose_loss  kobj_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+      16/50      4.08G     0.9679     0.4181          0     0.5913      1.061         77        640: 100%|██████████| 109
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Pose(P          R      mAP50
+                   all       1032       3522      0.964      0.967      0.989      0.765       0.94      0.929      0.937      0.918
+      Epoch    GPU_mem   box_loss  pose_loss  kobj_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+      17/50      3.98G     0.9699     0.4178          0     0.5976      1.059         80        640: 100%|██████████| 109
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Pose(P          R      mAP50
+                   all       1032       3522      0.952      0.962      0.988      0.758      0.935       0.95      0.968      0.952
+      Epoch    GPU_mem   box_loss  pose_loss  kobj_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+      18/50         4G     0.9618      0.392          0     0.5836      1.056         92        640: 100%|██████████| 109
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Pose(P          R      mAP50
+                   all       1032       3522       0.96      0.971       0.99      0.765      0.947      0.948       0.96      0.944
+      Epoch    GPU_mem   box_loss  pose_loss  kobj_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+      19/50      3.93G     0.9457     0.3864          0     0.5743      1.045         75        640: 100%|██████████| 109
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Pose(P          R      mAP50
+                   all       1032       3522      0.973      0.968      0.991      0.762       0.96      0.956      0.973      0.963
+      Epoch    GPU_mem   box_loss  pose_loss  kobj_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+      20/50         4G     0.9349      0.377          0     0.5632      1.042         84        640: 100%|██████████| 109
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Pose(P          R      mAP50
+                   all       1032       3522      0.962      0.973      0.989      0.767      0.945      0.957       0.96      0.945
+      Epoch    GPU_mem   box_loss  pose_loss  kobj_loss   cls_loss   dfl_loss  Instances       Size
+      21/50         4G     0.9495     0.3628          0     0.5643      1.048        165        640:   8%|▊         | 9/1
+Traceback (most recent call last):
+  File "/home/jason/Desktop/yolov8-test/train_yolov8_pose.py", line 8, in <module>
+    results = model.train(data='cars-pose.yaml', epochs=50,device='0',
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/ultralytics/engine/model.py", line 655, in train
+    self.trainer.train()
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/ultralytics/engine/trainer.py", line 213, in train
+    self._do_train(world_size)
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/ultralytics/engine/trainer.py", line 381, in _do_train
+    self.loss, self.loss_items = self.model(batch)
+                                 ^^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/ultralytics/nn/tasks.py", line 88, in forward
+    return self.loss(x, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/ultralytics/nn/tasks.py", line 267, in loss
+    return self.criterion(preds, batch)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/ultralytics/utils/loss.py", line 456, in __call__
+    pred_distri = pred_distri.permute(0, 2, 1).contiguous()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

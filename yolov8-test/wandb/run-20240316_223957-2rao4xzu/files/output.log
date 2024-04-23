@@ -1,0 +1,40 @@
+[34m[1mAMP: [39m[22mrunning Automatic Mixed Precision (AMP) checks with YOLOv8n...
+[34m[1mAMP: [39m[22mchecks passed ✅
+WARNING ⚠️ updating to 'imgsz=28'. 'train' and 'val' imgsz must be an integer, while 'predict' and 'export' imgsz may be a [h, w] list or an integer, i.e. 'yolo export imgsz=640,480' or 'yolo export imgsz=640'
+WARNING ⚠️ imgsz=[28] must be multiple of max stride 32, updating to [32]
+[34m[1mval: [39m[22mNew cache created: /home/jason/Desktop/datasets/number_datasets/val.cache
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.000714, momentum=0.9) with parameter groups 26 weight(decay=0.0), 27 weight(decay=0.00084375), 27 bias(decay=0.0)
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added ✅
+Image sizes 32 train, 32 val
+Using 8 dataloader workers
+Logging results to [1mruns/classify/train2
+Starting training for 3 epochs...
+      Epoch    GPU_mem       loss  Instances       Size
+[34m[1mtrain: [39m[22mScanning /home/jason/Desktop/datasets/number_datasets/train... 15909 images, 0 corrupt: 100%|██████████| 15909/15909 [0
+[34m[1mval: [39m[22mScanning /home/jason/Desktop/datasets/number_datasets/val... 504 images, 0 corrupt: 100%|██████████| 504/504 [00:00<00:00
+        1/3     0.359G      1.984        108         32:  73%|███████▎  | 108/148 [00:01<00:00, 105.60it/s]
+        1/3     0.495G      1.784         33         32: 100%|██████████| 148/148 [00:01<00:00, 82.71it/s]
+               classes   top1_acc   top5_acc: 100%|██████████| 3/3 [00:00<00:00, 38.39it/s]
+      Epoch    GPU_mem       loss  Instances       Size
+                   all      0.929      0.994
+      Epoch    GPU_mem       loss  Instances       Size
+        2/3     0.497G     0.8539         33         32: 100%|██████████| 148/148 [00:01<00:00, 105.00it/s]
+               classes   top1_acc   top5_acc: 100%|██████████| 3/3 [00:00<00:00, 507.66it/s]
+        3/3     0.361G     0.6322        108         32:  24%|██▍       | 36/148 [00:00<00:01, 111.66it/s]
+                   all      0.964      0.998
+3 epochs completed in 0.002 hours.
+Optimizer stripped from runs/classify/train2/weights/last.pt, 3.0MB
+Optimizer stripped from runs/classify/train2/weights/best.pt, 3.0MB
+Validating runs/classify/train2/weights/best.pt...
+Ultralytics YOLOv8.1.29 🚀 Python-3.11.7 torch-2.1.2+cu121 CUDA:0 (NVIDIA GeForce RTX 4050 Laptop GPU, 5905MiB)
+YOLOv8-cls summary (fused): 73 layers, 1445128 parameters, 0 gradients, 3.3 GFLOPs
+[34m[1mtrain:[39m[22m /home/jason/Desktop/datasets/number_datasets/train... found 15909 images in 8 classes ✅
+[34m[1mval:[39m[22m /home/jason/Desktop/datasets/number_datasets/val... found 504 images in 8 classes ✅
+[34m[1mtest:[39m[22m None...
+                   all      0.964      0.998
+Speed: 0.0ms preprocess, 0.0ms inference, 0.0ms loss, 0.0ms postprocess per image
+        3/3     0.497G     0.5693         33         32: 100%|██████████| 148/148 [00:01<00:00, 105.59it/s]
+               classes   top1_acc   top5_acc: 100%|██████████| 3/3 [00:00<00:00, 485.66it/s]
+               classes   top1_acc   top5_acc: 100%|██████████| 3/3 [00:00<00:00, 108.04it/s]
+Results saved to [1mruns/classify/train2

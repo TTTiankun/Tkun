@@ -1,0 +1,43 @@
+2024-04-02 22:00:18,277 INFO    MainThread:18719 [wandb_setup.py:_flush():76] Current SDK version is 0.16.4
+2024-04-02 22:00:18,277 INFO    MainThread:18719 [wandb_setup.py:_flush():76] Configure stats pid to 18719
+2024-04-02 22:00:18,277 INFO    MainThread:18719 [wandb_setup.py:_flush():76] Loading settings from /home/jason/.config/wandb/settings
+2024-04-02 22:00:18,277 INFO    MainThread:18719 [wandb_setup.py:_flush():76] Loading settings from /home/jason/Desktop/yolov8-test/wandb/settings
+2024-04-02 22:00:18,277 INFO    MainThread:18719 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-04-02 22:00:18,277 INFO    MainThread:18719 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-04-02 22:00:18,277 INFO    MainThread:18719 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train_yolov8.py', 'program_abspath': '/home/jason/Desktop/yolov8-test/train_yolov8.py', 'program': '/home/jason/Desktop/yolov8-test/train_yolov8.py'}
+2024-04-02 22:00:18,277 INFO    MainThread:18719 [wandb_init.py:_log_setup():526] Logging user logs to /home/jason/Desktop/yolov8-test/wandb/run-20240402_220018-x33lt7qf/logs/debug.log
+2024-04-02 22:00:18,277 INFO    MainThread:18719 [wandb_init.py:_log_setup():527] Logging internal logs to /home/jason/Desktop/yolov8-test/wandb/run-20240402_220018-x33lt7qf/logs/debug-internal.log
+2024-04-02 22:00:18,277 INFO    MainThread:18719 [wandb_init.py:init():566] calling init triggers
+2024-04-02 22:00:18,277 INFO    MainThread:18719 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'task': 'detect', 'mode': 'train', 'model': 'yolov8n.yaml', 'data': 'breast.yaml', 'epochs': 250, 'time': None, 'patience': 100, 'batch': 28, 'imgsz': 640, 'save': True, 'save_period': -1, 'cache': False, 'device': '0', 'workers': 8, 'project': None, 'name': 'train2', 'exist_ok': False, 'pretrained': True, 'optimizer': 'auto', 'verbose': True, 'seed': 0, 'deterministic': True, 'single_cls': False, 'rect': False, 'cos_lr': False, 'close_mosaic': 10, 'resume': False, 'amp': True, 'fraction': 1.0, 'profile': False, 'freeze': None, 'multi_scale': False, 'overlap_mask': True, 'mask_ratio': 4, 'dropout': 0.0, 'val': True, 'split': 'val', 'save_json': False, 'save_hybrid': False, 'conf': None, 'iou': 0.7, 'max_det': 300, 'half': False, 'dnn': False, 'plots': True, 'source': None, 'vid_stride': 1, 'stream_buffer': False, 'visualize': False, 'augment': False, 'agnostic_nms': False, 'classes': None, 'retina_masks': False, 'embed': None, 'show': False, 'save_frames': False, 'save_txt': False, 'save_conf': False, 'save_crop': False, 'show_labels': True, 'show_conf': True, 'show_boxes': True, 'line_width': None, 'format': 'torchscript', 'keras': False, 'optimize': True, 'int8': False, 'dynamic': False, 'simplify': False, 'opset': None, 'workspace': 4, 'nms': False, 'lr0': 0.01, 'lrf': 0.001, 'momentum': 0.937, 'weight_decay': 0.0005, 'warmup_epochs': 3.0, 'warmup_momentum': 0.8, 'warmup_bias_lr': 0.1, 'box': 7.5, 'cls': 0.5, 'dfl': 1.5, 'pose': 12.0, 'kobj': 1.0, 'label_smoothing': 0.0, 'nbs': 64, 'hsv_h': 0.015, 'hsv_s': 0.7, 'hsv_v': 0.4, 'degrees': 0.0, 'translate': 0.1, 'scale': 0.5, 'shear': 0.0, 'perspective': 0.0, 'flipud': 0.0, 'fliplr': 0.5, 'mosaic': 1.0, 'mixup': 0.0, 'copy_paste': 0.0, 'auto_augment': 'randaugment', 'erasing': 0.4, 'crop_fraction': 1.0, 'cfg': None, 'tracker': 'botsort.yaml', 'save_dir': 'runs/detect/train2'}
+2024-04-02 22:00:18,277 INFO    MainThread:18719 [wandb_init.py:init():616] starting backend
+2024-04-02 22:00:18,277 INFO    MainThread:18719 [wandb_init.py:init():620] setting up manager
+2024-04-02 22:00:18,278 INFO    MainThread:18719 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-04-02 22:00:18,278 INFO    MainThread:18719 [wandb_init.py:init():628] backend started and connected
+2024-04-02 22:00:18,280 INFO    MainThread:18719 [wandb_init.py:init():720] updated telemetry
+2024-04-02 22:00:18,280 INFO    MainThread:18719 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-04-02 22:00:18,529 WARNING MainThread:18719 [wandb_init.py:init():1198] interrupted
+Traceback (most recent call last):
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1176, in init
+    run = wi.init()
+          ^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 756, in init
+    result = run_init_handle.wait(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/threading.py", line 629, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/threading.py", line 331, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2024-04-02 22:00:22,979 WARNING MsgRouterThr:18719 [router.py:message_loop():77] message_loop has been closed

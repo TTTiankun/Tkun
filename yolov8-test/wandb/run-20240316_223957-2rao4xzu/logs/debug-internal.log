@@ -1,0 +1,304 @@
+2024-03-16 22:39:57,917 INFO    StreamThr :44076 [internal.py:wandb_internal():86] W&B internal server running at pid: 44076, started at: 2024-03-16 22:39:57.917454
+2024-03-16 22:39:57,918 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: status
+2024-03-16 22:39:57,919 INFO    WriterThread:44076 [datastore.py:open_for_write():87] open: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/run-2rao4xzu.wandb
+2024-03-16 22:39:57,919 DEBUG   SenderThread:44076 [sender.py:send():378] send: header
+2024-03-16 22:39:57,919 DEBUG   SenderThread:44076 [sender.py:send():378] send: run
+2024-03-16 22:39:59,760 INFO    SenderThread:44076 [dir_watcher.py:__init__():211] watching files in: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files
+2024-03-16 22:39:59,761 INFO    SenderThread:44076 [sender.py:_start_run_threads():1099] run started: 2rao4xzu with start time 1710599997.917318
+2024-03-16 22:39:59,764 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: check_version
+2024-03-16 22:39:59,764 DEBUG   SenderThread:44076 [sender.py:send_request():405] send_request: check_version
+2024-03-16 22:40:01,476 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: run_start
+2024-03-16 22:40:01,480 DEBUG   HandlerThread:44076 [system_info.py:__init__():26] System info init
+2024-03-16 22:40:01,480 DEBUG   HandlerThread:44076 [system_info.py:__init__():41] System info init done
+2024-03-16 22:40:01,480 INFO    HandlerThread:44076 [system_monitor.py:start():194] Starting system monitor
+2024-03-16 22:40:01,480 INFO    SystemMonitor:44076 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-16 22:40:01,480 INFO    HandlerThread:44076 [system_monitor.py:probe():214] Collecting system info
+2024-03-16 22:40:01,481 INFO    SystemMonitor:44076 [interfaces.py:start():190] Started cpu monitoring
+2024-03-16 22:40:01,481 INFO    SystemMonitor:44076 [interfaces.py:start():190] Started disk monitoring
+2024-03-16 22:40:01,482 INFO    SystemMonitor:44076 [interfaces.py:start():190] Started gpu monitoring
+2024-03-16 22:40:01,482 INFO    SystemMonitor:44076 [interfaces.py:start():190] Started memory monitoring
+2024-03-16 22:40:01,482 INFO    SystemMonitor:44076 [interfaces.py:start():190] Started network monitoring
+2024-03-16 22:40:01,491 DEBUG   HandlerThread:44076 [system_info.py:probe():150] Probing system
+2024-03-16 22:40:01,492 DEBUG   HandlerThread:44076 [gitlib.py:_init_repo():56] git repository is invalid
+2024-03-16 22:40:01,492 DEBUG   HandlerThread:44076 [system_info.py:probe():198] Probing system done
+2024-03-16 22:40:01,492 DEBUG   HandlerThread:44076 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-25-generic-x86_64-with-glibc2.35', 'python': '3.11.7', 'heartbeatAt': '2024-03-16T14:40:01.491697', 'startedAt': '2024-03-16T14:39:57.915556', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/jason/Desktop/yolov8-test/train_yolov8_cls.py', 'codePathLocal': 'train_yolov8_cls.py', 'codePath': 'train_yolov8_cls.py', 'host': 'jason-Legion', 'username': 'jason', 'executable': '/home/jason/.conda/envs/yolo/bin/python', 'cpu_count': 24, 'cpu_count_logical': 32, 'cpu_freq': {'current': 1934.8975937499997, 'min': 800.0, 'max': 4575.0}, 'cpu_freq_per_core': [{'current': 2250.872, 'min': 800.0, 'max': 5400.0}, {'current': 4343.049, 'min': 800.0, 'max': 5400.0}, {'current': 1926.911, 'min': 800.0, 'max': 5400.0}, {'current': 4141.415, 'min': 800.0, 'max': 5400.0}, {'current': 4278.724, 'min': 800.0, 'max': 5200.0}, {'current': 5100.844, 'min': 800.0, 'max': 5200.0}, {'current': 3712.77, 'min': 800.0, 'max': 5200.0}, {'current': 800.0, 'min': 800.0, 'max': 5200.0}, {'current': 4598.463, 'min': 800.0, 'max': 5200.0}, {'current': 800.0, 'min': 800.0, 'max': 5200.0}, {'current': 4760.154, 'min': 800.0, 'max': 5200.0}, {'current': 800.0, 'min': 800.0, 'max': 5200.0}, {'current': 1345.469, 'min': 800.0, 'max': 5200.0}, {'current': 4955.685, 'min': 800.0, 'max': 5200.0}, {'current': 4313.388, 'min': 800.0, 'max': 5200.0}, {'current': 800.0, 'min': 800.0, 'max': 5200.0}, {'current': 800.0, 'min': 800.0, 'max': 3900.0}, {'current': 800.0, 'min': 800.0, 'max': 3900.0}, {'current': 800.0, 'min': 800.0, 'max': 3900.0}, {'current': 800.0, 'min': 800.0, 'max': 3900.0}, {'current': 800.0, 'min': 800.0, 'max': 3900.0}, {'current': 988.979, 'min': 800.0, 'max': 3900.0}, {'current': 800.0, 'min': 800.0, 'max': 3900.0}, {'current': 800.0, 'min': 800.0, 'max': 3900.0}, {'current': 800.0, 'min': 800.0, 'max': 3900.0}, {'current': 800.0, 'min': 800.0, 'max': 3900.0}, {'current': 800.0, 'min': 800.0, 'max': 3900.0}, {'current': 800.0, 'min': 800.0, 'max': 3900.0}, {'current': 800.0, 'min': 800.0, 'max': 3900.0}, {'current': 800.0, 'min': 800.0, 'max': 3900.0}, {'current': 800.0, 'min': 800.0, 'max': 3900.0}, {'current': 800.0, 'min': 800.0, 'max': 3900.0}], 'disk': {'/': {'total': 373.8622398376465, 'used': 176.17214965820312}}, 'gpu': 'NVIDIA GeForce RTX 4050 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4050 Laptop GPU', 'memory_total': 6439305216}], 'memory': {'total': 15.350414276123047}}
+2024-03-16 22:40:01,492 INFO    HandlerThread:44076 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-16 22:40:01,492 INFO    HandlerThread:44076 [system_monitor.py:probe():227] Publishing system info
+2024-03-16 22:40:01,492 DEBUG   HandlerThread:44076 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-03-16 22:40:01,761 INFO    Thread-12 :44076 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/conda-environment.yaml
+2024-03-16 22:40:02,683 DEBUG   HandlerThread:44076 [system_info.py:_save_conda():219] Saving conda packages done
+2024-03-16 22:40:02,683 INFO    HandlerThread:44076 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-16 22:40:02,685 DEBUG   SenderThread:44076 [sender.py:send():378] send: files
+2024-03-16 22:40:02,686 INFO    SenderThread:44076 [sender.py:_save_file():1365] saving file wandb-metadata.json with policy now
+2024-03-16 22:40:02,723 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: python_packages
+2024-03-16 22:40:02,723 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-16 22:40:02,724 DEBUG   SenderThread:44076 [sender.py:send_request():405] send_request: python_packages
+2024-03-16 22:40:02,724 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-16 22:40:02,724 DEBUG   SenderThread:44076 [sender.py:send_request():405] send_request: stop_status
+2024-03-16 22:40:02,761 INFO    Thread-12 :44076 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/conda-environment.yaml
+2024-03-16 22:40:02,761 INFO    Thread-12 :44076 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/requirements.txt
+2024-03-16 22:40:02,761 INFO    Thread-12 :44076 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/wandb-metadata.json
+2024-03-16 22:40:03,956 DEBUG   SenderThread:44076 [sender.py:send():378] send: telemetry
+2024-03-16 22:40:03,956 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: status_report
+2024-03-16 22:40:04,762 INFO    Thread-12 :44076 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/output.log
+2024-03-16 22:40:04,877 INFO    wandb-upload_0:44076 [upload_job.py:push():131] Uploaded file /tmp/tmpuv0lgu0rwandb/laie5lsd-wandb-metadata.json
+2024-03-16 22:40:05,951 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-16 22:40:05,951 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-16 22:40:06,102 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-16 22:40:06,763 INFO    Thread-12 :44076 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/output.log
+2024-03-16 22:40:07,541 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-16 22:40:07,541 DEBUG   SenderThread:44076 [sender.py:send():378] send: files
+2024-03-16 22:40:07,541 INFO    SenderThread:44076 [sender.py:_save_file():1365] saving file media/images/train_batch0_1_cf8e853e7f8eb2b81416.jpg with policy now
+2024-03-16 22:40:07,543 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-16 22:40:07,544 DEBUG   SenderThread:44076 [sender.py:send():378] send: files
+2024-03-16 22:40:07,544 INFO    SenderThread:44076 [sender.py:_save_file():1365] saving file media/images/train_batch1_1_9331225ca15b9a9bbf29.jpg with policy now
+2024-03-16 22:40:07,544 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-16 22:40:07,544 DEBUG   SenderThread:44076 [sender.py:send():378] send: files
+2024-03-16 22:40:07,545 INFO    SenderThread:44076 [sender.py:_save_file():1365] saving file media/images/train_batch2_1_a837144635ecb8966430.jpg with policy now
+2024-03-16 22:40:07,553 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-16 22:40:07,763 INFO    Thread-12 :44076 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/media/images/train_batch0_1_cf8e853e7f8eb2b81416.jpg
+2024-03-16 22:40:07,763 INFO    Thread-12 :44076 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/media/images/train_batch2_1_a837144635ecb8966430.jpg
+2024-03-16 22:40:07,763 INFO    Thread-12 :44076 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/media/images/train_batch1_1_9331225ca15b9a9bbf29.jpg
+2024-03-16 22:40:07,763 INFO    Thread-12 :44076 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/media/images
+2024-03-16 22:40:07,763 INFO    Thread-12 :44076 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/media
+2024-03-16 22:40:08,467 INFO    wandb-upload_0:44076 [upload_job.py:push():131] Uploaded file /tmp/tmpuv0lgu0rwandb/jupcqts7-media/images/train_batch0_1_cf8e853e7f8eb2b81416.jpg
+2024-03-16 22:40:08,763 INFO    Thread-12 :44076 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/output.log
+2024-03-16 22:40:08,960 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: status_report
+2024-03-16 22:40:08,970 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-16 22:40:08,970 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-16 22:40:08,971 DEBUG   SenderThread:44076 [sender.py:send():378] send: history
+2024-03-16 22:40:08,971 DEBUG   SenderThread:44076 [sender.py:send_request():405] send_request: summary_record
+2024-03-16 22:40:08,971 INFO    SenderThread:44076 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-16 22:40:09,076 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-16 22:40:09,243 INFO    wandb-upload_1:44076 [upload_job.py:push():131] Uploaded file /tmp/tmpuv0lgu0rwandb/4ddfvjd7-media/images/train_batch1_1_9331225ca15b9a9bbf29.jpg
+2024-03-16 22:40:09,306 INFO    wandb-upload_2:44076 [upload_job.py:push():131] Uploaded file /tmp/tmpuv0lgu0rwandb/j7yi7qln-media/images/train_batch2_1_a837144635ecb8966430.jpg
+2024-03-16 22:40:09,764 INFO    Thread-12 :44076 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/wandb-summary.json
+2024-03-16 22:40:10,201 INFO    wandb-upload_0:44076 [upload_job.py:push():131] Uploaded file /tmp/tmpuv0lgu0rwandb/706kzj7n-media/images/train_batch0_1_cf8e853e7f8eb2b81416.jpg
+2024-03-16 22:40:10,213 INFO    wandb-upload_1:44076 [upload_job.py:push():131] Uploaded file /tmp/tmpuv0lgu0rwandb/wzqhf3ku-media/images/train_batch1_1_9331225ca15b9a9bbf29.jpg
+2024-03-16 22:40:10,485 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-16 22:40:10,485 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-16 22:40:10,485 DEBUG   SenderThread:44076 [sender.py:send():378] send: history
+2024-03-16 22:40:10,485 DEBUG   SenderThread:44076 [sender.py:send_request():405] send_request: summary_record
+2024-03-16 22:40:10,485 INFO    SenderThread:44076 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-16 22:40:10,577 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-16 22:40:10,764 INFO    Thread-12 :44076 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/wandb-summary.json
+2024-03-16 22:40:10,764 INFO    Thread-12 :44076 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/output.log
+2024-03-16 22:40:11,131 INFO    wandb-upload_2:44076 [upload_job.py:push():131] Uploaded file /tmp/tmpuv0lgu0rwandb/kkk7snk9-media/images/train_batch2_1_a837144635ecb8966430.jpg
+2024-03-16 22:40:11,449 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-16 22:40:11,451 DEBUG   SenderThread:44076 [sender.py:send():378] send: files
+2024-03-16 22:40:11,451 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-16 22:40:11,451 INFO    SenderThread:44076 [sender.py:_save_file():1365] saving file media/images/val_batch0_labels_3_0d13f8f817f2ec87c1b5.jpg with policy now
+2024-03-16 22:40:11,453 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-16 22:40:11,453 DEBUG   SenderThread:44076 [sender.py:send():378] send: files
+2024-03-16 22:40:11,453 INFO    SenderThread:44076 [sender.py:_save_file():1365] saving file media/images/val_batch0_pred_3_bfd664c72d8627cb698a.jpg with policy now
+2024-03-16 22:40:11,453 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-16 22:40:11,455 DEBUG   SenderThread:44076 [sender.py:send():378] send: files
+2024-03-16 22:40:11,455 INFO    SenderThread:44076 [sender.py:_save_file():1365] saving file media/images/val_batch1_labels_3_c4f4a929f7680dbb7e1c.jpg with policy now
+2024-03-16 22:40:11,455 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-16 22:40:11,455 DEBUG   SenderThread:44076 [sender.py:send():378] send: files
+2024-03-16 22:40:11,455 INFO    SenderThread:44076 [sender.py:_save_file():1365] saving file media/images/val_batch1_pred_3_1a96b5324e940215dca3.jpg with policy now
+2024-03-16 22:40:11,456 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-16 22:40:11,456 DEBUG   SenderThread:44076 [sender.py:send():378] send: files
+2024-03-16 22:40:11,456 INFO    SenderThread:44076 [sender.py:_save_file():1365] saving file media/images/val_batch2_pred_3_7c401da2f6052f1ffd27.jpg with policy now
+2024-03-16 22:40:11,457 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-16 22:40:11,457 DEBUG   SenderThread:44076 [sender.py:send():378] send: files
+2024-03-16 22:40:11,458 INFO    SenderThread:44076 [sender.py:_save_file():1365] saving file media/images/val_batch2_labels_3_7c401da2f6052f1ffd27.jpg with policy now
+2024-03-16 22:40:11,492 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-16 22:40:11,493 DEBUG   SenderThread:44076 [sender.py:send():378] send: files
+2024-03-16 22:40:11,493 INFO    SenderThread:44076 [sender.py:_save_file():1365] saving file media/images/confusion_matrix_normalized_3_4e81171cda3002f986e3.png with policy now
+2024-03-16 22:40:11,526 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-16 22:40:11,527 DEBUG   SenderThread:44076 [sender.py:send():378] send: files
+2024-03-16 22:40:11,527 INFO    SenderThread:44076 [sender.py:_save_file():1365] saving file media/images/confusion_matrix_3_7deee457336abc7e811b.png with policy now
+2024-03-16 22:40:11,698 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-16 22:40:11,698 DEBUG   SenderThread:44076 [sender.py:send():378] send: files
+2024-03-16 22:40:11,698 INFO    SenderThread:44076 [sender.py:_save_file():1365] saving file media/images/results_3_b0310abe672959ccb251.png with policy now
+2024-03-16 22:40:11,764 INFO    Thread-12 :44076 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/media/images/val_batch2_labels_3_7c401da2f6052f1ffd27.jpg
+2024-03-16 22:40:11,764 INFO    Thread-12 :44076 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/media/images/val_batch0_pred_3_bfd664c72d8627cb698a.jpg
+2024-03-16 22:40:11,765 INFO    Thread-12 :44076 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/media/images/confusion_matrix_normalized_3_4e81171cda3002f986e3.png
+2024-03-16 22:40:11,765 INFO    Thread-12 :44076 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/media/images/confusion_matrix_3_7deee457336abc7e811b.png
+2024-03-16 22:40:11,765 INFO    Thread-12 :44076 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/media/images/val_batch1_labels_3_c4f4a929f7680dbb7e1c.jpg
+2024-03-16 22:40:11,765 INFO    Thread-12 :44076 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/media/images/results_3_b0310abe672959ccb251.png
+2024-03-16 22:40:11,765 INFO    Thread-12 :44076 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/media/images/val_batch0_labels_3_0d13f8f817f2ec87c1b5.jpg
+2024-03-16 22:40:11,765 INFO    Thread-12 :44076 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/media/images/val_batch2_pred_3_7c401da2f6052f1ffd27.jpg
+2024-03-16 22:40:11,765 INFO    Thread-12 :44076 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/media/images/val_batch1_pred_3_1a96b5324e940215dca3.jpg
+2024-03-16 22:40:11,765 INFO    Thread-12 :44076 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/media/images
+2024-03-16 22:40:12,264 INFO    wandb-upload_1:44076 [upload_job.py:push():131] Uploaded file /tmp/tmpuv0lgu0rwandb/v44w3oss-media/images/val_batch1_labels_3_c4f4a929f7680dbb7e1c.jpg
+2024-03-16 22:40:12,271 INFO    wandb-upload_2:44076 [upload_job.py:push():131] Uploaded file /tmp/tmpuv0lgu0rwandb/o93to1th-media/images/val_batch0_pred_3_bfd664c72d8627cb698a.jpg
+2024-03-16 22:40:12,280 INFO    wandb-upload_0:44076 [upload_job.py:push():131] Uploaded file /tmp/tmpuv0lgu0rwandb/qiw66q75-media/images/val_batch0_labels_3_0d13f8f817f2ec87c1b5.jpg
+2024-03-16 22:40:12,765 INFO    Thread-12 :44076 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/output.log
+2024-03-16 22:40:12,896 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: log_artifact
+2024-03-16 22:40:12,897 DEBUG   SenderThread:44076 [sender.py:send_request():405] send_request: log_artifact
+2024-03-16 22:40:13,049 INFO    wandb-upload_4:44076 [upload_job.py:push():131] Uploaded file /tmp/tmpuv0lgu0rwandb/0pp3tisx-media/images/val_batch2_pred_3_7c401da2f6052f1ffd27.jpg
+2024-03-16 22:40:13,077 INFO    wandb-upload_5:44076 [upload_job.py:push():131] Uploaded file /tmp/tmpuv0lgu0rwandb/nukhldgm-media/images/val_batch2_labels_3_7c401da2f6052f1ffd27.jpg
+2024-03-16 22:40:13,479 INFO    wandb-upload_6:44076 [upload_job.py:push():131] Uploaded file /tmp/tmpuv0lgu0rwandb/c4wm7emu-media/images/confusion_matrix_normalized_3_4e81171cda3002f986e3.png
+2024-03-16 22:40:13,898 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-16 22:40:13,969 INFO    wandb-upload_3:44076 [upload_job.py:push():131] Uploaded file /tmp/tmpuv0lgu0rwandb/64vdxhz4-media/images/val_batch1_pred_3_1a96b5324e940215dca3.jpg
+2024-03-16 22:40:14,037 INFO    wandb-upload_2:44076 [upload_job.py:push():131] Uploaded file /tmp/tmpuv0lgu0rwandb/9w7713a6-media/images/val_batch1_labels_3_c4f4a929f7680dbb7e1c.jpg
+2024-03-16 22:40:14,078 INFO    wandb-upload_1:44076 [upload_job.py:push():131] Uploaded file /tmp/tmpuv0lgu0rwandb/eymo4aow-media/images/val_batch0_pred_3_bfd664c72d8627cb698a.jpg
+2024-03-16 22:40:14,358 INFO    wandb-upload_7:44076 [upload_job.py:push():131] Uploaded file /tmp/tmpuv0lgu0rwandb/0uf7p3z3-media/images/confusion_matrix_3_7deee457336abc7e811b.png
+2024-03-16 22:40:14,675 INFO    wandb-upload_8:44076 [upload_job.py:push():131] Uploaded file /tmp/tmpuv0lgu0rwandb/slripsy4-media/images/results_3_b0310abe672959ccb251.png
+2024-03-16 22:40:14,766 INFO    Thread-12 :44076 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/output.log
+2024-03-16 22:40:14,906 INFO    wandb-upload_4:44076 [upload_job.py:push():131] Uploaded file /tmp/tmpuv0lgu0rwandb/q8j10nsk-media/images/val_batch0_labels_3_0d13f8f817f2ec87c1b5.jpg
+2024-03-16 22:40:14,956 INFO    wandb-upload_0:44076 [upload_job.py:push():131] Uploaded file /tmp/tmpuv0lgu0rwandb/lnmi23g7-media/images/val_batch2_pred_3_7c401da2f6052f1ffd27.jpg
+2024-03-16 22:40:14,974 INFO    wandb-upload_3:44076 [upload_job.py:push():131] Uploaded file /tmp/tmpuv0lgu0rwandb/zgjh02xo-media/images/val_batch1_pred_3_1a96b5324e940215dca3.jpg
+2024-03-16 22:40:15,298 INFO    wandb-upload_1:44076 [upload_job.py:push():131] Uploaded file /tmp/tmpuv0lgu0rwandb/v9b7tpga-media/images/val_batch2_labels_3_7c401da2f6052f1ffd27.jpg
+2024-03-16 22:40:15,733 INFO    wandb-upload_6:44076 [upload_job.py:push():131] Uploaded file /tmp/tmpuv0lgu0rwandb/le9j1ofq-media/images/confusion_matrix_normalized_3_4e81171cda3002f986e3.png
+2024-03-16 22:40:16,086 INFO    wandb-upload_5:44076 [upload_job.py:push():131] Uploaded file /tmp/tmpuv0lgu0rwandb/cwxvmno2-media/images/confusion_matrix_3_7deee457336abc7e811b.png
+2024-03-16 22:40:16,242 INFO    wandb-upload_7:44076 [upload_job.py:push():131] Uploaded file /tmp/tmpuv0lgu0rwandb/fk94jqwd-media/images/results_3_b0310abe672959ccb251.png
+2024-03-16 22:40:16,756 INFO    wandb-upload_2:44076 [upload_job.py:push():89] Uploaded file /home/jason/.local/share/wandb/artifacts/staging/tmp9d_7d195
+2024-03-16 22:40:18,156 INFO    SenderThread:44076 [sender.py:send_request_log_artifact():1431] logged artifact run_2rao4xzu_model - {'id': 'QXJ0aWZhY3Q6NzU4NzAwNjk1', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0OTQ0MzkyNA==', 'latestArtifact': None}}
+2024-03-16 22:40:18,156 DEBUG   SenderThread:44076 [sender.py:send():378] send: telemetry
+2024-03-16 22:40:18,156 DEBUG   SenderThread:44076 [sender.py:send():378] send: exit
+2024-03-16 22:40:18,156 INFO    SenderThread:44076 [sender.py:send_exit():585] handling exit code: 0
+2024-03-16 22:40:18,156 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: status_report
+2024-03-16 22:40:18,156 INFO    SenderThread:44076 [sender.py:send_exit():587] handling runtime: 11
+2024-03-16 22:40:18,157 INFO    SenderThread:44076 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-16 22:40:18,157 INFO    SenderThread:44076 [sender.py:send_exit():593] send defer
+2024-03-16 22:40:18,157 DEBUG   SenderThread:44076 [sender.py:send_request():405] send_request: poll_exit
+2024-03-16 22:40:18,157 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: defer
+2024-03-16 22:40:18,157 INFO    HandlerThread:44076 [handler.py:handle_request_defer():172] handle defer: 0
+2024-03-16 22:40:18,157 DEBUG   SenderThread:44076 [sender.py:send_request():405] send_request: defer
+2024-03-16 22:40:18,157 INFO    SenderThread:44076 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-03-16 22:40:18,157 INFO    SenderThread:44076 [sender.py:transition_state():613] send defer: 1
+2024-03-16 22:40:18,158 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: defer
+2024-03-16 22:40:18,158 INFO    HandlerThread:44076 [handler.py:handle_request_defer():172] handle defer: 1
+2024-03-16 22:40:18,158 DEBUG   SenderThread:44076 [sender.py:send_request():405] send_request: defer
+2024-03-16 22:40:18,158 INFO    SenderThread:44076 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-03-16 22:40:18,158 INFO    SenderThread:44076 [sender.py:transition_state():613] send defer: 2
+2024-03-16 22:40:18,158 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: defer
+2024-03-16 22:40:18,158 INFO    HandlerThread:44076 [handler.py:handle_request_defer():172] handle defer: 2
+2024-03-16 22:40:18,158 INFO    HandlerThread:44076 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-16 22:40:18,158 DEBUG   SystemMonitor:44076 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-16 22:40:18,158 DEBUG   SystemMonitor:44076 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-16 22:40:18,158 DEBUG   SystemMonitor:44076 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-16 22:40:18,159 INFO    HandlerThread:44076 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-16 22:40:18,159 INFO    HandlerThread:44076 [interfaces.py:finish():202] Joined disk monitor
+2024-03-16 22:40:18,184 INFO    HandlerThread:44076 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-16 22:40:18,185 INFO    HandlerThread:44076 [interfaces.py:finish():202] Joined memory monitor
+2024-03-16 22:40:18,185 INFO    HandlerThread:44076 [interfaces.py:finish():202] Joined network monitor
+2024-03-16 22:40:18,185 DEBUG   SenderThread:44076 [sender.py:send_request():405] send_request: defer
+2024-03-16 22:40:18,185 INFO    SenderThread:44076 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-03-16 22:40:18,185 INFO    SenderThread:44076 [sender.py:transition_state():613] send defer: 3
+2024-03-16 22:40:18,185 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: defer
+2024-03-16 22:40:18,185 INFO    HandlerThread:44076 [handler.py:handle_request_defer():172] handle defer: 3
+2024-03-16 22:40:18,186 DEBUG   SenderThread:44076 [sender.py:send():378] send: history
+2024-03-16 22:40:18,186 DEBUG   SenderThread:44076 [sender.py:send_request():405] send_request: summary_record
+2024-03-16 22:40:18,186 INFO    SenderThread:44076 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-16 22:40:18,186 DEBUG   SenderThread:44076 [sender.py:send_request():405] send_request: defer
+2024-03-16 22:40:18,186 INFO    SenderThread:44076 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-03-16 22:40:18,186 INFO    SenderThread:44076 [sender.py:transition_state():613] send defer: 4
+2024-03-16 22:40:18,186 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: defer
+2024-03-16 22:40:18,186 INFO    HandlerThread:44076 [handler.py:handle_request_defer():172] handle defer: 4
+2024-03-16 22:40:18,186 DEBUG   SenderThread:44076 [sender.py:send_request():405] send_request: defer
+2024-03-16 22:40:18,186 INFO    SenderThread:44076 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-03-16 22:40:18,186 INFO    SenderThread:44076 [sender.py:transition_state():613] send defer: 5
+2024-03-16 22:40:18,186 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: defer
+2024-03-16 22:40:18,187 INFO    HandlerThread:44076 [handler.py:handle_request_defer():172] handle defer: 5
+2024-03-16 22:40:18,187 DEBUG   SenderThread:44076 [sender.py:send():378] send: summary
+2024-03-16 22:40:18,187 INFO    SenderThread:44076 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-16 22:40:18,187 DEBUG   SenderThread:44076 [sender.py:send_request():405] send_request: defer
+2024-03-16 22:40:18,187 INFO    SenderThread:44076 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-03-16 22:40:18,187 INFO    SenderThread:44076 [sender.py:transition_state():613] send defer: 6
+2024-03-16 22:40:18,187 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: defer
+2024-03-16 22:40:18,187 INFO    HandlerThread:44076 [handler.py:handle_request_defer():172] handle defer: 6
+2024-03-16 22:40:18,187 DEBUG   SenderThread:44076 [sender.py:send_request():405] send_request: defer
+2024-03-16 22:40:18,187 INFO    SenderThread:44076 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-03-16 22:40:18,188 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: status_report
+2024-03-16 22:40:18,556 INFO    SenderThread:44076 [sender.py:transition_state():613] send defer: 7
+2024-03-16 22:40:18,556 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: defer
+2024-03-16 22:40:18,556 INFO    HandlerThread:44076 [handler.py:handle_request_defer():172] handle defer: 7
+2024-03-16 22:40:18,557 DEBUG   SenderThread:44076 [sender.py:send_request():405] send_request: defer
+2024-03-16 22:40:18,557 INFO    SenderThread:44076 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-03-16 22:40:18,767 INFO    Thread-12 :44076 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/wandb-summary.json
+2024-03-16 22:40:18,768 INFO    Thread-12 :44076 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/config.yaml
+2024-03-16 22:40:18,899 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-16 22:40:18,900 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-16 22:40:20,015 INFO    SenderThread:44076 [sender.py:transition_state():613] send defer: 8
+2024-03-16 22:40:20,016 DEBUG   SenderThread:44076 [sender.py:send_request():405] send_request: poll_exit
+2024-03-16 22:40:20,016 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: defer
+2024-03-16 22:40:20,016 INFO    HandlerThread:44076 [handler.py:handle_request_defer():172] handle defer: 8
+2024-03-16 22:40:20,016 DEBUG   SenderThread:44076 [sender.py:send_request():405] send_request: defer
+2024-03-16 22:40:20,016 INFO    SenderThread:44076 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-03-16 22:40:20,016 INFO    SenderThread:44076 [job_builder.py:build():298] Attempting to build job artifact
+2024-03-16 22:40:20,016 INFO    SenderThread:44076 [job_builder.py:_get_source_type():439] no source found
+2024-03-16 22:40:20,016 INFO    SenderThread:44076 [sender.py:transition_state():613] send defer: 9
+2024-03-16 22:40:20,017 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: defer
+2024-03-16 22:40:20,017 INFO    HandlerThread:44076 [handler.py:handle_request_defer():172] handle defer: 9
+2024-03-16 22:40:20,017 DEBUG   SenderThread:44076 [sender.py:send_request():405] send_request: defer
+2024-03-16 22:40:20,017 INFO    SenderThread:44076 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-03-16 22:40:20,017 INFO    SenderThread:44076 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-03-16 22:40:20,768 INFO    Thread-12 :44076 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/output.log
+2024-03-16 22:40:20,769 INFO    SenderThread:44076 [dir_watcher.py:finish():388] scan: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files
+2024-03-16 22:40:20,769 INFO    SenderThread:44076 [dir_watcher.py:finish():402] scan save: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/config.yaml config.yaml
+2024-03-16 22:40:20,769 INFO    SenderThread:44076 [dir_watcher.py:finish():402] scan save: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/wandb-metadata.json wandb-metadata.json
+2024-03-16 22:40:20,769 INFO    SenderThread:44076 [dir_watcher.py:finish():402] scan save: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/requirements.txt requirements.txt
+2024-03-16 22:40:20,769 INFO    SenderThread:44076 [dir_watcher.py:finish():402] scan save: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/conda-environment.yaml conda-environment.yaml
+2024-03-16 22:40:20,771 INFO    SenderThread:44076 [dir_watcher.py:finish():402] scan save: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/wandb-summary.json wandb-summary.json
+2024-03-16 22:40:20,771 INFO    SenderThread:44076 [dir_watcher.py:finish():402] scan save: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/output.log output.log
+2024-03-16 22:40:20,771 INFO    SenderThread:44076 [dir_watcher.py:finish():402] scan save: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/media/images/results_3_b0310abe672959ccb251.png media/images/results_3_b0310abe672959ccb251.png
+2024-03-16 22:40:20,771 INFO    SenderThread:44076 [dir_watcher.py:finish():402] scan save: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/media/images/val_batch1_labels_3_c4f4a929f7680dbb7e1c.jpg media/images/val_batch1_labels_3_c4f4a929f7680dbb7e1c.jpg
+2024-03-16 22:40:20,771 INFO    SenderThread:44076 [dir_watcher.py:finish():402] scan save: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/media/images/val_batch2_pred_3_7c401da2f6052f1ffd27.jpg media/images/val_batch2_pred_3_7c401da2f6052f1ffd27.jpg
+2024-03-16 22:40:20,771 INFO    SenderThread:44076 [dir_watcher.py:finish():402] scan save: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/media/images/train_batch1_1_9331225ca15b9a9bbf29.jpg media/images/train_batch1_1_9331225ca15b9a9bbf29.jpg
+2024-03-16 22:40:20,771 INFO    SenderThread:44076 [dir_watcher.py:finish():402] scan save: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/media/images/val_batch1_pred_3_1a96b5324e940215dca3.jpg media/images/val_batch1_pred_3_1a96b5324e940215dca3.jpg
+2024-03-16 22:40:20,771 INFO    SenderThread:44076 [dir_watcher.py:finish():402] scan save: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/media/images/val_batch2_labels_3_7c401da2f6052f1ffd27.jpg media/images/val_batch2_labels_3_7c401da2f6052f1ffd27.jpg
+2024-03-16 22:40:20,771 INFO    SenderThread:44076 [dir_watcher.py:finish():402] scan save: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/media/images/train_batch0_1_cf8e853e7f8eb2b81416.jpg media/images/train_batch0_1_cf8e853e7f8eb2b81416.jpg
+2024-03-16 22:40:20,771 INFO    SenderThread:44076 [dir_watcher.py:finish():402] scan save: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/media/images/val_batch0_labels_3_0d13f8f817f2ec87c1b5.jpg media/images/val_batch0_labels_3_0d13f8f817f2ec87c1b5.jpg
+2024-03-16 22:40:20,771 INFO    SenderThread:44076 [dir_watcher.py:finish():402] scan save: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/media/images/confusion_matrix_normalized_3_4e81171cda3002f986e3.png media/images/confusion_matrix_normalized_3_4e81171cda3002f986e3.png
+2024-03-16 22:40:20,772 INFO    SenderThread:44076 [dir_watcher.py:finish():402] scan save: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/media/images/train_batch2_1_a837144635ecb8966430.jpg media/images/train_batch2_1_a837144635ecb8966430.jpg
+2024-03-16 22:40:20,772 INFO    SenderThread:44076 [dir_watcher.py:finish():402] scan save: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/media/images/val_batch0_pred_3_bfd664c72d8627cb698a.jpg media/images/val_batch0_pred_3_bfd664c72d8627cb698a.jpg
+2024-03-16 22:40:20,772 INFO    SenderThread:44076 [dir_watcher.py:finish():402] scan save: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/media/images/confusion_matrix_3_7deee457336abc7e811b.png media/images/confusion_matrix_3_7deee457336abc7e811b.png
+2024-03-16 22:40:20,772 INFO    SenderThread:44076 [sender.py:transition_state():613] send defer: 10
+2024-03-16 22:40:20,773 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: defer
+2024-03-16 22:40:20,773 INFO    HandlerThread:44076 [handler.py:handle_request_defer():172] handle defer: 10
+2024-03-16 22:40:20,774 DEBUG   SenderThread:44076 [sender.py:send_request():405] send_request: defer
+2024-03-16 22:40:20,774 INFO    SenderThread:44076 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-03-16 22:40:20,774 INFO    SenderThread:44076 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-16 22:40:20,901 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-16 22:40:20,901 DEBUG   SenderThread:44076 [sender.py:send_request():405] send_request: poll_exit
+2024-03-16 22:40:21,672 INFO    wandb-upload_1:44076 [upload_job.py:push():131] Uploaded file /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/wandb-summary.json
+2024-03-16 22:40:21,672 INFO    wandb-upload_6:44076 [upload_job.py:push():131] Uploaded file /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/output.log
+2024-03-16 22:40:21,673 INFO    wandb-upload_0:44076 [upload_job.py:push():131] Uploaded file /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/requirements.txt
+2024-03-16 22:40:21,673 INFO    wandb-upload_3:44076 [upload_job.py:push():131] Uploaded file /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/conda-environment.yaml
+2024-03-16 22:40:21,698 INFO    wandb-upload_8:44076 [upload_job.py:push():131] Uploaded file /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/files/config.yaml
+2024-03-16 22:40:21,899 INFO    Thread-11 (_thread_body):44076 [sender.py:transition_state():613] send defer: 11
+2024-03-16 22:40:21,899 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: defer
+2024-03-16 22:40:21,899 INFO    HandlerThread:44076 [handler.py:handle_request_defer():172] handle defer: 11
+2024-03-16 22:40:21,899 DEBUG   SenderThread:44076 [sender.py:send_request():405] send_request: defer
+2024-03-16 22:40:21,899 INFO    SenderThread:44076 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-03-16 22:40:21,899 INFO    SenderThread:44076 [file_pusher.py:join():178] waiting for file pusher
+2024-03-16 22:40:21,900 INFO    SenderThread:44076 [sender.py:transition_state():613] send defer: 12
+2024-03-16 22:40:21,901 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: defer
+2024-03-16 22:40:21,901 INFO    HandlerThread:44076 [handler.py:handle_request_defer():172] handle defer: 12
+2024-03-16 22:40:21,901 DEBUG   SenderThread:44076 [sender.py:send_request():405] send_request: defer
+2024-03-16 22:40:21,901 INFO    SenderThread:44076 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-03-16 22:40:21,901 INFO    SenderThread:44076 [file_stream.py:finish():595] file stream finish called
+2024-03-16 22:40:21,901 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-16 22:40:22,287 INFO    SenderThread:44076 [file_stream.py:finish():599] file stream finish is done
+2024-03-16 22:40:22,287 INFO    SenderThread:44076 [sender.py:transition_state():613] send defer: 13
+2024-03-16 22:40:22,287 DEBUG   SenderThread:44076 [sender.py:send_request():405] send_request: poll_exit
+2024-03-16 22:40:22,287 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: defer
+2024-03-16 22:40:22,287 INFO    HandlerThread:44076 [handler.py:handle_request_defer():172] handle defer: 13
+2024-03-16 22:40:22,287 DEBUG   SenderThread:44076 [sender.py:send_request():405] send_request: defer
+2024-03-16 22:40:22,287 INFO    SenderThread:44076 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-03-16 22:40:22,287 INFO    SenderThread:44076 [sender.py:transition_state():613] send defer: 14
+2024-03-16 22:40:22,288 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: defer
+2024-03-16 22:40:22,288 INFO    HandlerThread:44076 [handler.py:handle_request_defer():172] handle defer: 14
+2024-03-16 22:40:22,288 DEBUG   SenderThread:44076 [sender.py:send():378] send: final
+2024-03-16 22:40:22,288 DEBUG   SenderThread:44076 [sender.py:send():378] send: footer
+2024-03-16 22:40:22,288 DEBUG   SenderThread:44076 [sender.py:send_request():405] send_request: defer
+2024-03-16 22:40:22,288 INFO    SenderThread:44076 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-03-16 22:40:22,289 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-16 22:40:22,289 DEBUG   SenderThread:44076 [sender.py:send_request():405] send_request: poll_exit
+2024-03-16 22:40:22,290 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-16 22:40:22,290 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: server_info
+2024-03-16 22:40:22,291 DEBUG   SenderThread:44076 [sender.py:send_request():405] send_request: server_info
+2024-03-16 22:40:22,332 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: get_summary
+2024-03-16 22:40:22,332 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: sampled_history
+2024-03-16 22:40:22,332 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: job_info
+2024-03-16 22:40:22,697 DEBUG   SenderThread:44076 [sender.py:send_request():405] send_request: job_info
+2024-03-16 22:40:22,698 DEBUG   HandlerThread:44076 [handler.py:handle_request():146] handle_request: shutdown
+2024-03-16 22:40:22,698 INFO    HandlerThread:44076 [handler.py:finish():869] shutting down handler
+2024-03-16 22:40:23,332 INFO    WriterThread:44076 [datastore.py:close():296] close: /home/jason/Desktop/yolov8-test/wandb/run-20240316_223957-2rao4xzu/run-2rao4xzu.wandb
+2024-03-16 22:40:23,697 INFO    SenderThread:44076 [sender.py:finish():1521] shutting down sender
+2024-03-16 22:40:23,697 INFO    SenderThread:44076 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-16 22:40:23,697 INFO    SenderThread:44076 [file_pusher.py:join():178] waiting for file pusher

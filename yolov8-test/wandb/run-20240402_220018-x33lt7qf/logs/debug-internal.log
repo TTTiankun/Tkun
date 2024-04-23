@@ -1,0 +1,19 @@
+2024-04-02 22:00:18,279 INFO    StreamThr :18883 [internal.py:wandb_internal():86] W&B internal server running at pid: 18883, started at: 2024-04-02 22:00:18.279038
+2024-04-02 22:00:18,280 DEBUG   HandlerThread:18883 [handler.py:handle_request():146] handle_request: status
+2024-04-02 22:00:18,281 INFO    WriterThread:18883 [datastore.py:open_for_write():87] open: /home/jason/Desktop/yolov8-test/wandb/run-20240402_220018-x33lt7qf/run-x33lt7qf.wandb
+2024-04-02 22:00:18,281 DEBUG   SenderThread:18883 [sender.py:send():378] send: header
+2024-04-02 22:00:18,281 DEBUG   SenderThread:18883 [sender.py:send():378] send: run
+2024-04-02 22:00:18,531 DEBUG   HandlerThread:18883 [handler.py:handle_request():146] handle_request: shutdown
+2024-04-02 22:00:18,531 INFO    HandlerThread:18883 [handler.py:finish():869] shutting down handler
+2024-04-02 22:00:18,986 INFO    SenderThread:18883 [dir_watcher.py:__init__():211] watching files in: /home/jason/Desktop/yolov8-test/wandb/run-20240402_220018-x33lt7qf/files
+2024-04-02 22:00:18,986 INFO    SenderThread:18883 [sender.py:_start_run_threads():1099] run started: x33lt7qf with start time 1712066418.279
+2024-04-02 22:00:18,986 INFO    SenderThread:18883 [sender.py:finish():1521] shutting down sender
+2024-04-02 22:00:18,986 INFO    SenderThread:18883 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-04-02 22:00:19,281 INFO    WriterThread:18883 [datastore.py:close():296] close: /home/jason/Desktop/yolov8-test/wandb/run-20240402_220018-x33lt7qf/run-x33lt7qf.wandb
+2024-04-02 22:00:19,986 INFO    SenderThread:18883 [dir_watcher.py:finish():388] scan: /home/jason/Desktop/yolov8-test/wandb/run-20240402_220018-x33lt7qf/files
+2024-04-02 22:00:19,986 INFO    SenderThread:18883 [dir_watcher.py:finish():402] scan save: /home/jason/Desktop/yolov8-test/wandb/run-20240402_220018-x33lt7qf/files/config.yaml config.yaml
+2024-04-02 22:00:19,986 INFO    SenderThread:18883 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-02 22:00:19,986 INFO    SenderThread:18883 [file_pusher.py:join():178] waiting for file pusher
+2024-04-02 22:00:21,237 INFO    wandb-upload_0:18883 [upload_job.py:push():131] Uploaded file /home/jason/Desktop/yolov8-test/wandb/run-20240402_220018-x33lt7qf/files/config.yaml
+2024-04-02 22:00:21,487 INFO    SenderThread:18883 [file_stream.py:finish():595] file stream finish called
+2024-04-02 22:00:21,953 INFO    SenderThread:18883 [file_stream.py:finish():599] file stream finish is done

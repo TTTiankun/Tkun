@@ -1,0 +1,2 @@
+Requirement already satisfied: opencv-python in /home/jason/.conda/envs/yolo/lib/python3.11/site-packages (4.9.0.80)
+Requirement already satisfied: numpy>=1.21.2 in /home/jason/.conda/envs/yolo/lib/python3.11/site-packages (from opencv-python) (1.26.3)

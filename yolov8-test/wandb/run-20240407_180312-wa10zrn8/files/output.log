@@ -1,0 +1,49 @@
+Freezing layer 'model.22.dfl.conv.weight'
+[34m[1mAMP: [39m[22mrunning Automatic Mixed Precision (AMP) checks with YOLOv8n...
+[34m[1mAMP: [39m[22mchecks passed ✅
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jason/Desktop/yolov8-test/datasets/car_dataset/train/images/2022-07-14-21-41-50.752.png: ignoring corrupt image/label: negative label values [  -0.090278    -0.15509]
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jason/Desktop/yolov8-test/datasets/car_dataset/train/images/S504.png: ignoring corrupt image/label: negative label values [   -0.78191]
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jason/Desktop/yolov8-test/datasets/car_dataset/train/images/S505.png: ignoring corrupt image/label: negative label values [   -0.55733    -0.48581]
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jason/Desktop/yolov8-test/datasets/car_dataset/train/images/S514.png: ignoring corrupt image/label: negative label values [   -0.13202     -0.1909]
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jason/Desktop/yolov8-test/datasets/car_dataset/train/images/S519.png: ignoring corrupt image/label: negative label values [   -0.63175]
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jason/Desktop/yolov8-test/datasets/car_dataset/train/images/S522.png: ignoring corrupt image/label: negative label values [   -0.41528    -0.49444]
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/jason/Desktop/yolov8-test/datasets/car_dataset/train/images/S529.png: ignoring corrupt image/label: negative label values [   -0.52908    -0.25914]
+[34m[1malbumentations: [39m[22mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01), CLAHE(p=0.01, clip_limit=(1, 4.0), tile_grid_size=(8, 8))
+Plotting labels to runs/pose/train15/labels.jpg...
+[34m[1mtrain: [39m[22mScanning /home/jason/Desktop/yolov8-test/datasets/car_dataset/train/labels.cache... 3045 images, 2 backgrounds, 7 corrupt: 100%
+[34m[1mval: [39m[22mScanning /home/jason/Desktop/yolov8-test/datasets/car_dataset/val/labels.cache... 1032 images, 0 backgrounds, 0 corrupt: 100%|███
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.001667, momentum=0.9) with parameter groups 63 weight(decay=0.0), 73 weight(decay=0.0004375), 72 bias(decay=0.0)
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added ✅
+Image sizes 640 train, 640 val
+Using 8 dataloader workers
+Logging results to [1mruns/pose/train15
+Starting training for 20 epochs...
+      Epoch    GPU_mem   box_loss  pose_loss  kobj_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+       1/20      4.28G       1.91      3.682          0      2.705      1.705        156        640:  39%|███▉      | 43/109 [00:10<00
+Traceback (most recent call last):
+  File "/home/jason/Desktop/yolov8-test/train_yolov8_pose.py", line 8, in <module>
+    results = model.train(data='cars-pose.yaml', epochs=20,device='0',
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/ultralytics/engine/model.py", line 655, in train
+    self.trainer.train()
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/ultralytics/engine/trainer.py", line 213, in train
+    self._do_train(world_size)
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/ultralytics/engine/trainer.py", line 393, in _do_train
+    self.optimizer_step()
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/ultralytics/engine/trainer.py", line 535, in optimizer_step
+    self.scaler.step(self.optimizer)
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/torch/cuda/amp/grad_scaler.py", line 416, in step
+    retval = self._maybe_opt_step(optimizer, optimizer_state, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/torch/cuda/amp/grad_scaler.py", line 314, in _maybe_opt_step
+    if not sum(v.item() for v in optimizer_state["found_inf_per_device"].values()):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jason/.conda/envs/yolo/lib/python3.11/site-packages/torch/cuda/amp/grad_scaler.py", line 314, in <genexpr>
+    if not sum(v.item() for v in optimizer_state["found_inf_per_device"].values()):
+               ^^^^^^^^
+KeyboardInterrupt

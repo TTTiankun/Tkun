@@ -1,0 +1,202 @@
+{
+    "os": "Linux-6.5.0-25-generic-x86_64-with-glibc2.35",
+    "python": "3.11.7",
+    "heartbeatAt": "2024-03-15T09:09:53.311193",
+    "startedAt": "2024-03-15T09:09:49.493004",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/jason/Desktop/yolov8-test/train_yolov8.py",
+    "codePathLocal": "train_yolov8.py",
+    "codePath": "train_yolov8.py",
+    "host": "jason-Legion",
+    "username": "jason",
+    "executable": "/home/jason/.conda/envs/yolo/bin/python",
+    "cpu_count": 24,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 1311.8465,
+        "min": 800.0,
+        "max": 4575.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2195.222,
+            "min": 800.0,
+            "max": 5400.0
+        },
+        {
+            "current": 2200.0,
+            "min": 800.0,
+            "max": 5400.0
+        },
+        {
+            "current": 2200.0,
+            "min": 800.0,
+            "max": 5400.0
+        },
+        {
+            "current": 2200.016,
+            "min": 800.0,
+            "max": 5400.0
+        },
+        {
+            "current": 2183.914,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 2178.748,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 2200.007,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 2147.55,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 2202.439,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 2173.727,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 1308.077,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 1672.817,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 800.02,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 800.038,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 799.992,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 760.832,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 777.456,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 790.897,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 798.798,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 510.594,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 779.95,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 3900.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 373.8622398376465,
+            "used": 173.0801239013672
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4050 Laptop GPU",
+            "memory_total": 6439305216
+        }
+    ],
+    "memory": {
+        "total": 15.350395202636719
+    }
+}
